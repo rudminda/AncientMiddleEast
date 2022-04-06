@@ -1,4 +1,4 @@
-    
+
 
 <!doctype html>
 <html lang="en">
@@ -43,6 +43,109 @@
 
 MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM-->
         */
+        body {
+            margin: 0; padding: 0;
+            min-width: fit-content;
+            background-color: #e6f2ff; 
+            background-image: linear-gradient(to right, #ff794d, #e6f2ff);
+            
+            background-repeat: repeat-y;
+            background-size: 100%;
+        }
+        
+        #banner {
+            width: 100%; height: 250px; background-image: url('images/ge.jpg'); 
+            background-color: transparent; 
+            background-position: center; 
+            background-repeat: repeat-x;
+            background-size: 100% 250px;
+        }
+        #bannerImg { 
+            position: relative; display:  block; z-index: 20;
+            width: auto; min-width: 400px; max-height: 250px;
+            
+        }
+ 
+
+        #Subtext {
+            position: relative; display: none; z-index: 10;
+            bottom: 40px; left:  0px;
+            
+            width: 100%; height: 51px; line-height: 30px; 
+            overflow-x: auto; white-space: normal;
+            padding-right: 10%; margin: 0px;
+            border-width: 10px 0px; border-style: double; border-color: #b30059; border-radius: 0px;
+            text-align: right;
+            
+            font-family: Arial; font-size: 30px; color: #ff80bf; 
+             
+        }
+        #Subtext2 {
+            position: relative; display: block; z-index: 10;
+            left:  0px;
+            
+            width: 100%; min-height: 51px;  min-height: 51px; line-height: 30px; 
+            overflow-x: hidden; white-space: normal;
+            margin: 0px;
+            border-width: 10px 0px; border-style: double; border-color: #b30059; border-radius: 0px;
+            text-align: center;
+            
+            font-family: Arial; font-size: 30px; color: #cc0066; 
+             
+        }        
+        #footerDivider {
+            position: relative; display: block; z-index: 10;
+                        
+            width: 100%; height: 51px; line-height: 30px; 
+            padding-right: 10%; margin: 0px;
+            border-width: 10px 0px; border-style: double; border-color: #b30059; border-radius: 0   px;
+            text-align: right;
+            
+            font-family: Arial; font-size: 30px; color: #ff80bf; 
+             
+        }
+
+
+        hr {background-color: #fff;}
+
+        .archive { width: 400px; height: 400px; cursor: pointer;
+                    position: relative; display: block; float: left;
+                    margin: 100px; padding: 0;
+                    border: 15px outset black; border-radius: 30px;
+                    
+                 }
+        .archive:hover {  
+                    position: relative; display: block; float: left;
+                    margin: 100px; padding: 0;
+                    border: 15px outset #ffc; border-radius: 30px;}
+
+                .archiveImg {width: 100%; height: auto;
+                    border: 0px 
+                }
+                .archiveImg:hover {
+                    width: 110%; height: auto;
+                    margin: -5%;
+                    overflow: hidden;
+                    border-radius: 30px;
+                    border: 15px outset #ffc; 
+                }
+
+                .archiveTextDIV {
+                    position: absolute; display: block;
+                    font-family: Calibri; 
+                    width: 100%; text-align: center; 
+                    border-width: 0px; border-radius: 0px;
+                    font-weight:  bold; color:  white;
+                }
+                .archiveTitle {
+                    font-size: 35px;
+                    text-shadow: 5px 5px 5px white;
+                }
+
+
+
+
+
 
     /* DEFAULT:  All DEVICES, rows 100% wide */
         table#bannerTable,
@@ -109,6 +212,9 @@ MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
              
         }
  
+    .archive {
+        width: ;
+    }
 /*
 <!--MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
 
@@ -129,16 +235,72 @@ MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
 
 </head>
 <body>
-    <div>
-        <img src="images/Banner1 TRANSP.png"/ style="width: 100%; max-width: 400px; max-height: 250px;">
+
+    <div id="banner">
+
+        <!--img id="worldImg" src="images/ge.jpg" style="position: absolute; height: 250px; width: 1671px; min-width: 100%; margin-left: 50%; left: -835px;  z-index: -30;"-->
+        <img id="bannerImg" src="images/Banner1%20TRANSP.png" />
+        <div id="Subtext" class="d-xl-block d-md-none"><i>Google Earth .KMZ plots of </i>&nbsp;<span style="font-size:25px;">📍</span><i>ancient places.</i></div>
     </div>
-    <ul>
+
+    <!--Optional small device separator-->
+    <div id="Subtext2" class="d-md-block d-xl-none" style=""><i>Google Earth .KMZ plots of </i>&nbsp;<span style="font-size:25px;">📍</span><i>ancient places.</i></div>
+
+    <div id="archives">
+
+        <div id="levant" class="archive" onclick="window.open('./levant/')"
+            title="&nbsp; &nbsp; &nbsp; &nbsp;  Places of the Holy Land, 
+ according to the 4 volumes of 
+&nbsp; &nbsp; &quot;The Life of Jesus Christ,&quot;
+from the 19th-century visions of
+&nbsp; &nbsp; Anne Catherine Emmerich.">
+            <img src="images/lifeOfChrist COVER.jpg" class="archiveImg"/>
+            <div class="archiveTextDIV" style="top: 20px;">
+                <span class="archiveTitle" style="Position: relative; float: left;">The Holy<br>Land</span>
+                <br>
+                <span class="archiveTitle2nd"  style="Position: relative; float: right; top: -10px;">by Anne Catherine<br>Emmerich</span>
+            </div>
+        </div>
+        <div id="peutinger" class="archive" onclick="window.open('./peutinger/')"></div>
+        <div id="periplus" class="archive" onclick="window.open('./peutinger/')"></div>
+        <div id="afghanistan" class="archive" onclick="window.open('./afghanistan/')"></div>
+        <div id="ariana" class="archive" onclick="window.open('./ariana/')"></div>
+        <div id="syria" class="archive" onclick="window.open('./syria/')"></div>
+        <div id="indus" class="archive" onclick="window.open('./indus/')"></div>
+        <div id="malabar" class="archive" onclick="window.open('./malabar/')"></div>
+        <div id="" class="archive" onclick="window.open('./archives/')"></div>
+        <!--div id="" class="archive" onclick="window.open('./archives/')"></div-->
+
+    </div>
+
+
+    <!--ul>
         <li class="fix1">
             <span helloWorld="me" goodbyeworld="you1"></span>
             <span helloWorld="me" goodbyeworld="you2"></span>
             <span helloWorld="me" goodbyeworld="you3"></span>
             <span helloWorld="me" goodbyeworld="you4"></span>
         </li>
-    </ul>   
+    </ul-->   
+    <hr id="footerDivider">
+
+
+
+
+    <div id="endMatter" class="container">
+
+        <div id="links" class="container">
+            <ul>
+                <li class="fix1">About</li>
+                <li class="fix1">Donate</li>
+            </ul> 
+        </div>
+        <div id="copyrightArea" class="container">
+            <img src="images/cc-by.png" style="width: 100px; height: auto;" />
+
+        </div>
+
+    </div>        
+
 </body>
 </html>
