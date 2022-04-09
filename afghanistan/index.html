@@ -66,6 +66,22 @@ MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
             
         }
  
+        .topLogo {
+            position: absolute; top: 5px;
+            width:31px; height: auto; margin: 5px 25px;
+
+        }
+        .topLogo:hover {
+            width:37px; height: auto; margin: 2px 22px;
+        }
+        .bottomLogo {
+            position: relative; 
+            width:31px; height: auto; margin: 15px 30px 0px 0px;
+
+        }
+        .bottomLogo:hover {
+            width:37px; height: auto; margin: 12px 27px -3px -3px;
+        }        
 
         #Subtext {
             position: relative; display: none; z-index: 10;
@@ -198,7 +214,7 @@ MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
 <body>
 
     <div id="banner">
-
+        <a href="https://www.facebook.com/Ancient-Middle-East-106869578659329" title="Like, on Facebook!"><img class="topLogo" src="../images/fb.png" style="right: 50px;" /></a>
         <!--img id="worldImg" src="../images/ge.jpg" style="position: absolute; height: 250px; width: 1671px; min-width: 100%; margin-left: 50%; left: -835px;  z-index: -30;"-->
         <img id="bannerImg"  style="cursor: pointer;" onclick="window.open('../index.html','_self')" src="../images/Banner1%20TRANSP.png" />
         <div id="Subtext" class="d-lg-block d-md-none"><i>Google Earth .KMZ plots of </i>&nbsp;<span style="font-size:16.7px;">📍</span><i>ancient places.</i></div>
@@ -324,10 +340,15 @@ MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
             
             <div id="links" class="row" style="width: auto; border:0px; margin: 0px 40px;">
                 <ul class="fix1 col-12 col-xl-4 col-md-6 col-sm-12"><li>World Map</li></ul>
-                <ul class="fix1 col-12 col-xl-4 col-md-6 col-sm-12"><li>Instructions</li></ul>
+                <ul class="fix1 col-12 col-xl-4 col-md-6 col-sm-12"><a href="./../instructions.html"><li>Instructions</li></a></ul>
                 <ul class="fix1 col-12 col-xl-4 col-md-6 col-sm-12"><li>Citation</li></ul>
-                <ul class="fix1 col-12 col-xl-4 col-md-6 col-sm-12"><li>About</li></ul>
+                <ul class="fix1 col-12 col-xl-4 col-md-6 col-sm-12"><a href="./../about.html"><li>About</li></a></ul>
+                <ul class="fix1 col-12 col-xl-4 col-md-6 col-sm-12"><li>Videos</li></ul>
                 <ul class="fix1 col-12 col-xl-4 col-md-6 col-sm-12"><li>Donate</li></ul>
+                <ul class="fix1 col-12 col-xl-4 col-md-6 col-sm-12">
+                    <a href="https://www.facebook.com/Ancient-Middle-East-106869578659329" title="Like, on Facebook!">
+                        <img class="bottomLogo" src="../images/fb.png"  /></a>
+                </ul>
             </div>
     </div>
     <br>
