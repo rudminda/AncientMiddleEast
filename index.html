@@ -65,14 +65,30 @@ MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
             width: auto; min-width: 267px; max-height: 167px;
             
         }
- 
+    
+        .topLogo {
+            position: absolute; top: 5px;
+            width:31px; height: auto; margin: 5px 25px;
+
+        }
+        .topLogo:hover {
+            width:37px; height: auto; margin: 2px 22px;
+        }
+        .bottomLogo {
+            position: relative; 
+            width:31px; height: auto; margin: 15px 30px 0px 0px;
+
+        }
+        .bottomLogo:hover {
+            width:37px; height: auto; margin: 12px 27px -3px -3px;
+        }        
 
         #Subtext {
             position: relative; display: none; z-index: 10;
             bottom: 26.7px; left:  0px;
             
             width: 100%; height: 34px; line-height: 20px; 
-            overflow-x: auto; white-space: normal;
+            overflow: hidden; white-space: normal;
             padding-right: 3%; margin: 0px;
             border-width: 6.7px 0px; border-style: double; border-color: #b30059; border-radius: 0px;
             text-align: right;
@@ -178,7 +194,7 @@ MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
 <body>
 
     <div id="banner">
-
+        <a href="https://www.facebook.com/Ancient-Middle-East-106869578659329" title="Like, on Facebook!"><img class="topLogo" src="images/fb.png" style="right: 50px;" /></a>
         <!--img id="worldImg" src="images/ge.jpg" style="position: absolute; height: 250px; width: 1671px; min-width: 100%; margin-left: 50%; left: -835px;  z-index: -30;"-->
         <img id="bannerImg" src="images/Banner1%20TRANSP.png" />
         <div id="Subtext" class="d-lg-block d-md-none"><i>Google Earth .KMZ plots of </i>&nbsp;<span style="font-size:16.7px;">📍</span><i>ancient places.</i></div>
@@ -205,20 +221,43 @@ from the 19th-century visions of
             </div>
         </div>
 
-        <div id="ariana" class="archive" onclick="window.open('./ariana/index.html','_self')"
-            title="Ariana, grassland of northeast Persia">
-            <img src="ariana/images/archiveImg.jpg" class="archiveImg"/>
+        <div id="peutinger" class="archive" onclick="window.open('./peutinger/index.html','_self')"
+            title="&nbsp; &nbsp; &nbsp; &nbsp; Peutinger Map 
+&nbsp; &nbsp; of way-stations in the 
+Roman mail-system, 
+&nbsp; &nbsp; 1st century A.D.">
+            <img src="peutinger/images/archiveImg.jpg" class="archiveImg"/>
             <div class="archiveTextDIV" style="top: 20px;">
-                <span class="archiveTitle" style="position: relative; float: center; top: -20px; left: 60px; font-size: 36px; text-shadow: 3.3px 3.3px 3.3px green;">Ariana</span>
+                <span class="archiveTitle" style="position: relative; float: left; top: -20px; left: 14px; font-size: 36px; text-shadow: 3.3px 3.3px 3.3px brown;">Peutinger Map</span>
                 <br>
-                <span class="archiveTitle2nd"  style="clear: both; position: relative; float: center; top: 150px; left: 20px; font-size: 21px; line-height: 21px; text-shadow: 1.3px 1.3px 1.3px green; color:black">Northeast <br>Persia</span>
+                <span class="archiveTitle2nd"  style="clear: both; position: relative; float: center; top: 20px; left: -20px; font-size: 21px; line-height: 21px; text-shadow: 1.3px 1.3px 1.3px rgb(); color:#fa0">(Roman<br>mail<br>system)</span>
+            </div>
+        </div>
+
+        <div id="afghanistan" class="archive" onclick="window.open('./afghanistan/index.html','_self')"
+            title="Ariana, Paropanissus, Drangiana, Arachosia, 
+& Gedrosia, from Ptolemy's Geographica (150 A.D.)">
+            <img src="afghanistan/images/archiveImg.jpg" class="archiveImg"/>
+            <div class="archiveTextDIV" style="top: 20px;">
+                <span class="archiveTitle" style="position: relative; float: center; top: 160px; left: 0px; line-height: 30px; font-size: 36px; text-shadow: 3.3px 3.3px 3.3px green;">Ptolemy's Afghanistan</span>
+
+            </div>
+        </div>
+        <div id="western_india" class="archive" onclick="window.open('./western_india/index.html','_self')"
+            title="Punjab, the Indus River, & Gujarat, 
+from Ptolemy's Geographica (150 A.D.)">
+            <img src="western_india/images/archiveImg.jpg" class="archiveImg"/>
+            <div class="archiveTextDIV" style="top: 20px;">
+                <span class="archiveTitle" style="position: relative; float: right; top: 50px; left: 0px; line-height: 30px; font-size: 36px; text-shadow: 3.3px 3.3px 3.3px green;">Ptolemy's<br>Western<br>India</span>
+                <br>
+                <span class="archiveTitle2nd"  style="clear: both; position: relative; float: right; top: 60px; left: 0px; font-size: 21px; line-height: 21px; text-shadow: 1.3px 1.3px 1.3px #00f; color:#fff">Punjab,<br>the Indus River,<br>& Gujarat</span>
             </div>
         </div>
 
         <div id="peutinger" class="archive" onclick="window.open('./peutinger/','_self')"></div>
         <div id="periplus" class="archive" onclick="window.open('./peutinger/','_self')"></div>
         <div id="afghanistan" class="archive" onclick="window.open('./afghanistan/','_self')"></div>
-        <div id="ariana" class="archive" onclick="window.open('./ariana/','_self')"></div>
+        <div id="afghanistan" class="archive" onclick="window.open('./afghanistan/','_self')"></div>
         <div id="syria" class="archive" onclick="window.open('./syria/','_self')"></div>
         <div id="indus" class="archive" onclick="window.open('./indus/','_self')"></div>
         <div id="malabar" class="archive" onclick="window.open('./malabar/','_self')"></div>
@@ -248,8 +287,13 @@ from the 19th-century visions of
                 <ul class="fix1 col-12 col-xl-4 col-md-6 col-sm-12"><li>World Map</li></ul>
                 <ul class="fix1 col-12 col-xl-4 col-md-6 col-sm-12"><li>Instructions</li></ul>
                 <ul class="fix1 col-12 col-xl-4 col-md-6 col-sm-12"><li>Citation</li></ul>
-                <ul class="fix1 col-12 col-xl-4 col-md-6 col-sm-12"><li>About</li></ul>
+                <ul class="fix1 col-12 col-xl-4 col-md-6 col-sm-12"><a href="./about.html"><li>About</li></a></ul>
+                <ul class="fix1 col-12 col-xl-4 col-md-6 col-sm-12"><a href="./videos.html"><li>Videos</li></a></ul>
                 <ul class="fix1 col-12 col-xl-4 col-md-6 col-sm-12"><li>Donate</li></ul>
+                <ul class="fix1 col-12 col-xl-4 col-md-6 col-sm-12">
+                    <a href="https://www.facebook.com/Ancient-Middle-East-106869578659329" title="Like, on Facebook!">
+                        <img class="bottomLogo" src="images/fb.png"  /></a>
+                </ul>
             </div>
     </div>
     <br>
