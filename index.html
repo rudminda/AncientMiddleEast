@@ -65,7 +65,7 @@ MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
   "educationalUse": ["tourism", "archaeology", "Google Earth", "pilgrimage", "inspirational"],
   "audience": {
     "@type": "EducationalAudience",
-    "educationalRole": ["researcher", "theologian", "historian", "professor", "minister"],
+    "educationalRole": ["researcher", "theologian", "historian", "professor", "minister"]
   },
   "image": "https://ancientmiddleeast.com/images/squareProfilePic.jpg",
   "inLanguage": "English",
@@ -80,6 +80,7 @@ MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
 }
 
 </script>
+
 
 
     <style>
@@ -167,6 +168,15 @@ MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
             font-family: Arial; font-size: 20px; color: #cc0066; 
              
         }        
+
+        #areasMap {
+            position: relative; display: block; z-index: 10;
+                        
+            width: 90%; height: auto; 
+            margin: 0px 5%;
+            border-width: 6.7px double  #b30059; border-radius: 50px;
+        }
+
         #footerDivider {
             position: relative; display: block; z-index: 10;
                         
@@ -319,18 +329,21 @@ from Ptolemy's Geographica (150 A.D.)">
             </div>
         </div>
 
-        <div id="peutinger" class="archive" onclick="window.open('./peutinger/','_self')"></div>
+        <!--div id="peutinger" class="archive" onclick="window.open('./peutinger/','_self')"></div>
         <div id="periplus" class="archive" onclick="window.open('./peutinger/','_self')"></div>
         <div id="afghanistan" class="archive" onclick="window.open('./afghanistan/','_self')"></div>
         <div id="afghanistan" class="archive" onclick="window.open('./afghanistan/','_self')"></div>
         <div id="syria" class="archive" onclick="window.open('./syria/','_self')"></div>
         <div id="indus" class="archive" onclick="window.open('./indus/','_self')"></div>
         <div id="malabar" class="archive" onclick="window.open('./malabar/','_self')"></div>
-        <div id="" class="archive" onclick="window.open('./archives/','_self')"></div>
+        <div id="" class="archive" onclick="window.open('./archives/','_self')"></div-->
         <!--div id="" class="archive" onclick="window.open('./archives/','_self')"></div-->
 
     </div>
 
+    <br><br>
+
+    <img id="areasMap"src="./images/Map1%20AREAS.jpg"/>
 
     <!--ul>
         <li class="fix1">
@@ -340,6 +353,9 @@ from Ptolemy's Geographica (150 A.D.)">
             <span helloWorld="me" goodbyeworld="you4"></span>
         </li>
     </ul-->   
+
+    <br><br>
+
     <hr id="footerDivider">
 
 
@@ -347,11 +363,17 @@ from Ptolemy's Geographica (150 A.D.)">
 
     <div id="endMatter" class="container">
 
-    
+            <script>
+                function alertCitation() {
+                    var NewestEdition = '';
+                    alert('Basic form: \n Author. Title. Edition. Place of production: Producer, Date of copyright or production.\n------------------------------\nDavid Rudmin. AncientMiddleEast.com.  Online. David Rudmin: Harrisonburg, VA, 2022.')
+                }
+            </script>
+                
             <div id="links" class="row" style="width: auto; border:0px; margin: 0px 40px;">
-                <ul class="fix1 col-12 col-xl-4 col-md-6 col-sm-12"><li>World Map</li></ul>
+                <ul class="fix1 col-12 col-xl-4 col-md-6 col-sm-12"><a href="./worldmap.html"><li>World Map</li></a></ul>
                 <ul class="fix1 col-12 col-xl-4 col-md-6 col-sm-12"><a href="./instructions.html"><li>Instructions</li></a></ul>
-                <ul class="fix1 col-12 col-xl-4 col-md-6 col-sm-12"><li>Citation</li></ul>
+                <ul class="fix1 col-12 col-xl-4 col-md-6 col-sm-12"><a href="./index.html#links" onclick="alertCitation()"><li>Citation</li></a></ul>
                 <ul class="fix1 col-12 col-xl-4 col-md-6 col-sm-12"><a href="./about.html"><li>About</li></a></ul>
                 <ul class="fix1 col-12 col-xl-4 col-md-6 col-sm-12"><li>Videos</li></ul>
                 <ul class="fix1 col-12 col-xl-4 col-md-6 col-sm-12"><li>Donate</li></ul>
