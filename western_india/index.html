@@ -9,6 +9,7 @@
     <link rel="icon" href="../images/tab_icon%204x.png">
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
     <title>Aria(na), Persia</title>
 
@@ -337,11 +338,17 @@ MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
 
     <div id="endMatter" class="container">
 
+            <script>
+                function alertCitation() {
+                    var newestEdition = $('#editions tr').eq(1).find("td:eq(0)").text();                    
+                    alert("Basic form: \n Author. Title. Edition. Place of production: Producer, Date of copyright or production.\n------------------------------\n  David Rudmin. Ptolemy's Western India. Edition "+newestEdition+". Online: AncientMiddleEast.com, 2022.");
+                }
+            </script>
             
             <div id="links" class="row" style="width: auto; border:0px; margin: 0px 40px;">
-                <ul class="fix1 col-12 col-xl-4 col-md-6 col-sm-12"><li>World Map</li></ul>
+                <ul class="fix1 col-12 col-xl-4 col-md-6 col-sm-12"><a href="./../worldmap.html"><li>World Map</li></a></ul>
                 <ul class="fix1 col-12 col-xl-4 col-md-6 col-sm-12"><a href="./../instructions.html"><li>Instructions</li></a></ul>
-                <ul class="fix1 col-12 col-xl-4 col-md-6 col-sm-12"><li>Citation</li></ul>
+                <ul class="fix1 col-12 col-xl-4 col-md-6 col-sm-12"><a href="./index.html#links" onclick="alertCitation()"><li>Citation</li></a></ul>
                 <ul class="fix1 col-12 col-xl-4 col-md-6 col-sm-12"><a href="./../about.html"><li>About</li></a></ul>
                 <ul class="fix1 col-12 col-xl-4 col-md-6 col-sm-12"><li>Videos</li></ul>
                 <ul class="fix1 col-12 col-xl-4 col-md-6 col-sm-12"><li>Donate</li></ul>
