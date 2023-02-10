@@ -142,6 +142,18 @@ MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
         #areasMap:hover {
             margin: 0px; border: 6.7px double blue; border-radius: 50px;
         }
+      
+        .MapContainer {position: relative; display: block; 
+             margin-left: 50px; 
+             font-family: Times; }
+        .MapTitle {   }
+        .caption {position: relative; display: block; z-index: 10; cursor: pointer;
+                        
+            width: 90%; height: auto; 
+            margin: 0px;
+            padding: 10px; text-align: center;
+            border-width: 0px;  }
+         
 
         #footerDivider {
             position: relative; display: block; z-index: 10;
@@ -245,17 +257,19 @@ MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
     </nav>
 
     <h1 class="titles">Maps</h1>
-    <h3 class="titles">Free for use.</h3>
+    <h4 class="titles">Free for use.</h4>
     
     <br><br>
 
-    <h3>Exodus Map</h3>
-    <br>
-    made from the downloadable <a id="areasMapContainer" href="./holyland/index.html"title="Click for more resolution">Holyland</a> .KMZ file 
-    <hr>
-    <a id="areasMapContainer" href="./holyland/images/Exodus.pdf"title="Click for more resolution">
-        <img id="areasMap" src="./holyland/images/Exodus.jpg" alt="Israelite Exodus from Egypt map" />
-    </a>
+    <div class="MapContainer">
+        <h5 class="MapTitle"><u>Exodus Map</u></h5><br>
+        <a id="areasMapContainer" href="./holyland/images/Exodus.pdf"title="Click for more resolution">
+            <img id="areasMap" src="./holyland/images/Exodus.jpg" alt="Israelite Exodus from Egypt map" />
+        </a><br>
+        <div class="caption">A map of the Israelite Exodus, c. 1400-1355 B.C., created from the downloadable 
+                  <a href="./holyland/index.html"title="Click for more resolution">Holyland</a> .KMZ file. 
+        </div>        
+    </div>
     
         
 
