@@ -12,23 +12,33 @@
 
     <title>Ancient Middle East</title>
 
+    
+<script type="application/ld+json">
+    {
+      "@context": {
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfa": "http://www.w3.org/ns/rdfa#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "schema": "https://schema.org/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#"
+      },
+      "rdfa:usesVocabulary": {
+        "@id": "schema:"
+      },
+      "@type": "schema:Atlas",
+      "schema:name": "AncientMiddleEast.com",
+      "schema:alternateName": "Ancient Middle East",
+      "schema:disambiguatingDescription": "1st ed.",
+      "schema:datePublished": "2023",
+      "schema:publisher": "AncientMiddleEast.com"
+    }
+</script>
+    
+    
+    
     <style>
 
-/*          In order to make this style section work, 
-            first, I added these Ids to the code, far below:
-
- 
-                        table#bannerTable 
-                            tr#banner 
-                                td#bannerPic 
-                                td#bannerLinks 
-                            font#headline 
-                            font#clubDescrip
-                            tr#permanentEvtsRow
-                                td#supportedEvts
-                                td#featuredRace 
-
-
+/*   
 <!--MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
 
      MMMMMMMMMM    MMMMMMMMMMMMMM   MMMM    MMMM   MMMM            MMMMMMMMMMMMM
@@ -279,13 +289,17 @@ MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
     
     <br><br>
 
-    <div class="MapContainer">
-        <h5 class="MapTitle"><u>Exodus Map</u></h5><br>
-        <div class="caption">A map of the Israelite Exodus, c. 1400-1355 B.C., created from pins within the 
-                  <a href="./holyland/index.html"title="The Holyland by Anne Catherine Emmerich">Holyland</a> repository: 
+    <div class="MapContainer"     itemscope itemtype="https://schema.org/Map">
+        <h5 class="MapTitle"      itemprop="name"><u>Exodus Map</u></h5><br>
+        <div class="caption"      itemprop="abstract">A map of the Israelite Exodus, c. 1400-1355 B.C., created from pins within the 
+                  <a href="./holyland/index.html" title="The Holyland by Anne Catherine Emmerich"
+                                  itemprop="isBasedOn" itemscope itemtype="https://schema.org/ItemPage"   
+                  >
+                      <span       itemprop="name">Holyland</span>
+                  </a> repository: 
         </div>
-        <a id="areasMapContainer" href="./holyland/images/Exodus.pdf"title="Click for more resolution">
-            <img id="areasMap" src="./holyland/images/Exodus.jpg" alt="Israelite Exodus from Egypt map" />
+        <a id="areasMapContainer" itemprop="url" href="./holyland/images/Exodus.pdf" title="Click for more resolution">
+            <img id="areasMap"    itemprop="image" src="./holyland/images/Exodus.jpg" alt="Israelite Exodus from Egypt map" />
         </a><br>
                 
     </div>
