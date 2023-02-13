@@ -264,7 +264,7 @@ MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
 MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM-->
         
 </head>
-<body>
+<body itemscope     itemtype="https://schema.org/ItemPage">
     <div id="fb-root"></div>
     <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v13.0" nonce="bhlgKw4V"></script>
 
@@ -288,9 +288,18 @@ MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
 
   
     <nav  aria-label="breadcrumb" style="margin: 30px 50px;">
-      <ol class="breadcrumb">
-        <li class="breadcrumb-item"><a href="../index.html">Home</a></li>
-        <li class="breadcrumb-item active" aria-current="page">Holy Land</li>
+      <ol class="breadcrumb"                
+                  itemprop="breadcrumb"     itemscope itemtype="https://schema.org/BreadcrumbList">
+        <li class="breadcrumb-item"         itemprop="itemListElement" itemscope>
+            <a href="../index.html"         itemprop="item">
+                <span                       itemprop="name">Home</span>
+            </a>
+            <meta                           itemprop="position" content="1" />
+        </li>
+        <li class="breadcrumb-item active"  itemprop="itemListElement" itemscope  aria-current="page">
+            <span                           itemprop="name">Holy Land</span>
+            <meta                           itemprop="position" content="2" />
+        </li>
       </ol>
     </nav>
 
@@ -317,9 +326,12 @@ MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
 
         <!--Side Image-->
 
-        <div id="holyland" class="archive col-12 col-md-4" onclick="window.open('./aria%201-0.kmz','_self')"
-            title="Ancient Aria(na), Iran" style="background-color: red;">
-            <img src="../images/lifeOfChrist COVER.jpg" class="archiveImg" style="width: 100%; height: auto; border: 0px"/>
+        <div id="holyland" class="archive col-12 col-md-4" onclick="window.open('./lifeOfChrist%20COVER.kmz','_self')"
+                  
+            title="Based on Anne Catherine Emmerich's 
+4-volume Life of Christ" style="background-color: red;">
+            <img src="../images/lifeOfChrist COVER.jpg" class="archiveImg" style="width: 100%; height: auto; border: 0px"
+                  itemprop="thumbnailUrl" />
         </div>
         
         
@@ -328,7 +340,7 @@ MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
     <br>
     <!--Downloads-->
 
-    <div class="titles col-12"> 
+    <div class="titles col-12" itemscope itemtype="https://schema.org/mainContentOfPage"> 
         <h3><u>Downloads:</u></h3> 
     </div>
  <div class="flexboxer-right" style="max-width: 80%; ">     
@@ -338,10 +350,14 @@ MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
             <th style="border-width: 1px; padding: 5px;">Date</th>
             <th style="border-width: 1px; padding: 5px;">Link</th>
         </tr>
-        <tr>
-            <td style="border-width: 1px; padding: 5px;">1.5</td>
-            <td style="border-width: 1px; padding: 5px;">Feb. 6, 2023</td>
-            <td style="border-width: 1px; padding: 5px;"><a href="./HolyLand%201-5.kmz">Click here</a></td>
+        <tr                   itemscope itemtype="https://schema.org/DataDownload">
+            <td style="border-width: 1px; padding: 5px;"  itemprop="version">1.5</td>
+            <td style="border-width: 1px; padding: 5px;">
+                  <time                                   itemprop="dateCreated"  datetime="2023-02-06">Feb. 6, 2023</time>
+            </td>
+            <td style="border-width: 1px; padding: 5px;">
+                  <a href="./HolyLand%201-5.kmz"          itemprop="contentUrl">Click here</a>
+            </td>
         </tr>
         <tr>
             <td style="border-width: 1px; padding: 5px;">1.4</td>
