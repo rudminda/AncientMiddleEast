@@ -23,7 +23,40 @@
     MMMM   MMM   MMMM    MMMMMMMMMMMMM        MMMM        MMMM    MMMM               
     MMMM    M    MMMM    MMMMMMMMMMMMM        MMMM        MMMM    MMMM               
 MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM-->
-        
+  
+  <script type="application/ld+json">
+{
+  "@context": "http://schema.org/",
+  "@type": "Website",
+  "alternateName": "Ancient Middle East",
+  "name": "AncientMiddleEast.com",
+  "datePublished": "2022-04-09",
+  "about": ["Middle East", "ancient"],
+  "abstract": "Downloadable Google Earth .KMZ scatter-plot-maps of ancient places, taken directly from Primary Sources, and listing the most likely locations for each placename.",
+  "description": "Ancient Middle East - Downloadable Google Earth .KMZ scatter-plot-maps of ancient places, taken directly from Primary Sources, and listing the most likely locations for each placename.  Useful for tour guides, archaeological surveys, Google Earth tours, and virtual pilgrimaging.",
+  "archivedAt": "https://github.com/rudminda/AncientMiddleEast",
+  "copyrightNotice": "CC-BY, 2022. No Copyright.  Citations of David Rudmin are appreciated.",
+  "copyrightYear": 2022,
+  "discussionUrl": "https://www.facebook.com/Ancient-Middle-East-106869578659329/",
+  "educationalLevel": "Post-secondary or Religious",
+  "educationalUse": ["tourism", "archaeology", "Google Earth", "pilgrimage", "inspirational"],
+  "audience": {
+    "@type": "EducationalAudience",
+    "educationalRole": ["researcher", "theologian", "historian", "professor", "minister"]
+  },
+  "image": "https://ancientmiddleeast.com/images/squareProfilePic.jpg",
+  "inLanguage": "English",
+  "keywords": "Google Earth, KMZ, Google Earth Tour, archaeology, Israel, holy land, Middle East, map, ancient, Roman, Levant, Anne Catherine Emmerich, Jesus Christ, Bible, Biblical, geography, dataset, Barrington Atlas",
+  "creator": {
+    "@type": "Person",
+    "name": "David Rudmin"  
+  }, 
+  "thumbnailUrl": "https://ancientmiddleeast.com/images/tab_icon 4x.png",
+  "typicalAgeRange": "14-",
+  "url": "https://ancientmiddleeast.com"
+}
+
+</script>
 
   <!-- For Google -->
   <!--meta name="keywords" content="LLpsI, Latin, write, ancient, writeable, course, writing, romans"/>  For Search Engines -->
@@ -45,38 +78,7 @@ MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
   <meta name="twitter:description" content="Downloadable Google Earth scatter-plot-maps of ancient places, taken directly from Primary Sources, and listing the most likely locations for each placename." />
   <meta name="twitter:image" content="https://ancientmiddleeast.com/images/squareProfilePic.jpg" />
 
-<script type="application/ld+json">
-{
-  "@context": "http://schema.org/",
-  "@type": "Website",
-  "alternateName": "Ancient Middle East",
-  "name": "AncientMiddleEast.com",
-  "datePublished": "2022-04-09",
-  "abstract": "Downloadable Google Earth .KMZ scatter-plot-maps of ancient places, taken directly from Primary Sources, and listing the most likely locations for each placename.",
-  "description": "Ancient Middle East - Downloadable Google Earth .KMZ scatter-plot-maps of ancient places, taken directly from Primary Sources, and listing the most likely locations for each placename.  Useful for tour guides, archaeological surveys, Google Earth tours, and virtual pilgrimaging.",
-  "archivedAt": "https://github.com/rudminda/AncientMiddleEast",
-  "copyrightNotice": "CC-BY, 2022. No Copyright.  Citations of David Rudmin are appreciated.",
-  "copyrightYear": 2022,
-  "discussionUrl": "https://www.facebook.com/Ancient-Middle-East-106869578659329/",
-  "educationalLevel": "Post-secondary or Religious",
-  "educationalUse": ["tourism", "archaeology", "Google Earth", "pilgrimage", "inspirational"],
-  "audience": {
-    "@type": "EducationalAudience",
-    "educationalRole": ["researcher", "theologian", "historian", "professor", "minister"]
-  },
-  "image": "https://ancientmiddleeast.com/images/squareProfilePic.jpg",
-  "inLanguage": "English",
-  "keywords": "Google Earth, KMZ, Google Earth Tour, archaeology, Israel, holy land, Middle East, Levant, Anne Catherine Emmerich, Jesus Christ, Bible, Biblical, geography, dataset, Barrington Atlas",
-  "provider": {
-    "@type": "Person",
-    "name": "David Rudmin"  
-  }, 
-  "thumbnailUrl": "https://ancientmiddleeast.com/images/tab_icon 4x.png",
-  "typicalAgeRange": "14-",
-  "url": "https://ancientmiddleeast.com"
-}
 
-</script>
 
 
 
@@ -170,6 +172,10 @@ MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
             
             text-align: center;
         }
+        #caption {
+            width: 90%; margin-left: 5%;
+            font-size: 14px; text-align: center;  
+        }
 
         #areasMap {
             position: relative; display: block; z-index: 10;
@@ -259,13 +265,17 @@ MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
         
 
 </head>
-<body>
+<body       itemscope itemtype="https://schema.org/WebSite">
+    <link   itemprop="url" href="https://ancientmiddleeast.com/"/>
+    
+  
     <!--Facebook SDK for Like button-->
     <div id="fb-root"></div>
     <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v13.0" nonce="bhlgKw4V"></script>
 
 
-    <div id="banner">
+    <div id="banner"   
+                                  itemscope itemtype="https://schema.org/WPHeader">
         <!-- Github Button -->
         <a href="https://github.com/rudminda/AncientMiddleEast" title="Repository code for this website." target="_blank"><img class="topLogo" src="images/GitHub-Mark-32px.png" style="right: 200px;" /></a>
 
@@ -275,16 +285,26 @@ MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
         <!-- FB Like Button -->
         <div class="fb-like" data-href="https://ancientmiddleeast.com" data-ref="https://ancientmiddleeast.com" data-width="225px" data-layout="button_count" data-action="like" data-size="small" data-share="true"></div>
         <!--img id="worldImg" src="images/ge.jpg" style="position: absolute; height: 250px; width: 1671px; min-width: 100%; margin-left: 50%; left: -835px;  z-index: -30;"-->
-        <img id="bannerImg" src="images/Banner1%20TRANSP.png" />
-        <div id="Subtext" class="d-lg-block d-md-none"><i>Google Earth .KMZ plots of </i>&nbsp;<span style="font-size:16.7px;">📍</span><i>ancient places.</i></div>
+        <img id="bannerImg" src="images/Banner1%20TRANSP.png">
+            <meta 
+            itemprop="about" content="Middle East" />
+        </img>
+        <div id="Subtext" class="d-lg-block d-md-none"
+            itemprop="abstract"><i>Google Earth .KMZ plots of </i>&nbsp;<span style="font-size:16.7px;">📍</span><i>ancient places.</i></div>
     </div>
 
     <!--Optional small device separator-->
-    <div id="Subtext2" class="d-md-block d-lg-none" style=""><i>Google Earth .KMZ plots of </i>&nbsp;<span style="font-size:16.7px;">📍</span><i>ancient places.</i></div>
+    <div id="Subtext2" class="d-md-block d-lg-none" style=""
+            itemprop="abstract"
+         ><i>Google Earth .KMZ plots of </i>&nbsp;<span style="font-size:16.7px;">📍</span><i>ancient places.</i></div>
 
     <nav  aria-label="breadcrumb" style="margin: 30px 50px;">
-      <ol class="breadcrumb">
-        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+      <ol class="breadcrumb"                
+                  itemprop="breadcrumb"     itemscope itemtype="https://schema.org/BreadcrumbList">
+        <li class="breadcrumb-item"         itemprop="itemListElement"  itemscope itemtype="https://schema.org/ListItem">
+                <span                                                   itemprop="name">Home</span>
+            <meta                                                       itemprop="position" content="1" />
+        </li>
       </ol>
     </nav>
 
@@ -292,81 +312,128 @@ MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
 
     <div id="archives" style="position: relative; 
         display: flex; flex-wrap: wrap; justify-content: center;
-        width: 96%; margin-left: 2%;">
+        width: 96%; margin-left: 2%;"
+        itemprop="mainEntityOfPage">
 
         <div id="holyland" class="archive" onclick="window.open('./holyland/index.html','_self')"
             title="&nbsp; &nbsp; &nbsp; &nbsp;  Places of the Holy Land, 
  according to the 4 volumes of 
 &nbsp; &nbsp; &quot;The Life of Jesus Christ,&quot;
 from the 19th-century visions of
-&nbsp; &nbsp; Anne Catherine Emmerich.">
-            <img src="images/lifeOfChrist COVER.jpg" class="archiveImg"/>
+&nbsp; &nbsp; Anne Catherine Emmerich."
+                            itemscope itemtype="https://schema.org/SiteNavigationElement">
+            <img src="images/lifeOfChrist COVER.jpg" class="archiveImg"
+                            itemprop="thumbnailUrl"/>
             <div class="archiveTextDIV" style="top: 20px;">
-                <span class="archiveTitle">The Holy<br>Land</span>
+                <span class="archiveTitle"
+                            itemprop="name">The Holy<br>Land</span>
                 <br>
-                <span class="archiveTitle2nd"  style="clear: left; Position: relative; float: left; top: 40px; font-size: 21px; line-height: 21px;">by Anne <br> Catherine<br>Emmerich</span>
+                <span class="archiveTitle2nd"  style="clear: left; Position: relative; float: left; top: 40px; font-size: 21px; line-height: 21px;"
+                            itemprop="contributor"    itemscope itemtype="https://schema.org/Person"
+                >of 
+                    <span                             itemprop="name">Anne <br> Catherine<br>Emmerich
+                    </span>
+                </span>
             </div>
         </div>
-
+      
+      
         <div id="levant" class="archive" onclick="window.open('./levant/index.html','_self')"
-            title="Coele Syria, Upper Mesopotamia, Palestine, and Arabia Petraea, from Ptolemy's Geographica (150 A.D.)">
-            <img src="levant/images/archiveImg.jpg" class="archiveImg"/>
+            title="Coele Syria, Upper Mesopotamia, Palestine, and Arabia Petraea, from Ptolemy's Geographica (150 A.D.)"
+                            itemscope itemtype="https://schema.org/SiteNavigationElement">
+            <img src="levant/images/archiveImg.jpg" class="archiveImg"
+                            itemprop="thumbnailUrl"/>
             <div class="archiveTextDIV" style="top: 20px;">
-                <span class="archiveTitle" style="position: relative; float: center; top: 160px; left: 0px; line-height: 30px; font-size: 36px; text-shadow: 3.3px 3.3px 3.3px green;">Ptolemy's Levant</span>
+                <span class="archiveTitle" style="position: relative; float: center; top: 160px; left: 0px; line-height: 30px; font-size: 36px; text-shadow: 3.3px 3.3px 3.3px green;"
+                            itemprop="name"
+                >Ptolemy's Levant</span>
 
             </div>
         </div>
 
+      
         <div id="africa" class="archive" onclick="window.open('./africa/index.html','_self')"
-            title="Egypt & Subsaharan Africa">
-            <img src="africa/images/archiveImg.jpg" class="archiveImg"/>
+            title="Egypt & Subsaharan Africa"
+                            itemscope itemtype="https://schema.org/SiteNavigationElement">
+            <img src="africa/images/archiveImg.jpg" class="archiveImg"
+                            itemprop="thumbnailUrl"/>
             <div class="archiveTextDIV" style="top: 20px;">
-                <span class="archiveTitle" style="position: relative; float: center; top: 160px; left: 0px; line-height: 30px; font-size: 36px; text-shadow: 3.3px 3.3px 3.3px green;">Ptolemy's Africa</span>
+                <span class="archiveTitle" style="position: relative; float: center; top: 160px; left: 0px; line-height: 30px; font-size: 36px; text-shadow: 3.3px 3.3px 3.3px green;"
+                            itemprop="name"
+                >Ptolemy's Africa</span>
 
             </div>
         </div>
 
+      
         <div id="peutinger" class="archive" onclick="window.open('./peutinger/index.html','_self')"
             title="&nbsp; &nbsp; &nbsp; &nbsp; Peutinger Map 
 &nbsp; &nbsp; of way-stations in the 
 Roman mail-system, 
-&nbsp; &nbsp; 1st century A.D.">
-            <img src="peutinger/images/archiveImg.jpg" class="archiveImg"/>
+&nbsp; &nbsp; 1st century A.D."
+                            itemscope itemtype="https://schema.org/SiteNavigationElement">
+            <img src="peutinger/images/archiveImg.jpg" class="archiveImg"
+                            itemprop="thumbnailUrl"/>
             <div class="archiveTextDIV" style="top: 20px;">
-                <span class="archiveTitle" style="position: relative; float: left; top: -20px; left: 14px; font-size: 36px; text-shadow: 3.3px 3.3px 3.3px brown;">Peutinger Map</span>
+                <span class="archiveTitle" style="position: relative; float: left; top: -20px; left: 14px; font-size: 36px; text-shadow: 3.3px 3.3px 3.3px brown;"
+                            itemprop="name"
+                >Peutinger Map</span>
                 <br>
-                <span class="archiveTitle2nd"  style="clear: both; position: relative; float: center; top: 20px; left: -20px; font-size: 21px; line-height: 21px; text-shadow: 1.3px 1.3px 1.3px rgb(); color:#fa0">(Roman<br>mail<br>system)</span>
+                <span class="archiveTitle2nd"  style="clear: both; position: relative; float: center; top: 20px; left: -20px; font-size: 21px; line-height: 21px; text-shadow: 1.3px 1.3px 1.3px rgb(); color:#fa0"
+                            itemprop="abstract">
+                    (Roman<br>mail<br>system)
+                </span>
             </div>
         </div>
 
         <div id="afghanistan" class="archive" onclick="window.open('./afghanistan/index.html','_self')"
             title="Ariana, Paropanissus, Drangiana, Arachosia, 
-& Gedrosia, from Ptolemy's Geographica (150 A.D.)">
-            <img src="afghanistan/images/archiveImg.jpg" class="archiveImg"/>
+& Gedrosia, from Ptolemy's Geographica (150 A.D.)"
+                            itemscope itemtype="https://schema.org/SiteNavigationElement">
+            <img src="afghanistan/images/archiveImg.jpg" class="archiveImg"
+                            itemprop="thumbnailUrl"/>
             <div class="archiveTextDIV" style="top: 20px;">
-                <span class="archiveTitle" style="position: relative; float: center; top: 160px; left: 0px; line-height: 30px; font-size: 36px; text-shadow: 3.3px 3.3px 3.3px green;">Ptolemy's Afghanistan</span>
+                <span class="archiveTitle" style="position: relative; float: center; top: 160px; left: 0px; line-height: 30px; font-size: 36px; text-shadow: 3.3px 3.3px 3.3px green;"
+                            itemprop="name"
+                >Ptolemy's Afghanistan</span>
 
             </div>
         </div>
+      
+      
         <div id="western_india" class="archive" onclick="window.open('./western_india/index.html','_self')"
             title="Punjab, the Indus River, & Gujarat, 
-from Ptolemy's Geographica (150 A.D.)">
-            <img src="western_india/images/archiveImg.jpg" class="archiveImg"/>
+from Ptolemy's Geographica (150 A.D.)"
+                            itemscope itemtype="https://schema.org/SiteNavigationElement">
+            <img src="western_india/images/archiveImg.jpg" class="archiveImg"
+                            itemprop="thumbnailUrl"/>
             <div class="archiveTextDIV" style="top: 20px;">
-                <span class="archiveTitle" style="position: relative; float: right; top: 50px; left: 0px; line-height: 30px; font-size: 36px; text-shadow: 3.3px 3.3px 3.3px green;">Ptolemy's<br>Western<br>India</span>
+                <span class="archiveTitle" style="position: relative; float: right; top: 50px; left: 0px; line-height: 30px; font-size: 36px; text-shadow: 3.3px 3.3px 3.3px green;"
+                            itemprop="name"
+                >Ptolemy's<br>Western<br>India</span>
                 <br>
-                <span class="archiveTitle2nd"  style="clear: both; position: relative; float: right; top: 60px; left: 0px; font-size: 21px; line-height: 21px; text-shadow: 1.3px 1.3px 1.3px #00f; color:#fff">Punjab,<br>the Indus River,<br>& Gujarat</span>
+                <span class="archiveTitle2nd"  style="clear: both; position: relative; float: right; top: 60px; left: 0px; font-size: 21px; line-height: 21px; text-shadow: 1.3px 1.3px 1.3px #00f; color:#fff"
+                            itemprop="abstract">
+                    Punjab,<br>the Indus River,<br>& Gujarat
+                </span>
             </div>
         </div>
+      
+      
         <div id="arabia" class="archive" onclick="window.open('./arabia/index.html','_self')"
             title="Arabia Deserta & Arabia Felix, 
-from Ptolemy's Geographica (150 A.D.)">
-            <img src="arabia/images/archiveImg.jpg" class="archiveImg"/>
+from Ptolemy's Geographica (150 A.D.)"
+                            itemscope itemtype="https://schema.org/SiteNavigationElement">
+            <img src="arabia/images/archiveImg.jpg" class="archiveImg"
+                            itemprop="thumbnailUrl"/>
             <div class="archiveTextDIV" style="top: 20px;">
-                <span class="archiveTitle" style="position: relative; float: right; top: 50px; left: 0px; line-height: 30px; font-size: 36px; text-shadow: 3.3px 3.3px 3.3px green;">Ptolemy's<br>Arabia</span>
+                <span class="archiveTitle" style="position: relative; float: right; top: 50px; left: 0px; line-height: 30px; font-size: 36px; text-shadow: 3.3px 3.3px 3.3px green;"
+                            itemprop="name"
+                >Ptolemy's<br>Arabia</span>
             </div>
         </div>
 
+      
         <!--div id="peutinger" class="archive" onclick="window.open('./peutinger/','_self')"></div>
         <div id="periplus" class="archive" onclick="window.open('./peutinger/','_self')"></div>
         <div id="afghanistan" class="archive" onclick="window.open('./afghanistan/','_self')"></div>
@@ -380,9 +447,29 @@ from Ptolemy's Geographica (150 A.D.)">
     </div>
 
     <br>
+    
+    <!-- Coverage Diagram -->
+      
+    <div
+           itemprop="diagram"       itemscope  itemtype="https://schema.org/ImageObject"
+    >
+        <h3 class="titles"
+                                    itemprop="name" style="float: left; text-decoration: underline;">
+            Coverage Diagram:
+        </h3>
+        <br style="clear: left;"><br>
+        <img id="areasMap" src="./images/Map3%20AREAS.jpg" alt="Coverage Diagram of regions of the Middle East currently mapped."
+                                    itemprop="contentUrl" />
+        <div id="caption"               
+                                    itemprop="caption">
+            Regions of the Middle East currently mapped as of 
+            <meta                   itemprop="datePublished" content="2023-02-14"><b>Feb. 14, 2023.</b>  
+            <br>
+            <i>(If your area is overlapped by multiple outlines, then you really need to open ALL of those scatter-plot repositories, in GoogleEarth, simultaneously.)</i>
+        </div>
+    </div>
 
-    <img id="areasMap"src="./images/Map2%20AREAS.jpg"/>
-
+      
     <!--ul>
         <li class="fix1">
             <span helloWorld="me" goodbyeworld="you1"></span>
@@ -392,14 +479,17 @@ from Ptolemy's Geographica (150 A.D.)">
         </li>
     </ul-->   
 
+      
     <br><br>
 
+      
     <hr id="footerDivider">
 
 
 
 
-    <div id="endMatter" class="container">
+    <div id="endMatter" class="container"
+                                      itemscope itemtype="https://schema.org/WPFooter">
 
             <script>
                 function alertCitation() {
@@ -415,7 +505,7 @@ from Ptolemy's Geographica (150 A.D.)">
                           <span style="font-size:16px; display: inline; position: relative;">(JPEGs &amp; PDFs)</span>
                       </li></a></ul>
                 <ul class="fix1 col-12 col-xl-4 col-md-6 col-sm-12"><a href="./instructions.html"><li>Instructions</li></a></ul>
-                <ul class="fix1 col-12 col-xl-4 col-md-6 col-sm-12"><a href="./worldmap.html"><li>World Map</li></a></ul>
+                <ul class="fix1 col-12 col-xl-4 col-md-6 col-sm-12"><a href="./coverage.html"><li>Coverage Diagram</li></a></ul>
                 <ul class="fix1 col-12 col-xl-4 col-md-6 col-sm-12"><a href="./index.html#links" onclick="alertCitation()"><li>Citation</li></a></ul>
                 <ul class="fix1 col-12 col-xl-4 col-md-6 col-sm-12"><li>Videos</li></ul>
                 <ul class="fix1 col-12 col-xl-4 col-md-6 col-sm-12">
@@ -431,8 +521,11 @@ from Ptolemy's Geographica (150 A.D.)">
     <br>
     <div style="width: 100%; margin: 0px auto; text-align: center;" id="copyrightArea" 
             style="position: relative; ">
-            <img src="images/cc-by.png" style="position: relative; display: inline-block; float:  center; width: 100px; height: auto;" />
-            <div style="position: relative; display: inline-block; float:  center; margin-left: 40px;">No Copyright, 2022.<br>Citations of David Rudmin are appreciated.</div>
+            <a href="https://creativecommons.org/licenses/by/4.0/"
+                  itemprop="license"  style="position: relative; display: inline-block; float:  center; width: 100px; height: auto;" >
+                  <img src="images/cc-by.png"  style="width: 100%; height: auto;"/>
+            </a>
+            <div style="position: relative; display: inline-block; float:  center; margin-left: 40px; font-size: 16px;">No Copyright, 2022.<br>Citations of David Rudmin are appreciated.</div>
     </div>
     <br><br>
 </body>
