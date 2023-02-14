@@ -11,7 +11,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
-    <title>Arabia</title>
+    <title>Ptolemy's Arabia</title>
 
     <script type="application/ld+json">
         {
@@ -240,7 +240,7 @@ MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
 
 
 </head>
-<body>
+<body             itemscope     itemtype="https://schema.org/ItemPage">
 
     <div id="banner">
         <!-- Github Button -->
@@ -258,9 +258,19 @@ MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
 
   
     <nav  aria-label="breadcrumb" style="margin: 30px 50px;">
-      <ol class="breadcrumb">
-        <li class="breadcrumb-item"><a href="../index.html">Home</a></li>
-        <li class="breadcrumb-item active" aria-current="page">Ptolemy's Arabia</li>
+      <ol class="breadcrumb"                
+                  itemprop="breadcrumb"     itemscope itemtype="https://schema.org/BreadcrumbList">
+        <li class="breadcrumb-item"         itemprop="itemListElement"  itemscope itemtype="https://schema.org/ListItem">
+          <a href="../index.html"                                       itemprop="item">
+                <span                                                   itemprop="name">Home</span>
+            </a>
+            <meta                                                       itemprop="position" content="1" />
+        </li>
+        <li class="breadcrumb-item active" aria-current="page"
+                                            itemprop="itemListElement"  itemscope itemtype="https://schema.org/ListItem">
+            <span                                                       itemprop="name">Ptolemy's Arabia</span>
+          <meta                                                         itemprop="position" content="2" />
+        </li>
       </ol>
     </nav>
 
@@ -275,7 +285,9 @@ MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
                 
 
 
-            <h5>Arabia Deserta and Arabia Felix, <br> from <a href="https://en.wikipedia.org/wiki/Geography_(Ptolemy)">Ptolemy's Geographica (150 A.D.)</a>.
+            <h5>Arabia Deserta and Arabia Felix, <br> from 
+                <a href="https://en.wikipedia.org/wiki/Geography_(Ptolemy)"
+                    itemprop="relatedLink">Ptolemy's Geographica (150 A.D.)</a>.
 
 
             </h5>
@@ -285,7 +297,8 @@ MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
 
         <div id="aria" class="archive col-12 col-md-4" onclick="window.open('./arabia%201-0.kmz','_self')"
             title="Ancient Syria, Israel, & Jordan" style="background-color: red;">
-            <img src="./images/archiveImg.jpg" class="archiveImg" style="width: 100%; height: auto; border: 0px"/>
+            <img src="./images/archiveImg.jpg" class="archiveImg" style="width: 100%; height: auto; border: 0px" 
+                 itemprop="thumbnailUrl" />
         </div>
         
         
@@ -294,7 +307,7 @@ MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
     <br>
     <!--Downloads-->
 
-    <div class="titles col-12"> 
+    <div class="titles col-12"  itemscope itemtype="https://schema.org/mainContentOfPage"> 
         <h3><u>Downloads:</u></h3> 
     </div>
  <div class="flexboxer-right" style="max-width: 80%; ">     
@@ -304,10 +317,14 @@ MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
             <th style="border-width: 1px; padding: 5px;">Date</th>
             <th style="border-width: 1px; padding: 5px;">Link</th>
         </tr>
-        <tr>
-            <td style="border-width: 1px; padding: 5px;">1.0</td>
-            <td style="border-width: 1px; padding: 5px;">Feb. 6, 2023</td>
-            <td style="border-width: 1px; padding: 5px;"><a href="./arabia%201-0.kmz">Click here</a></td>
+        <tr                   itemscope itemtype="https://schema.org/DataDownload">
+            <td style="border-width: 1px; padding: 5px;"  
+                                        itemprop="version">1.0</td>
+            <td style="border-width: 1px; padding: 5px;">
+                    <time               itemprop="dateCreated"  datetime="2023-02-06">Feb. 6, 2023</time></td>
+            <td style="border-width: 1px; padding: 5px;">
+                  <a href="./arabia%201-0.kmz"       
+                                        itemprop="contentUrl">Click here</a></td>
         </tr>
 
     </table>
@@ -327,35 +344,65 @@ MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
             <th style="border-width: 1px; padding: 5px;">Link</th>
             
         </tr>
-        <tr>
-            <td style="border-width: 1px; padding: 5px;"><img src="./images/brown.jpg" class="mapThumb" title="Drag lower-right corner."></td>
-            <td style="border-width: 1px; padding: 5px;">[Map] Ptolemy's <i>Geographica</i><br>150 A.D. <br>(pub. 1482)</td>
-            <td style="border-width: 1px; padding: 5px;">Latin; trans. Jacobus Angelus; ed. Nicolaus Germanus.</td>
-            <td style="border-width: 1px; padding: 5px;"><a href="https://www.doria.fi/handle/10024/92462">Click here</a>; <br>click download link; <br>page 201</td>
+        <tr       itemprop="citation"                       itemscope itemtype="https://schema.org/CreativeWork">
+            <td style="border-width: 1px; padding: 5px;">
+                  <img   src="./images/brown.jpg" class="mapThumb" title="Drag lower-right corner.">
+                  <link href="./images/brown.jpg"           itemprop="thumbnailUrl"/>
+            </td>
+            <td style="border-width: 1px; padding: 5px;"    itemprop="name">[Map] Ptolemy's <i>Geographica</i><br>150 A.D. <br>(pub. 1482)</td>
+            <td style="border-width: 1px; padding: 5px;"    itemprop="version">Latin; trans. Jacobus Angelus; ed. Nicolaus Germanus.</td>
+            <td style="border-width: 1px; padding: 5px;">
+                  <a href="https://www.doria.fi/handle/10024/92462" 
+                                                            itemprop="url">Click here</a>; <br>click download link; <br>page 201
+            </td>
         </tr>
-        <tr>
-            <td style="border-width: 1px; padding: 5px;"><img src="./images/index.jpg" class="mapThumb" title="Drag lower-right corner."></td>
-            <td style="border-width: 1px; padding: 5px;">[Index] Ptolemy's <i>Geographica</i><br>150 A.D. <br>(pub. 1845)</td>
-            <td style="border-width: 1px; padding: 5px;">Greek; ed. Karl Friedrich August Nobbe; pub. Caroli Tauchnitii.</td>
-            <td style="border-width: 1px; padding: 5px;"><a href="https://www.google.com/books/edition/Claudii_Ptolemaei_Geographia/vHMCAAAAQAAJ?hl=en">Click here</a>; <br>click download link; <br>page 389-423</td>
+        <tr       itemprop="citation"                       itemscope itemtype="https://schema.org/CreativeWork">
+            <td style="border-width: 1px; padding: 5px;">
+                  <img   src="./images/index.jpg" class="mapThumb" title="Drag lower-right corner.">
+                  <link href="./images/index.jpg"           itemprop="thumbnailUrl"/>
+            </td>
+            <td style="border-width: 1px; padding: 5px;"    itemprop="name">[Index] Ptolemy's <i>Geographica</i><br>150 A.D. <br>(pub. 1845)</td>
+            <td style="border-width: 1px; padding: 5px;"    itemprop="version">Greek; ed. Karl Friedrich August Nobbe; pub. Caroli Tauchnitii.</td>
+            <td style="border-width: 1px; padding: 5px;">
+                  <a href="https://www.google.com/books/edition/Claudii_Ptolemaei_Geographia/vHMCAAAAQAAJ?hl=en" 
+                                                            itemprop="url">Click here</a>; <br>click download link; <br>page 389-423
+            </td>
         </tr>        
-        <tr>
-            <td style="border-width: 1px; padding: 5px;"><img src="./images/b&w.jpg" class="mapThumb" title="Drag lower-right corner."></td>
-            <td style="border-width: 1px; padding: 5px;">[Map] Ptolemy's <i>Geographica</i><br>150 A.D. <br>(pub. 1991)</td>
-            <td style="border-width: 1px; padding: 5px;">Latin; trans. & ed. Edward Luther Stevenson. Pub. Dover, New York</td>
-            <td style="border-width: 1px; padding: 5px;"><a href="https://archive.org/details/claudius-ptolemy-the-geography_202105/page/n249/mode/2up?view=theater">Click here</a>;<br>(page 258)</td>
+        <tr       itemprop="citation"                       itemscope itemtype="https://schema.org/CreativeWork">
+            <td style="border-width: 1px; padding: 5px;">
+                  <img   src="./images/b&w.jpg" class="mapThumb" title="Drag lower-right corner.">
+                  <link href="./images/b&w.jpg" itemprop="thumbnailUrl"/>
+            </td>
+            <td style="border-width: 1px; padding: 5px;"    itemprop="name">[Map] Ptolemy's <i>Geographica</i><br>150 A.D. <br>(pub. 1991)</td>
+            <td style="border-width: 1px; padding: 5px;"    itemprop="version">Latin; trans. & ed. Edward Luther Stevenson. Pub. Dover, New York</td>
+            <td style="border-width: 1px; padding: 5px;">
+                  <a href="https://archive.org/details/claudius-ptolemy-the-geography_202105/page/n249/mode/2up?view=theater" 
+                                                            itemprop="url">Click here</a>;<br>(page 258)
+            </td>
         </tr>
-        <tr>
-            <td style="border-width: 1px; padding: 5px;"><img src="./images/color.jpg"></td>
-            <td style="border-width: 1px; padding: 5px;">[Map] Ptolemy's <i>Geographica</i><br>150 A.D. <br>(pub. 1467)</td>
-            <td style="border-width: 1px; padding: 5px;">Latin; trans. Jacobus Angelus; ed. Nicolaus Germanus.</td>
-            <td style="border-width: 1px; padding: 5px;"><a href="https://upload.wikimedia.org/wikipedia/commons/b/b1/Ptolemy_Cosmographia_1467_-_Arabian_peninsula.jpg">Click here</a></td>
+        <tr       itemprop="citation"                       itemscope itemtype="https://schema.org/CreativeWork">
+            <td style="border-width: 1px; padding: 5px;">
+                  <img   src="./images/color.jpg">
+                  <link href="./images/color.jpg"           itemprop="thumbnailUrl"/>
+            </td>
+            <td style="border-width: 1px; padding: 5px;"    itemprop="name">[Map] Ptolemy's <i>Geographica</i><br>150 A.D. <br>(pub. 1467)</td>
+            <td style="border-width: 1px; padding: 5px;"    itemprop="version">Latin; trans. Jacobus Angelus; ed. Nicolaus Germanus.</td>
+            <td style="border-width: 1px; padding: 5px;">
+                  <a href="https://upload.wikimedia.org/wikipedia/commons/b/b1/Ptolemy_Cosmographia_1467_-_Arabian_peninsula.jpg" 
+                                                            itemprop="url">Click here</a>
+            </td>
         </tr>
-        <tr>
-            <td style="border-width: 1px; padding: 5px;"><img src="./images/vatican.jpg"></td>
-            <td style="border-width: 1px; padding: 5px;">[Map] Ptolemy's <i>Geographica</i><br>150 A.D. <br>(pub. 1578)</td>
-            <td style="border-width: 1px; padding: 5px;">Latin; trans. Jacobus Angelus; ed. Nicolaus Germanus.</td>
-            <td style="border-width: 1px; padding: 5px;"><a href="https://www.bible.ca/maps/maps-Claudius-Ptolemy-Klaudios-Ptolemaios-AD-150-grid-GPS-Arabia-Felix-map-six-6-Exodus-Route-Mt-Sinai-Petra-Midian-Gulf-of-Aqaba-Elanite-Erythaean-Heroopolite-1578AD.jpg">Click here</a></td>
+        <tr       itemprop="citation"                       itemscope itemtype="https://schema.org/CreativeWork">
+            <td style="border-width: 1px; padding: 5px;">
+                  <img   src="./images/vatican.jpg">
+                  <link href="./images/vatican.jpg"         itemprop="thumbnailUrl"/>
+            </td>
+            <td style="border-width: 1px; padding: 5px;"    itemprop="name">[Map] Ptolemy's <i>Geographica</i><br>150 A.D. <br>(pub. 1578)</td>
+            <td style="border-width: 1px; padding: 5px;"    itemprop="version">Latin; trans. Jacobus Angelus; ed. Nicolaus Germanus.</td>
+            <td style="border-width: 1px; padding: 5px;">
+                  <a href="https://www.bible.ca/maps/maps-Claudius-Ptolemy-Klaudios-Ptolemaios-AD-150-grid-GPS-Arabia-Felix-map-six-6-Exodus-Route-Mt-Sinai-Petra-Midian-Gulf-of-Aqaba-Elanite-Erythaean-Heroopolite-1578AD.jpg" 
+                                                            itemprop="url">Click here</a>
+            </td>
         </tr>
 
     </table>
@@ -407,7 +454,10 @@ MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
     <br>
     <div style="width: 100%; margin: 0px auto; text-align: center;" id="copyrightArea" 
             style="position: relative; ">
-            <img src="../images/cc-by.png" style="position: relative; display: inline-block; float:  center; width: 100px; height: auto;" />
+            <a href="https://creativecommons.org/licenses/by/4.0/"
+                  itemprop="license"  style="position: relative; display: inline-block; float:  center; width: 100px; height: auto;" >
+                  <img src="../images/cc-by.png"  style="width: 100%; height: auto;"/>
+            </a>
             <div style="position: relative; display: inline-block; float:  center; margin-left: 40px;">No Copyright, 2022.<br>Citations of David Rudmin are appreciated.</div>
     </div>
     <br><br>
