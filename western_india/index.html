@@ -237,7 +237,7 @@ MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
 
 
 </head>
-<body>
+<body             itemscope     itemtype="https://schema.org/ItemPage">
 
     <div id="banner">
         <!-- Github Button -->
@@ -255,9 +255,19 @@ MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
 
   
     <nav  aria-label="breadcrumb" style="margin: 30px 50px;">
-      <ol class="breadcrumb">
-        <li class="breadcrumb-item"><a href="../index.html">Home</a></li>
-        <li class="breadcrumb-item active" aria-current="page">Ptolemy's Western India</li>
+      <ol class="breadcrumb"                
+                  itemprop="breadcrumb"     itemscope itemtype="https://schema.org/BreadcrumbList">
+        <li class="breadcrumb-item"         itemprop="itemListElement"  itemscope itemtype="https://schema.org/ListItem">
+          <a href="../index.html"                                       itemprop="item">
+                <span                                                   itemprop="name">Home</span>
+            </a>
+            <meta                                                       itemprop="position" content="1" />
+        </li>
+        <li class="breadcrumb-item active" aria-current="page"
+                                            itemprop="itemListElement"  itemscope itemtype="https://schema.org/ListItem">
+            <span                                                       itemprop="name">Ptolemy's Western India</span>
+          <meta                                                         itemprop="position" content="2" />
+        </li>
       </ol>
     </nav>
 
@@ -272,7 +282,9 @@ MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
                 
 
 
-            <h5>Punjab, the Indus River, & Gujarat, <br> from <a href="https://en.wikipedia.org/wiki/Geography_(Ptolemy)">Ptolemy's Geographica (150 A.D.)</a>.
+            <h5>Punjab, the Indus River, & Gujarat, <br> from 
+                <a href="https://en.wikipedia.org/wiki/Geography_(Ptolemy)"
+                    itemprop="relatedLink">Ptolemy's Geographica (150 A.D.)</a>.
 
 
             </h5>
@@ -282,7 +294,8 @@ MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
 
         <div id="aria" class="archive col-12 col-md-4" onclick="window.open('./western%20india%201-0.kmz','_self')"
             title="Punjab, the Indus River, & Gujarat in Western India" style="background-color: red;">
-            <img src="./images/archiveImg.jpg" class="archiveImg" style="width: 100%; height: auto; border: 0px"/>
+            <img src="./images/archiveImg.jpg" class="archiveImg" style="width: 100%; height: auto; border: 0px" 
+                 itemprop="thumbnailUrl" />
         </div>
         
         
@@ -291,7 +304,7 @@ MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
     <br>
     <!--Downloads-->
 
-    <div class="titles col-12"> 
+    <div class="titles col-12"  itemscope itemtype="https://schema.org/mainContentOfPage"> 
         <h3><u>Downloads:</u></h3> 
     </div>
  <div class="flexboxer-right" style="max-width: 80%; ">     
@@ -301,19 +314,24 @@ MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
             <th style="border-width: 1px; padding: 5px;">Date</th>
             <th style="border-width: 1px; padding: 5px;">Link</th>
         </tr>
-        <tr>
-            <td style="border-width: 1px; padding: 5px;">1.1</td>
-            <td style="border-width: 1px; padding: 5px;">Nov. 13, 2022</td>
-            <td style="border-width: 1px; padding: 5px;"><a href="./western_india%201-1.kmz">Click here</a></td>
+        <tr                     itemscope itemtype="https://schema.org/DataDownload">
+            <td style="border-width: 1px; padding: 5px;"  itemprop="version">1.1</td>
+            <td style="border-width: 1px; padding: 5px;">
+                    <time                 itemprop="dateCreated"  datetime="2023-11-13">Nov. 13, 2022</time></td>
+            <td style="border-width: 1px; padding: 5px;">
+                  <a href="./western_india%201-1.kmz"       
+                                          itemprop="contentUrl">Click here</a></td>
         </tr>
         <tr>
             <td style="border-width: 1px; padding: 5px;">1.0</td>
-            <td style="border-width: 1px; padding: 5px;">April 6, 2022</td>
+            <td style="border-width: 1px; padding: 5px;">
+                  <time         itemprop="dateCreated"  datetime="2022-04-06">April 6, 2022</time></td>
             <td style="border-width: 1px; padding: 5px;"><a href="./western_india%201-0.kmz">Click here</a></td>
         </tr>
 
     </table>
 </div>
+  
     <br>
 
     <!--Sources table-->
@@ -329,29 +347,53 @@ MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
             <th style="border-width: 1px; padding: 5px;">Link</th>
             
         </tr>
-        <tr>
-            <td style="border-width: 1px; padding: 5px;"><img src="./images/brown.jpg" class="mapThumb" title="Drag lower-right corner."></td>
-            <td style="border-width: 1px; padding: 5px;">[Map] Ptolemy's <i>Geographica</i><br>150 A.D. <br>(pub. 1482)</td>
-            <td style="border-width: 1px; padding: 5px;">Latin; trans. Jacobus Angelus; ed. Nicolaus Germanus.</td>
-            <td style="border-width: 1px; padding: 5px;"><a href="https://www.doria.fi/handle/10024/92462">Click here</a>; <br>click download link; <br>page 213</td>
+        <tr       itemprop="citation"                       itemscope itemtype="https://schema.org/CreativeWork">
+            <td style="border-width: 1px; padding: 5px;">
+                  <img   src="./images/brown.jpg" class="mapThumb" title="Drag lower-right corner.">
+                  <link href="./images/brown.jpg"           itemprop="thumbnailUrl"/>
+            </td>
+            <td style="border-width: 1px; padding: 5px;"    itemprop="name">[Map] Ptolemy's <i>Geographica</i><br>150 A.D. <br>(pub. 1482)</td>
+            <td style="border-width: 1px; padding: 5px;"    itemprop="version">Latin; trans. Jacobus Angelus; ed. Nicolaus Germanus.</td>
+            <td style="border-width: 1px; padding: 5px;">
+                  <a href="https://www.doria.fi/handle/10024/92462" 
+                                                            itemprop="url">Click here</a>; <br>click download link; <br>page 213
+            </td>
         </tr>
-        <tr>
-            <td style="border-width: 1px; padding: 5px;"><img src="./images/index.jpg" class="mapThumb" title="Drag lower-right corner."></td>
-            <td style="border-width: 1px; padding: 5px;">[Index] Ptolemy's <i>Geographica</i><br>150 A.D. <br>(pub. 1845)</td>
-            <td style="border-width: 1px; padding: 5px;">Greek; ed. Karl Friedrich August Nobbe; pub. Caroli Tauchnitii.</td>
-            <td style="border-width: 1px; padding: 5px;"><a href="https://www.google.com/books/edition/Claudii_Ptolemaei_Geographia/vHMCAAAAQAAJ?hl=en">Click here</a>; <br>click download link; <br>page 140-166</td>
+        <tr       itemprop="citation"                       itemscope itemtype="https://schema.org/CreativeWork">
+            <td style="border-width: 1px; padding: 5px;">
+                  <img   src="./images/index.jpg" class="mapThumb" title="Drag lower-right corner.">
+                  <link href="./images/index.jpg"           itemprop="thumbnailUrl"/>
+            </td>
+            <td style="border-width: 1px; padding: 5px;"    itemprop="name">[Index] Ptolemy's <i>Geographica</i><br>150 A.D. <br>(pub. 1845)</td>
+            <td style="border-width: 1px; padding: 5px;"    itemprop="version">Greek; ed. Karl Friedrich August Nobbe; pub. Caroli Tauchnitii.</td>
+            <td style="border-width: 1px; padding: 5px;">
+                  <a href="https://www.google.com/books/edition/Claudii_Ptolemaei_Geographia/vHMCAAAAQAAJ?hl=en" 
+                                                            itemprop="url">Click here</a>; <br>click download link; <br>page 140-166
+            </td>
         </tr>        
-        <tr>
-            <td style="border-width: 1px; padding: 5px;"><img src="./images/b&w.jpg" class="mapThumb" title="Drag lower-right corner."></td>
-            <td style="border-width: 1px; padding: 5px;">[Map] Ptolemy's <i>Geographica</i><br>150 A.D. <br>(pub. 1991)</td>
-            <td style="border-width: 1px; padding: 5px;">Latin; trans. & ed. Edward Luther Stevenson. Pub. Dover, New York</td>
-            <td style="border-width: 1px; padding: 5px;"><a href="https://archive.org/details/claudius-ptolemy-the-geography_202105/page/n267/mode/2up?view=theater">Click here</a>;<br>(page 268)</td>
+        <tr       itemprop="citation"                       itemscope itemtype="https://schema.org/CreativeWork">
+            <td style="border-width: 1px; padding: 5px;">
+                  <img   src="./images/b&w.jpg" class="mapThumb" title="Drag lower-right corner.">
+                  <link href="./images/b&w.jpg"             itemprop="thumbnailUrl"/>
+            </td>
+            <td style="border-width: 1px; padding: 5px;"    itemprop="name">[Map] Ptolemy's <i>Geographica</i><br>150 A.D. <br>(pub. 1991)</td>
+            <td style="border-width: 1px; padding: 5px;"    itemprop="version">Latin; trans. & ed. Edward Luther Stevenson. Pub. Dover, New York</td>
+            <td style="border-width: 1px; padding: 5px;">
+                  <a href="https://archive.org/details/claudius-ptolemy-the-geography_202105/page/n267/mode/2up?view=theater" 
+                                                            itemprop="url">Click here</a>;<br>(page 268)
+            </td>
         </tr>
-        <tr>
-            <td style="border-width: 1px; padding: 5px;"><img src="./images/color.jpg"></td>
-            <td style="border-width: 1px; padding: 5px;">[Map] Ptolemy's <i>Geographica</i><br>150 A.D. <br>(pub. 1467)</td>
-            <td style="border-width: 1px; padding: 5px;">Latin; trans. Jacobus Angelus; ed. Nicolaus Germanus.</td>
-            <td style="border-width: 1px; padding: 5px;"><a href="https://upload.wikimedia.org/wikipedia/commons/c/c6/Ptolemy_Cosmographia_1467_-_India.jpg">Click here</a></td>
+        <tr       itemprop="citation"                       itemscope itemtype="https://schema.org/CreativeWork">
+            <td style="border-width: 1px; padding: 5px;">
+                  <img   src="./images/color.jpg">
+                  <link href="./images/color.jpg"           itemprop="thumbnailUrl"/>
+            </td>
+            <td style="border-width: 1px; padding: 5px;"    itemprop="name">[Map] Ptolemy's <i>Geographica</i><br>150 A.D. <br>(pub. 1467)</td>
+            <td style="border-width: 1px; padding: 5px;"    itemprop="version">Latin; trans. Jacobus Angelus; ed. Nicolaus Germanus.</td>
+            <td style="border-width: 1px; padding: 5px;">
+                  <a href="https://upload.wikimedia.org/wikipedia/commons/c/c6/Ptolemy_Cosmographia_1467_-_India.jpg" 
+                                                            itemprop="url">Click here</a>
+            </td>
         </tr>
 
     </table>
@@ -402,7 +444,10 @@ MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
     <br>
     <div style="width: 100%; margin: 0px auto; text-align: center;" id="copyrightArea" 
             style="position: relative; ">
-            <img src="../images/cc-by.png" style="position: relative; display: inline-block; float:  center; width: 100px; height: auto;" />
+            <a href="https://creativecommons.org/licenses/by/4.0/"
+                  itemprop="license"  style="position: relative; display: inline-block; float:  center; width: 100px; height: auto;" >
+                  <img src="../images/cc-by.png"  style="width: 100%; height: auto;"/>
+            </a>
             <div style="position: relative; display: inline-block; float:  center; margin-left: 40px;">No Copyright, 2022.<br>Citations of David Rudmin are appreciated.</div>
     </div>
     <br><br>
