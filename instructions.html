@@ -12,20 +12,31 @@
 
     <title>Ancient Middle East</title>
 
+    
+    
+    
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "AboutPage",
+            "name": "Instructions",
+            "creator": "David Rudmin",
+            "author": {
+              "@type":"Organization",
+              "name":"AncientMiddleEast.com"
+            },            
+            "copyrightNotice": "CC-BY, 2022. No Copyright.  Citations of David Rudmin are appreciated.",
+            "copyrightYear": 2022,
+            "license": "https://creativecommons.org/licenses/by/4.0/"
+        }
+    </script>
+    
+    
+    
+    
     <style>
 
-/*          In order to make this style section work, 
-            first, I added these Ids to the code, far below:
- 
-                        table#bannerTable 
-                            tr#banner 
-                                td#bannerPic 
-                                td#bannerLinks 
-                            font#headline 
-                            font#clubDescrip
-                            tr#permanentEvtsRow
-                                td#supportedEvts
-                                td#featuredRace 
+/*         
 <!--MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
      MMMMMMMMMM    MMMMMMMMMMMMMM   MMMM    MMMM   MMMM            MMMMMMMMMMMMM
     MMMMMMMMMMMM   MMMMMMMMMMMMM     MMMM  MMMM    MMMM            MMMMMMMMMMMMM
@@ -198,7 +209,7 @@ MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
 
 
 </head>
-<body>
+<body             itemscope     itemtype="https://schema.org/AboutPage">
 
     <div id="banner">
         <a href="https://www.facebook.com/Ancient-Middle-East-106869578659329" title="Like, on Facebook!"><img class="topLogo" src="images/fb.png" style="right: 50px;" /></a>
@@ -211,23 +222,35 @@ MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
     <div id="Subtext2" class="d-md-block d-lg-none" style=""><i>Google Earth .KMZ plots of </i>&nbsp;<span style="font-size:16.7px;">📍</span><i>ancient places.</i></div>
 
     <nav  aria-label="breadcrumb" style="margin: 30px 50px;">
-      <ol class="breadcrumb">
-        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-        <li class="breadcrumb-item active" aria-current="page">Instructions</li>
+      <ol class="breadcrumb"                
+                  itemprop="breadcrumb"     itemscope itemtype="https://schema.org/BreadcrumbList">
+        <li class="breadcrumb-item"         itemprop="itemListElement"  itemscope itemtype="https://schema.org/ListItem">
+          <a href="../index.html"                                       itemprop="item">
+                <span                                                   itemprop="name">Home</span>
+            </a>
+            <meta                                                       itemprop="position" content="1" />
+        </li>
+        <li class="breadcrumb-item active" aria-current="page"
+                                            itemprop="itemListElement"  itemscope itemtype="https://schema.org/ListItem">
+            <span                                                       itemprop="name">Instructions</span>
+          <meta                                                         itemprop="position" content="2" />
+        </li>
       </ol>
     </nav>
 
     <h1 class="titles">Instructions</h1>
     
-    <div class="infoBlock" >
+    <div class="infoBlock"                   
+                  itemprop="mainContentOfPage">
+        <link     itemprop="additionalType" href="https://schema.org/HowTo"/>
         <ul>
-            <li>Download the .KMZ file.</li>
-            <li>Open it in GoogleEarth.</li>
-            <li>Follow this <u style="border-radius: 15px 15px 0px 0px; background-color: #ccf; border: 4px inset #ccf; font-size: 25px; font-weight: bold; margin-left: 50px; padding: 0px 20px; position: relative; bottom: -2px;">Key:</u>: 
+            <li   itemprop="step">Click the most recent downloads-link, to download that .KMZ file.</li>
+            <li   itemprop="step">Open it in GoogleEarth.</li>
+            <li   itemprop="step">Follow this <u style="border-radius: 15px 15px 0px 0px; background-color: #ccf; border: 4px inset #ccf; font-size: 25px; font-weight: bold; margin-left: 50px; padding: 0px 20px; position: relative; bottom: -2px;">Key:</u>: 
                 <ul style="background-color: #ccf; border: 4px inset #ccf;">
                     <li>🟡Yellow pins represent <u style="font-weight: bold;">known cities</u> (well, highly likely ones).</li>
                     <li>🔴Red pins represent <u style="font-weight: bold;">guessed cities</u>, especially if it has more than one possibile site.</li>
-                    <li>Additionally, 🟡<b style="color: #ff3355; background-color: #333; border-radius: 10px; padding: 0px 5px;">Pink Labels</b> are  sites identified by Emmerich which are either: 
+                    <li>Additionally, 🟡<b style="color: #ff3355; background-color: #333; border-radius: 10px; padding: 0px 5px;">Pink Labels</b> are  sites identified by Anne Catherine Emmerich which are either: 
                             <ul>
                                 <li><u style="font-weight: bold;">unknown</u> by <u style="cursor: help; font-weight: bold; color: brown;" title="(The Barrington Atlas of the
 Greek and Roman World)">current scholarship</u>; or </li>
@@ -236,20 +259,22 @@ Greek and Roman World)">current scholarship</u>.</li>
                             </ul>
                     </li>
                     <li style="margin-top: 15px;">🟤Brown pins represent non-city <u style="font-weight: bold;">points-of-interest</u>, or <u style="font-weight: bold;">tribal border-boundaries</u>.</li>
-                    <li>🟢Green pins represent <u style="font-weight: bold;">natural features</u>.</li>
+                    <li>🟢Green pins represent <u style="font-weight: bold;">natural features</u>, usually major mountain-peaks.</li>
                     <li>🔵Blue pins represent <u style="font-weight: bold;">water-features</u>, or baptismal sites.</li>
                     <li style="margin-top: 15px;"><b style="background-color: orange; padding: 0px 15px;opacity: 0.7;">Orange</b> borders represent <u style="font-weight: bold;">city limits</u>.</li>
-                    <li><b style="background-color: yellow; padding: 0px 15px; opacity: 0.7;">yellow</b> borders represent <u style="font-weight: bold;">deserts</u>.</li>
-                    <li><b style="background-color: purple; padding: 0px 15px;opacity: 0.7;">Purple</b> or <b style="background-color: rgb(85,255,0); padding: 0px 15px; opacity: 0.7;">Light Green</b> borders represent <u style="font-weight: bold;">regions</u>.</li>
-                    <li><b style="background-color: rgb(85,255,0); padding: 0px 15px; opacity: 1;">Light Green</b> borders (often doubled, owing to 2 tribes meeting there) also represent <u style="font-weight: bold;">Tribal boundaries</u>.  <br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; (These should pass thru many brown 🟤tribal-boundary pins.)</li>
+                    <li><b style="background-color: brown; padding: 0px 15px; opacity: 0.7;">brown</b> borders represent <u style="font-weight: bold;">large mountain ranges</u>.</li>
+                    <li><b style="background-color: yellow; padding: 0px 15px; opacity: 0.7;">yellow</b> borders represent <u style="font-weight: bold;">deserts/wildernesses</u>.</li>
+                    <li><b style="background-color: purple; padding: 0px 15px;opacity: 0.7;">Purple</b> borders represent <u style="font-weight: bold;">administrative-regions</u>.</li>
+                    <li><b style="background-color: rgb(85,255,0); padding: 0px 15px; opacity: 0.7;">Light Green</b> borders represent <u style="font-weight: bold;">geographic regions</u>.</li>
+                    <li><b style="background-color: rgb(85,255,0); padding: 0px 15px; opacity: 1;">Light Green</b> borders (often doubled, owing to 2 tribes meeting there) also represent <a href="https://en.wikipedia.org/wiki/Twelve_Tribes_of_Israel#Land_allotment">the 12 tribes'<a> <u style="font-weight: bold;">Tribal boundaries</u>.  <br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; (These should pass thru many brown 🟤tribal-boundary pins.)</li>
 
                 </ul>
             </li>
-            <li>Click on a pin, and read what Anne Catherine Emmerich wrote about that site.  Any paragraph not by Anne Catherine Emmerich is preceded by a heading identifying where it came from.</li>
-            <li>To look up a pin's quote within Emmerich's actual text, do a <a href="https://www.google.com/search?q=%22But+the+Pharisees%2C+full+of+wrath+and+deeply+mor%C2%ADtified%22+site%3Atandfspi.org&rlz=1C1CHBF_enUS878US878&oq=%22But+the+Pharisees%2C+full+of+wrath+and+deeply+mor%C2%ADtified%22+site%3Atandfspi.org&aqs=chrome..69i57.528j0j7&sourceid=chrome&ie=UTF-8" target="_blank" style="font-weight: bold;">Google search</a> like this:
-                    <BR>
+            <li   itemprop="step">Click on a pin, or border, to read what data, or comments are written about that site.</li>
+            <li   itemprop="step">To look up a pin's quote within Anne Catherine Emmerich's actual text, do a <a href="https://www.google.com/search?q=%22But+the+Pharisees%2C+full+of+wrath+and+deeply+mor%C2%ADtified%22+site%3Atandfspi.org&rlz=1C1CHBF_enUS878US878&oq=%22But+the+Pharisees%2C+full+of+wrath+and+deeply+mor%C2%ADtified%22+site%3Atandfspi.org&aqs=chrome..69i57.528j0j7&sourceid=chrome&ie=UTF-8" target="_blank" style="font-weight: bold;">Google search</a> like this:
+                    <br>
                     <div style="background-color: #ccc; font-family: monospace; margin-left: 50px; padding: 0px 15px; border-radius: 15px; font-size: 20px; width: auto;">
-                            "But the Pharisees, full of wrath and deeply mor­tified" <b>site:tandfspi.org</b>
+                            "But the Pharisees, full of" <b>site:tandfspi.org</b>
                     </div>
             </li>
         </ul>
@@ -303,7 +328,10 @@ Greek and Roman World)">current scholarship</u>.</li>
     <br>
     <div style="width: 100%; margin: 0px auto; text-align: center;" id="copyrightArea" 
             style="position: relative; ">
-            <img src="images/cc-by.png" style="position: relative; display: inline-block; float:  center; width: 100px; height: auto;" />
+            <a href="https://creativecommons.org/licenses/by/4.0/"
+                  itemprop="license"  style="position: relative; display: inline-block; float:  center; width: 100px; height: auto;" >
+                  <img src="images/cc-by.png"  style="width: 100%; height: auto;"/>
+            </a>
             <div style="position: relative; display: inline-block; float:  center; margin-left: 40px;">No Copyright, 2022.<br>Citations of David Rudmin are appreciated.</div>
     </div>
     <br><br>
