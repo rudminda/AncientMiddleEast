@@ -12,21 +12,27 @@
 
     <title>Ancient Middle East</title>
 
+    
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "ItemPage",
+            "name": "Coverage Map",
+            "creator": "David Rudmin",
+            "author": {
+              "@type":"Organization",
+              "name":"AncientMiddleEast.com"
+            },            
+            "copyrightNotice": "CC-BY, 2022. No Copyright.  Citations of David Rudmin are appreciated.",
+            "copyrightYear": 2022,
+            "license": "https://creativecommons.org/licenses/by/4.0/"
+        }
+    </script>
+    
+    
     <style>
 
-/*          In order to make this style section work, 
-            first, I added these Ids to the code, far below:
-
- 
-                        table#bannerTable 
-                            tr#banner 
-                                td#bannerPic 
-                                td#bannerLinks 
-                            font#headline 
-                            font#clubDescrip
-                            tr#permanentEvtsRow
-                                td#supportedEvts
-                                td#featuredRace 
+/*         
 
 
 <!--MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
@@ -213,7 +219,7 @@ MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
 
 
 </head>
-<body>
+<body             itemscope     itemtype="https://schema.org/ItemPage">
 
     <div id="banner">
         <a href="https://www.facebook.com/Ancient-Middle-East-106869578659329" title="Like, on Facebook!"><img class="topLogo" src="images/fb.png" style="right: 50px;" /></a>
@@ -226,18 +232,41 @@ MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
     <div id="Subtext2" class="d-md-block d-lg-none" style=""><i>Google Earth .KMZ plots of </i>&nbsp;<span style="font-size:16.7px;">📍</span><i>ancient places.</i></div>
 
     <nav  aria-label="breadcrumb" style="margin: 30px 50px;">
-      <ol class="breadcrumb">
-        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-        <li class="breadcrumb-item active" aria-current="page">World Map</li>
+      <ol class="breadcrumb"                
+                  itemprop="breadcrumb"     itemscope itemtype="https://schema.org/BreadcrumbList">
+        <li class="breadcrumb-item"         itemprop="itemListElement"  itemscope itemtype="https://schema.org/ListItem">
+          <a href="../index.html"                                       itemprop="item">
+                <span                                                   itemprop="name">Home</span>
+            </a>
+            <meta                                                       itemprop="position" content="1" />
+        </li>
+        <li class="breadcrumb-item active" aria-current="page"
+                                            itemprop="itemListElement"  itemscope itemtype="https://schema.org/ListItem">
+            <span                                                       itemprop="name">Coverage Diagram</span>
+          <meta                                                         itemprop="position" content="2" />
+        </li>
       </ol>
     </nav>
-
-    <h1 class="titles">World Map</h1>
     
-    <br><br>
-
-    <img id="areasMap"src="./images/Map2%20AREAS.jpg"/>
+    <div          itemscope itemtype="https://schema.org/Diagram">
+        <link itemprop="additionalType" href="https://schema.org/primaryImageOfPage"/>
         
+        <h1 class="titles"
+                  itemprop="name">
+            Coverage Diagram
+        </h1>
+
+        <br><br>
+        
+        <img id="areasMap" src="./images/Map3%20AREAS.jpg" alt="Coverage Diagram of regions of the Middle East currently mapped."
+                  itemprop="contentUrl" />
+        <div id="caption"               
+                  itemprop="caption">
+            Regions of the Middle East currently mapped as of 
+            <meta itemprop="datePublished" content="2023-02-14"><b>Feb. 14, 2023.</b>  
+            <i>(If your area is overlapped by multiple outlines, then you really need to open ALL of those scatter-plot repositories, at the same time)</i>
+        </div>
+    </div>  
 
 
     
@@ -292,7 +321,10 @@ MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
     <br>
     <div style="width: 100%; margin: 0px auto; text-align: center;" id="copyrightArea" 
             style="position: relative; ">
-            <img src="images/cc-by.png" style="position: relative; display: inline-block; float:  center; width: 100px; height: auto;" />
+            <a href="https://creativecommons.org/licenses/by/4.0/"
+                  itemprop="license"  style="position: relative; display: inline-block; float:  center; width: 100px; height: auto;" >
+                  <img src="images/cc-by.png"  style="width: 100%; height: auto;"/>
+            </a>
             <div style="position: relative; display: inline-block; float:  center; margin-left: 40px;">No Copyright, 2022.<br>Citations of David Rudmin are appreciated.</div>
     </div>
     <br><br>
