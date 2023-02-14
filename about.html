@@ -215,7 +215,7 @@ MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
 
 
 </head>
-<body>
+<body                     itemscope     itemtype="https://schema.org/AboutPage">
 
     <div id="banner">
         <a href="https://www.facebook.com/Ancient-Middle-East-106869578659329" title="Like, on Facebook!"><img class="topLogo" src="images/fb.png" style="right: 50px;" /></a>
@@ -228,16 +228,26 @@ MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
     <div id="Subtext2" class="d-md-block d-lg-none" style=""><i>Google Earth .KMZ plots of </i>&nbsp;<span style="font-size:16.7px;">📍</span><i>ancient places.</i></div>
 
     <nav  aria-label="breadcrumb" style="margin: 30px 50px;">
-      <ol class="breadcrumb">
-        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-        <li class="breadcrumb-item active" aria-current="page">About</li>
+      <ol class="breadcrumb"                
+                  itemprop="breadcrumb"     itemscope itemtype="https://schema.org/BreadcrumbList">
+        <li class="breadcrumb-item"         itemprop="itemListElement"  itemscope itemtype="https://schema.org/ListItem">
+          <a href="../index.html"                                       itemprop="item">
+                <span                                                   itemprop="name">Home</span>
+            </a>
+            <meta                                                       itemprop="position" content="1" />
+        </li>
+        <li class="breadcrumb-item active" aria-current="page"
+                                            itemprop="itemListElement"  itemscope itemtype="https://schema.org/ListItem">
+            <span                                                       itemprop="name">About</span>
+          <meta                                                         itemprop="position" content="2" />
+        </li>
       </ol>
     </nav>
 
     <h1 class="titles">About</h1>
   
     <br><br>
-    <h3 class="titles">the hypothesis:</h3>
+    <h3 class="titles"    itemprop="mainContentOfPage">the hypothesis:</h3>
 
     <div class="infoBlock"> That the Barrington Atlas' method, is woefully deficient in mapping the MiddleEast, and can be vastly improved, by prioritizing linguistic analysis of place names.
         <br>
@@ -246,7 +256,7 @@ MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
     <br><br>
     <h3 class="titles">the method:</h3>
 
-    <div class="infoBlock">The lions' share job in making these maps involved simply flying low over the terrain of Google Earth, looking for modern locations which might be evolutionary offshoots of ancient place names, with the assistance of multiple overlaid editions of the <a href="https://en.wikipedia.org/wiki/Geography_(Ptolemy)">Ptolemaic</a> (150 A.D.), <a href="https://en.wikipedia.org/wiki/Tabula_Peutingeriana">Peutinger</a> (1st-5th century), and 19th-century <a href="https://www.davidrumsey.com/">Rumsey Historical</a> maps, as well as a <a href="https://www.google.com/books/edition/Claudii_Ptolemaei_Geographia/vHMCAAAAQAAJ?hl=en" target="_blank">a Greek index</a>, to attempt to avoid red-herring typos, and to get the best sense of the original phonemes which might've been distorted in translation.  
+    <div class="infoBlock" itemprop="about">The lions' share job in making these maps involved simply flying low over the terrain of Google Earth, looking for modern locations which might be evolutionary offshoots of ancient place names, with the assistance of multiple overlaid editions of the <a href="https://en.wikipedia.org/wiki/Geography_(Ptolemy)">Ptolemaic</a> (150 A.D.), <a href="https://en.wikipedia.org/wiki/Tabula_Peutingeriana">Peutinger</a> (1st-5th century), and 19th-century <a href="https://www.davidrumsey.com/">Rumsey Historical</a> maps, as well as a <a href="https://www.google.com/books/edition/Claudii_Ptolemaei_Geographia/vHMCAAAAQAAJ?hl=en" target="_blank">a Greek index</a>, to attempt to avoid red-herring typos, and to get the best sense of the original phonemes which might've been distorted in translation.  
         <br>
     The author (David Rudmin, see below) knows Latin and Greek well, but not other ancient languages, so the Greek index was invaluable.
     </div>
@@ -255,14 +265,16 @@ MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
 
     <h3 class="titles">the author:</h3>
 
-    <div id="archives" style="position: relative; 
+    <div id="archives" itemprop="author"    itemscope itemtype="https://schema.org/Person"
+        style="position: relative; 
         display: flex; flex-wrap: wrap; justify-content: center;
         width: 96%; margin-left: 2%;">
 
-        <div id="levant" class="archive" onclick="window.open('./holyland/index.html','_self')">
-            <img src="images/drudmin.jpg" class="archiveImg"/>
+        <div id="levant" class="archive">
+            <img src="images/drudmin.jpg"   itemprop="image" class="archiveImg" alt="Author's Photograph"/>
         </div>
-        <div><b><u>David Rudmin</u></b> is a former Latin teacher, with extensive work in ancient Greek.  For 7 years, he created the website <a href="WriteLatin.org">WriteLatin.org</a>, and numerous Catholic Apologetics pages.  He holds 2 Bachelors degrees from Christendom College, <i>summa cum laude</i>, in Classics (Greek & Latin), and Theology, with a minor in Philosophy.
+        <div                                itemprop="description">
+            <b><u>David Rudmin</u></b> is a former Latin teacher, with extensive work in ancient Greek.  For 7 years, he created the website <a href="WriteLatin.org">WriteLatin.org</a>, and numerous Catholic Apologetics pages.  He holds 2 Bachelors degrees from Christendom College, <i>summa cum laude</i>, in Classics (Greek & Latin), and Theology, with a minor in Philosophy.
         </div>
         
     </div>
@@ -314,7 +326,10 @@ MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
     <br>
     <div style="width: 100%; margin: 0px auto; text-align: center;" id="copyrightArea" 
             style="position: relative; ">
-            <img src="images/cc-by.png" style="position: relative; display: inline-block; float:  center; width: 100px; height: auto;" />
+            <a href="https://creativecommons.org/licenses/by/4.0/"
+                  itemprop="license"  style="position: relative; display: inline-block; float:  center; width: 100px; height: auto;" >
+                  <img src="images/cc-by.png"  style="width: 100%; height: auto;"/>
+            </a>
             <div style="position: relative; display: inline-block; float:  center; margin-left: 40px;">No Copyright, 2022.<br>Citations of David Rudmin are appreciated.</div>
     </div>
     <br><br>
