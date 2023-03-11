@@ -301,12 +301,11 @@ MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
 
 <script>
 function dms() {
-    var d1Timestamp = new Date('2022-04-11');
+    var d1Timestamp = new Date('2022-04-11').getTime();;
     var nowTimestamp = Date.now();
-  
-    if (nowTimestamp > d1Timestamp) {
-        Document.getElementById('dms').style.display = 'inline-block';
-    }    
+    if (nowTimestamp > d1Timestamp) {       
+       Document.getElementById('dms').style.display = 'inline-block';
+    } 
 }
 </script>
   
