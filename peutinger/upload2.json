@@ -1,0 +1,2484 @@
+{
+  "@context": {
+    "@vocab": "http://www.schema.org/",
+    "label": "http://www.schema.org/name",
+    "classic": "http://www.schema.org/name",
+    "modern": "http://www.schema.org/name",
+    "symbol": "http://www.schema.org/category",
+    "alt": "http://www.schema.org/alternateName",
+    "lat": "http://www.schema.org/latitude",
+    "lng": "http://www.schema.org/longitude",
+    "river": "http://www.schema.org/location",
+    "from": "http://www.schema.org/fromLocation",
+    "to": "http://www.schema.org/toLocation",
+    "dist": "http://www.schema.org/distance",
+    "overWater": "http://omnesviae.org/def#overWater",
+    "isReconstructed": "http://omnesviae.org/def#isReconstructed",
+    "crossesMountains": "http://omnesviae.org/def#crossesMountains",
+    "crossesRiver": "http://omnesviae.org/def#crossesRiver"
+  } ,
+  "@graph": [
+
+
+
+/* MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+
+
+      "modern": "",
+
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM*/
+
+ 
+
+
+    {
+      "@id": "https://omnesviae.org/#OVPlace550",
+      "@type": "Place",
+      "label": "Castra Nova",
+      "lat": 36.297042,
+      "lng": 1.956218
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace81",
+      "@type": "Place",
+      "label": "Galaxia",
+      "modern": "Tamezlait",
+      "lat": 36.481688,
+      "lng": 2.089071
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace82",
+      "@type": "Place",
+      "label": "Equehero",
+      "modern": "Bou Kherrouba",
+      "lat": 36.396228,
+      "lng": 2.483227
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace92",
+      "@type": "Place",
+      "label": "Lemelli",
+      "modern": "Hamameria",
+      "lat": 36.269402,
+      "lng": 2.545484
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace84",
+      "@type": "Place",
+      "label": "Tamascani Municipium",
+      "modern": "Tamesguida",
+      "lat": 36.322693,
+      "lng": 2.688985
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace86",
+      "@type": "Place",
+      "label": "Tamannuna Municipium",
+      "modern": "Sidi Naamane",
+      "lat": 36.212776,
+      "lng": 3.136280
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace87",
+      "@type": "Place",
+      "label": "Satia Municipium",
+      "modern": "Ain Tasta",
+      "lat": 36.254576,
+      "lng": 3.702303
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace88",
+      "@type": "Place",
+      "label": "Ad Olivam",
+      "modern": "Tizi Elouan",
+      "lat": 36.397145,
+      "lng": 4.526108
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace98",
+      "@type": "Place",
+      "label": "Caput Budelli",
+      "modern": "Beni Djellil",
+      "lat": 36.570202,
+      "lng": 4.807398
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace99",
+      "@type": "Place",
+      "label": "Modolana",
+      "modern": "Beni Ourtilane",
+      "lat": 36.441384,
+      "lng": 4.846366
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace100",
+      "@type": "Place",
+      "label": "Berzeo",
+      "modern": "Bouzelatene",
+      "lat": 36.433594,
+      "lng": 4.968123
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace101",
+      "@type": "Place",
+      "label": "Fons Camerata",
+      "modern": "Foret H'mara",
+      "lat": 36.366871,
+      "lng": 5.837187
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace102",
+      "@type": "Place",
+      "label": "Nobas Fusciani",
+      "modern": "Chaabet El Ouasfane",
+      "lat": 36.398863,
+      "lng": 5.902493
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace104",
+      "@type": "Place",
+      "label": "Milev. Colonia",
+      "modern": "Mila",
+      "lat": 36.450033,
+      "lng": 6.270994,
+      "symbol": "Aa5"
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace105",
+      "@type": "Place",
+      "label": "Humituriana",
+      "modern": "Beni Hamidane",
+      "lat": 36.506960,
+      "lng": 6.553243
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace106",
+      "@type": "Place",
+      "label": "Aquartille",
+      "modern": "Mechta Ain* Bouchdirah",
+      "lat": 36.515081,
+      "lng": 6.568063
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace43",
+      "@type": "Place",
+      "label": "Cirta Colonia",
+      "modern": "Mechtat El Haouima",
+      "lat": 36.379633,
+      "lng": 6.621753,
+      "symbol": "Aa1"
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace43_a",
+      "@type": "Place",
+      "label": "Ad Palmam",
+      "modern": "Ksar Nadja",
+      "lat": 36.521548,
+      "lng": 6.646852
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace41",
+      "@type": "Place",
+      "label": "Ad Villam Sele",
+      "modern": "Salah Bouchaour",
+      "lat": 36.700717,
+      "lng": 6.863499
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace44",
+      "@type": "Place",
+      "label": "Aquis Thibilitanis",
+      "modern": "Benteboula Salim",
+      "lat": 36.573204,
+      "lng": 7.383287,
+      "symbol": "C5"
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace45",
+      "@type": "Place",
+      "label": "ad Villam Servilianam",
+      "modern": "Djeballah Khemissi",
+      "lat": 36.464388,
+      "lng": 7.563750
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace3017",
+      "@type": "Place",
+      "label": "Tipasa",
+      "modern": "Meshta Turfa",
+      "lat": 36.789244,
+      "lng": 8.155714
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace113",
+      "@type": "Place",
+      "label": "Vico Iuliani",
+      "modern": "Bouteldja",
+      "lat": 36.783024,
+      "lng": 8.197926
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace114",
+      "@type": "Place",
+      "label": "Ad Molas",
+      "modern": "Mechtat El Matroa",
+      "lat": 36.713215,
+      "lng": 8.279057
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace115",
+      "@type": "Place",
+      "label": "Vasidice",
+      "modern": "Mechta Medjouda Loutania",
+      "lat": 36.712934,
+      "lng": 8.430049
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace116",
+      "@type": "Place",
+      "label": "Thacora",
+      "modern": "Mechta Ain Chaara",
+      "lat": 36.644991,
+      "lng": 8.406921
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace117",
+      "@type": "Place",
+      "label": "Gegetu",
+      "classic": "Haraggara",
+      "modern": "Site Antique el Groura",
+      "lat": 36.541209,
+      "lng": 8.421163
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace118",
+      "@type": "Place",
+      "label": "Haraggara",
+      "modern": "Ouergech",
+      "lat": 36.517888,
+      "lng": 8.453059
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace120",
+      "@type": "Place",
+      "label": "Sicca Veria",
+      "modern": "Satfoura",
+      "lat": 36.560124,
+      "lng": 8.669294,
+      "symbol": "Aa1"
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace121",
+      "@type": "Place",
+      "label": "Siguese",
+      "classic": "Thounoudromon",
+      "modern": "Suq al Jumah",
+      "lat": 36.365310,
+      "lng": 8.963311
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace122",
+      "@type": "Place",
+      "label": "Brusiliana",
+      "modern": "Sidi Bou Rouis",
+      "lat": 36.168048,
+      "lng": 9.108187
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace123",
+      "@type": "Place",
+      "label": "Thacia",
+      "modern": "Al Akhawat",
+      "lat": 36.244492,
+      "lng": 9.244676
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace124",
+      "@type": "Place",
+      "label": "Mubsi",
+      "modern": "Mustis",
+      "lat": 36.335312,
+      "lng": 9.143677
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace125",
+      "@type": "Place",
+      "label": "Aobia",
+      "modern": "Erbiaat (mongi jarouadi)",
+      "lat": 36.379509,
+      "lng": 9.054086
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace127",
+      "@type": "Place",
+      "label": "Tichilla",
+      "modern": "Teglara",
+      "classic": "Dkhila",
+      "lat": 36.422778,
+      "lng": 9.218392
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace126",
+      "@type": "Place",
+      "label": "Tighica",
+      "modern": "Thignica",
+      "modern": "Ain Tounga",
+      "lat": 36.524137,
+      "lng": 9.360199
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace131",
+      "@type": "Place",
+      "label": "Apuis",
+      "modern": "Qa Afur",
+      "lat": 36.310693,
+      "lng": 9.319398,
+      "symbol": "C1"
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace132",
+      "@type": "Place",
+      "label": "Choreua",
+      "modern": "Lic Echorfa",
+      "lat": 36.320880,
+      "lng": 9.646794,
+      "symbol": "C1"
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace133",
+      "@type": "Place",
+      "label": "Ad Atticille",
+      "classic": "Theudal(ei)(a)",
+      "modern": "Thaddur",
+      "lat": 36.474082,
+      "lng": 9.726617
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace134",
+      "@type": "Place",
+      "label": "Vallis",
+      "modern": "Jabal Azeiz",
+      "lat": 36.505451,
+      "lng": 9.877277
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace78",
+      "@type": "Place",
+      "label": "Thuraria",
+      "modern": "Bir Ouled Aloua",
+      "lat": 36.436724,
+      "lng": 9.932376
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace78",
+      "@type": "Place",
+      "label": "Thurris",
+      "modern": "Qasr at Tayr",
+      "lat": 36.599755,
+      "lng": 9.795000
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace129",
+      "@type": "Place",
+      "label": "Chisiduo",
+      "modern": "Oulad Cheikh Ayed",
+      "lat": 36.625291,
+      "lng": 9.746884
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace128",
+      "@type": "Place",
+      "label": "Membrissa",
+      "modern": "Medjez el Bab",
+      "lat": 36.639621,
+      "lng": 9.614218
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace135",
+      "@type": "Place",
+      "label": "Sicilibba",
+      "classic": "Sic(c)a Oueneria",
+      "modern": "Erriadh",
+      "lat": 36.690466,
+      "lng": 9.811962
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace136",
+      "@type": "Place",
+      "label": "Inuca",
+      "modern": "Bou H'nash",
+      "lat": 36.784156,
+      "lng": 9.949716
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace138",
+      "@type": "Place",
+      "label": "Ad Mercurium",
+      "modern": "Mornag(h/u)ia",
+      "lat": 36.758024,
+      "lng": 10.010020,
+      "symbol": "B17"
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace139",
+      "@type": "Place",
+      "label": "Ad Pertussa",
+      "modern": "Cite El Mechtel",
+      "lat": 36.779590,
+      "lng": 10.076817
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+      "@id": "https://omnesviae.org/#TPPlace3509",
+      "@type": "Place",
+      "label": "Ad Portu",
+      "modern": "Bouira",
+      "lat": 35.951991,
+      "lng": 4.315007
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace3511",
+      "@type": "Place",
+      "label": "Ad Stabulu. Olearium",
+      "modern": "Mechta Debil",
+      "lat": 35.919845,
+      "lng": 4.377864
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace3512",
+      "@type": "Place",
+      "label": "Baccarus",
+      "modern": "Dokkara",
+      "lat": 35.851336,
+      "lng": 4.416637
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace3513",
+      "@type": "Place",
+      "label": "ad Sturnos",
+      "modern": "Djaouna",
+      "lat": 35.769038,
+      "lng": 4.751734
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace3514",
+      "@type": "Place",
+      "label": "Thabute",
+      "modern": "Douar El Bdirate",
+      "lat": 35.922049,
+      "lng": 4.895066
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace3515",
+      "@type": "Place",
+      "label": "Saluiana",
+      "modern": "Ouled Salem Belhadj",
+      "lat": 36.002557,
+      "lng": 5.356930
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace3516",
+      "@type": "Place",
+      "label": "Lucullianus",
+      "modern": "Meshtet-El'-Klala",
+      "lat": 36.100677,
+      "lng": 5.723825
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace3517",
+      "@type": "Place",
+      "label": "Visalta",
+      "modern": "(Mechtat) Boussel(l)am",
+      "lat": 36.095343,
+      "lng": 5.994185
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace3518",
+      "@type": "Place",
+      "label": "Buduxi",
+      "modern": "Berteaux",
+      "lat": 36.065278,
+      "lng": 6.468012
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace3519",
+      "@type": "Place",
+      "label": "Sigus",
+      "modern": "Sigus",
+      "lat": 36.122052,
+      "lng": 6.775313
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace3521",
+      "@type": "Place",
+      "label": "Tenebreste",
+      "modern": "Timarsitine",
+      "lat": 36.240564,
+      "lng": 7.086468
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace160",
+      "@type": "Place",
+      "label": "Ad Centenariu.",
+      "modern": "Oued Zenati",
+      "lat": 36.306193,
+      "lng": 7.165221
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace3523",
+      "@type": "Place",
+      "label": "Ad Rubras",
+      "modern": "Medjez Amar",
+      "lat": 36.443671,
+      "lng": 7.313036
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace16",
+      "@type": "Place",
+      "label": "Tigisi",
+      "modern": "Bordzh-El'-Khadzh-Takhar",
+      "lat": 36.139821,
+      "lng": 7.073901
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace108",
+      "@type": "Place",
+      "label": "Castellum Sabatianum",
+      "modern": "Meshta-Besbesa",
+      "lat": 36.661356,
+      "lng": 7.345625
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace109",
+      "@type": "Place",
+      "label": "Thibili",
+      "modern": "Ain Touila",
+      "lat": 36.705262,
+      "lng": 7.874172
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace110",
+      "@type": "Place",
+      "label": "Capraria",
+      "modern": "Kebouda",
+      "lat": 36.733761,
+      "lng": 8.005456
+    },
+
+
+
+
+
+
+
+
+    {
+      "@id": "https://omnesviae.org/#TPPlace3525",
+      "@type": "Place",
+      "label": "Ad Lapidem Baium",
+      "modern": "Laabidi",
+      "lat": 36.682147,
+      "lng": 7.593671
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace3524TPPlace3526",
+      "@type": "Place",
+      "label": "Gasaupola",
+      "modern": "Ga Guelma",
+      "lat": 36.460263,
+      "lng": 7.422059
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace3526",
+      "@type": "Place",
+      "label": "Fonte Potamiano",
+      "modern": "Roman bath (Roman ruins)",
+      "lat": 36.321935,
+      "lng": 7.534745
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace3527",
+      "@type": "Place",
+      "label": "Magri",
+      "classic": "Mireon",
+      "modern": "Meshtet-Megaa-Siud",
+      "lat": 36.306881,
+      "lng": 7.639490
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace3528",
+      "@type": "Place",
+      "label": "Rustici",
+      "modern": "Meshtat El Madjene",
+      "lat": 36.230502,
+      "lng": 7.657968
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace3529",
+      "@type": "Place",
+      "label": "Ad Pisinas",
+      "modern": "Bordiel El Hassane",
+      "lat": 36.108968,
+      "lng": 7.683618
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace3530",
+      "@type": "Place",
+      "label": "Velesi",
+      "modern": "Cite Moussa Lahouasnia",
+      "lat": 36.077944,
+      "lng": 7.821726
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace3531",
+      "@type": "Place",
+      "label": "(V/M)atari",
+      "classic": "Madaura",
+      "modern": "Madour",
+      "lat": 36.075341,
+      "lng": 7.902164
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace3532",
+      "@type": "Place",
+      "label": "Vico Valeriani ",
+      "classic": "Lares",
+      "modern": "Souk Ahras",
+      "lat": 36.286052,
+      "lng": 7.948580
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace3533",
+      "@type": "Place",
+      "label": "Arualla",
+      "modern": "Ouillen",
+      "lat": 36.227346 ,
+      "lng": 8.066111
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace3534",
+      "@type": "Place",
+      "label": "Sibus",
+      "modern": "Meshta-El'-Asaba",
+      "lat": 36.133659,
+      "lng": 8.188191
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace3535",
+      "@type": "Place",
+      "label": "Flacciana",
+      "modern": "Sidi Salakh",
+      "lat": 36.131926,
+      "lng": 8.261503
+    },
+
+
+
+
+
+
+    {
+      "@id": "https://omnesviae.org/#TPPlace3537",
+      "@type": "Place",
+      "label": "Vasampus",
+      "classic": "Azama",
+      "modern": "Qalat-As-Sanan",
+      "lat": 35.767874,
+      "lng": 8.340818
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace3536",
+      "@type": "Place",
+      "label": "Fl(a/u)via Marci",
+      "modern": "Mellègue/Mallāq river",
+      "lat": 36.009756,
+      "lng": 8.136634
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace3538",
+      "@type": "Place",
+      "label": "Mova",
+      "modern": "Amor-Moara",
+      "lat": 35.683343,
+      "lng": 8.228112
+    },
+
+
+
+
+
+
+
+
+
+    {
+      "@id": "https://omnesviae.org/#TPPlace140",
+      "@type": "Place",
+      "label": "Risea",
+      "modern": "Sidi Rahal",
+      "lat": 36.240037,
+      "lng": 9.388020
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace141",
+      "@type": "Place",
+      "label": "Auitta",
+      "modern": "Henchir Bent el-Bey",
+      "lat": 36.330841,
+      "lng": 9.856808
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace137",
+      "@type": "Place",
+      "label": "Thuburbomaius",
+      "classic": "Thoubourbo",
+      "modern": "Thuburbo Majus",
+      "lat": 36.398378,
+      "lng": 9.906877
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace142",
+      "@type": "Place",
+      "label": "Onellana",
+      "modern": "Moghrane",
+      "lat": 36.422095,
+      "lng": 10.087463
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace143",
+      "@type": "Place",
+      "label": "Uthica",
+      "classic": "Outhina",
+      "modern": "Uthina Archaeological site",
+      "lat": 36.604846,
+      "lng": 10.172040
+    },
+
+
+
+
+
+
+    {
+      "@id": "https://omnesviae.org/#TPPlace181",
+      "@type": "Place",
+      "label": "Ad Mercurium",
+      "modern": "Bekkaria",
+      "lat": 35.375159,
+      "lng": 8.243964,
+      "symbol": "B30"
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace182",
+      "@type": "Place",
+      "label": "Ad Medera",
+      "modern": "Haydrah",
+      "lat": 35.563617,
+      "lng": 8.453755,
+      "symbol": "Aa6"
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace183",
+      "@type": "Place",
+      "label": "Mutia",
+      "modern": "Mahjouba",
+      "lat": 35.808323,
+      "lng": 8.499568
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace186",
+      "@type": "Place",
+      "label": "Larabus",
+      "modern": "Equi Lorbeuss",
+      "lat": 36.097265,
+      "lng": 8.941148
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace185",
+      "@type": "Place",
+      "label": "Obba",
+      "modern": "Swari Abida",
+      "lat": 35.978241,
+      "lng": 8.754140
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace184",
+      "@type": "Place",
+      "label": "Alturburos",
+      "modern": "Alturburos site",
+      "lat": 35.871077,
+      "lng": 8.783177
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace187",
+      "@type": "Place",
+      "label": "Altessera",
+      "modern": "Maktar",
+      "lat": 35.857842,
+      "lng": 9.197346
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace188",
+      "@type": "Place",
+      "label": "Assures",
+      "modern": "El Ksour",
+      "lat": 35.918566,
+      "lng": 9.346573
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace189",
+      "@type": "Place",
+      "label": "Zamareigia",
+      "classic": "Zamamizon / Zama Meizon",
+      "modern": "Dechret Jenoua",
+      "lat": 35.855619,
+      "lng": 9.511961
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace190",
+      "@type": "Place",
+      "label": "Seggo",
+      "classic": "Zigira",
+      "modern": "Ain Chrichira",
+      "lat": 35.633159,
+      "lng": 9.826123
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace191",
+      "@type": "Place",
+      "label": "Auula",
+      "modern": "Kairouan",
+      "lat": 35.686924,
+      "lng": 10.097144
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace192",
+      "@type": "Place",
+      "label": "Autipsidam",
+      "modern": "Chrit Alsaaidit (ألسعأيدية))",
+      "lat": 35.795855,
+      "lng": 10.070691
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace193",
+      "@type": "Place",
+      "label": "Uhappa",
+      "classic": "Hydata Therma",
+      "modern": "Al Hawmat",
+      "lat": 35.937494,
+      "lng": 10.010284
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace194",
+      "@type": "Place",
+      "label": "Manange",
+      "modern": "Jebel Mennchar",
+      "lat": 36.428238,
+      "lng": 10.483602
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace195",
+      "@type": "Place",
+      "label": "Aggaar",
+      "classic": "Agar / Aud[j]eira",
+      "modern": "Bou Argroub",
+      "lat": 36.526286,
+      "lng": 10.550898
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace196",
+      "@type": "Place",
+      "label": "Aquas Regias",
+      "modern": "Ain Kmicha",
+      "lat": 36.499984,
+      "lng": 10.662233
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace197",
+      "@type": "Place",
+      "label": "Terento",
+      "modern": "Chorfine",
+      "lat": 36.684244,
+      "lng": 10.702213
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace198",
+      "@type": "Place",
+      "label": "Aeliae",
+      "classic": "Leai",
+      "modern": "Qum Dhouil",
+      "lat": 36.710182,
+      "lng": 10.827389
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace16",
+      "@type": "Place",
+      "label": "Tigisi",
+      "classic": "Tigis",
+      "modern": "Tikhorbine",
+      "lat": 36.787248,
+      "lng": 4.281991
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace18",
+      "@type": "Place",
+      "label": "Syda Municipium",
+      "modern": "Ait Saada",
+      "lat": 36.529169,
+      "lng": 4.280738
+    },
+    {
+      "@id": "https://omnesviae.org/#OVPlace",
+      "@type": "Place",
+      "label": "Buza",
+      "classic": "Bida/Beda/Boeda",
+      "modern": "Bouz(e)guen(e)",
+      "lat": 36.617819,
+      "lng": 4.481454
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace90",
+      "@type": "Place",
+      "label": "Chulcul Colonia",
+      "modern": "El Kseur",
+      "lat":  36.679849,
+      "lng": 4.858850,
+    "symbol": "Ac1"
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace94",
+      "@type": "Place",
+      "label": "Mopti Municipium",
+      "modern": "Beni Mouhli",
+      "lat":  36.514318,
+      "lng": 4.911269
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace314",
+      "@type": "Place",
+      "label": "Ad Ficum",
+      "modern": "Fitchou",
+      "lat":  36.450329,
+      "lng": 5.215410
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace96",
+      "@type": "Place",
+      "label": "Ad Basilica",
+      "modern": "Tizi N'Bechar",
+      "lat":  36.429131,
+      "lng": 5.348186
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace38",
+      "@type": "Place",
+      "label": "Hedibus",
+      "modern": "Azzaba",
+      "lat":  36.767456,
+      "lng": 7.019604
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace40",
+      "@type": "Place",
+      "label": "Ad Plumbaria",
+      "modern": "Hashassia",
+      "lat":  36.726367,
+      "lng": 7.500162
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace62",
+      "@type": "Place",
+      "label": "Odiana",
+      "modern": "Meshta-Rmel'-Dokhan",
+      "lat":  36.726000,
+      "lng": 8.398082
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace64",
+      "@type": "Place",
+      "label": "Ad Aquas",
+      "modern": "Ruines Henchir el Melah",
+      "lat": 36.569057,
+      "lng": 8.579351,
+      "symbol": "C28"
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace65",
+      "@type": "Place",
+      "label": "Simitu Colonia",
+      "classic": "Smisthou",
+      "modern": "Shimtu / Chemtou / Simitthus",
+      "lat": 36.492154,
+      "lng": 8.575094,
+      "symbol": "Aa1"
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace66",
+      "@type": "Place",
+      "label": "Bulla Regia",
+      "modern": "Bulla Regia",
+      "lat": 36.559665,
+      "lng": 8.754310
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace67",
+      "@type": "Place",
+      "label": "Ad Silma",
+      "modern": "Bou Salem",
+      "lat": 36.608261,
+      "lng": 8.968477
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace69",
+      "@type": "Place",
+      "label": "Armasela river",
+      "modern": "Majerda River ",
+      "lat": 36.636194,
+      "lng": 9.197255
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace71",
+      "@type": "Place",
+      "label": "Novis Aquilianis",
+      "modern": "Hanshir Bin Khalladiyah",
+      "lat": 36.575306,
+      "lng": 9.245712
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace72",
+      "@type": "Place",
+      "label": "Picus",
+      "modern": "Thibar(is)",
+      "lat":  36.505125,
+      "lng": 9.082826
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace73",
+      "@type": "Place",
+      "label": "Vico Augusti",
+      "modern": "Uchi Maius",
+      "lat":  36.411518,
+      "lng": 9.084021
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace74",
+      "@type": "Place",
+      "label": "Teglara",
+      "classic": "Tighica",
+      "modern": "Dkhila",
+      "lat":  36.422778,
+      "lng": 9.218392
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace75",
+      "@type": "Place",
+      "label": "Elephantaria",
+      "modern": "Sloughia",
+      "lat":  36.584248,
+      "lng": 9.511861
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace76",
+      "@type": "Place",
+      "label": "Clucar",
+      "classic": "Coulcoua Colonia",
+      "modern": "Cincari",
+      "lat":  36.711258,
+      "lng": 9.542856
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace77",
+      "@type": "Place",
+      "label": "Thuburbominus",
+      "classic": "Thoubournica Colonia",
+      "modern": "Tebourba",
+      "lat":  36.831836,
+      "lng": 9.839873
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace79",
+      "@type": "Place",
+      "label": "Cicifa",
+      "classic": "Cipipa",
+      "modern": "Chorfech",
+      "lat":  36.936776,
+      "lng": 10.040430
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace145",
+      "@type": "Place",
+      "label": "Bibae",
+      "classic": "Bend(e/i)na",
+      "modern": "Hammam Bent Djedidi",
+      "lat":  36.393116,
+      "lng": 10.380097
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace146",
+      "@type": "Place",
+      "label": "Mediocera",
+      "classic": "Medio(c)cara",
+      "modern": "Boucharray",
+      "lat":  36.661384,
+      "lng": 10.533834
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace147",
+      "@type": "Place",
+      "label": "Aggerful",
+      "classic": "Agar / Aggaar / Aggerful",
+      "modern": "Fartouna",
+      "lat":  36.755054,
+      "lng": 10.780360
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace148",
+      "@type": "Place",
+      "label": "Ulisippira",
+      "classic": "Oulizibira",
+      "modern": "El Kbeil",
+      "lat":  36.862028,
+      "lng": 10.841453
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace149",
+      "@type": "Place",
+      "label": "Gurra",
+      "classic": "Gisira",
+      "modern": "Garsouline",
+      "lat":  36.881735,
+      "lng": 10.928669,
+      "symbol": "Aa27"
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace257",
+      "@type": "Place",
+      "label": "Aviduvicus",
+      "classic": "Aouidos",
+      "modern": "Al-Widyan",
+      "lat":  36.795650,
+      "lng": 10.859602
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace258",
+      "@type": "Place",
+      "label": "Sassurauicus",
+      "classic": "Sarsura / Sasoura",
+      "modern": "Houmt Zouara (حومة زوارة))",
+      "lat":  36.775039,
+      "lng": 10.927238
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace199",
+      "@type": "Place",
+      "label": "Thisdro Col.",
+      "classic": "Tisdra / Tisouros / Thysdros / Tourz(a/o)",
+      "modern": "Chat Ezzouhour ",
+      "lat":  36.695724,
+      "lng": 10.896938,
+      "symbol": "Aa30"
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace260",
+      "@type": "Place",
+      "label": "Batarus M.V.N. [Municipium]",
+      "classic": "Oubata",
+      "modern": "Boujrida",
+      "lat":  36.605152,
+      "lng": 10.735976
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    ,
+    
+
+
+
+
+
+
+
+
+    {
+      "@id": "https://omnesviae.org/#OVPlace549",
+      "@type": "Place",
+      "label": "Ballene praesidio",
+      "modern": "Tiaret",
+      "classic": "Ballene Praesidium",
+      "lat": 35.361125,
+      "lng": 1.317491
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace152",
+      "@type": "Place",
+      "label": "Salinas Hubonenentes",
+      "modern": "Chahbounia",
+      "lat": 35.540654,
+      "lng": 2.615170
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace153",
+      "@type": "Place",
+      "label": "Vaccis",
+      "modern": "Boghar",
+      "lat": 35.885231,
+      "lng": 2.724730
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace155",
+      "@type": "Place",
+      "label": "Tubo(h/n)is",
+      "modern": "Mechta Bu Azza",
+      "lat": 35.845851,
+      "lng": 3.154734
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace154",
+      "@type": "Place",
+      "label": "Adoculum Marinum",
+      "modern": "Chellalat El Aharoura",
+      "lat": 35.950149,
+      "lng": 3.415077
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace93",
+      "@type": "Place",
+      "label": "Sitifi Col.",
+      "modern": "El Kern Essefia",
+      "lat": 35.935797,
+      "lng": 3.888635
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace89",
+      "@type": "Place",
+      "label": "Monte",
+      "modern": "Ighil Nait Mhend",
+      "lat": 36.153031,
+      "lng": 4.14008
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace323",
+      "@type": "Place",
+      "label": "Ad Capsu. Mliam",
+      "modern": "Ouled Mouleh",
+      "lat": 35.746723,
+      "lng": 3.911051
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace158",
+      "@type": "Place",
+      "label": "Zaras",
+      "modern": "Khettouti Sed El Djir",
+      "lat": 36.627400,
+      "lng": 4.177566
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace159",
+      "@type": "Place",
+      "label": "Swaddurusi Psidium",
+      "modern": "Beni Souid",
+      "lat": 35.609541,
+      "lng": 4.442271
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace160",
+      "@type": "Place",
+      "label": "Ad Centenarium",
+      "modern": "Mechta Ouled Mehaia",
+      "lat": 35.569284,
+      "lng": 4.612385
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace167",
+      "@type": "Place",
+      "label": "Lamasbua",
+      "modern": "Lahouabib",
+      "lat": 35.617110,
+      "lng": 4.843760
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace169",
+      "@type": "Place",
+      "label": "Lambese",
+      "modern": "Lahmissi",
+      "lat": 35.448586,
+      "lng": 5.044155
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace169_a",
+      "@type": "Place",
+      "label": "Ad Biaham",
+      "modern": "Ouled Beia + Mesta Hamani",
+      "lat": 35.700418,
+      "lng": 4.875442
+    "symbol": "B30"
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace164",
+      "@type": "Place",
+      "label": "Lampsila",
+      "modern": "Ouled Sellem",
+      "lat": 35.820814,
+      "lng": 5.658355
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace168",
+      "@type": "Place",
+      "label": "Lambiridi",
+      "modern": "Ouled Belhout",
+      "lat": 35.529416,
+      "lng": 5.085998
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace171",
+      "@type": "Place",
+      "label": "Thamugadi",
+      "modern": "Mechta Tanhout",
+      "lat": 35.671459,
+      "lng": 5.579113
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace170",
+      "@type": "Place",
+      "label": "Lambasudi",
+      "modern": "Meshta-Lamashet",
+      "lat": 35.605102,
+      "lng": 5.343287
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace172",
+      "@type": "Place",
+      "label": "Popleto",
+      "modern": "Rahbat",
+      "lat": 35.708586,
+      "lng": 5.643196
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace173",
+      "@type": "Place",
+      "label": "Liviana",
+      "modern": "(Ain/Chabet) Tinibaouine",
+      "lat": 35.572291,
+      "lng": 5.724475
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace165",
+      "@type": "Place",
+      "label": "Adlali",
+      "modern": "Mechta Rhlalouch",
+      "lat": 35.792931,
+      "lng": 5.977627 
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace166",
+      "@type": "Place",
+      "label": "Vico Aureli",
+      "modern": "Douar Bouraoula",
+      "lat": 35.760317,
+      "lng": 5.967742
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace174",
+      "@type": "Place",
+      "label": "Zyrnas Maseli",
+      "modern": "Mechta Tadjine",
+      "lat": 35.684000,
+      "lng": 6.240704
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace175",
+      "@type": "Place",
+      "label": "Ad Cahalis",
+      "modern": "Khenchela",
+      "lat": 35.428244,
+      "lng": 7.145636
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace176",
+      "@type": "Place",
+      "label": "Ad Germani", 
+      "modern": "Ain Djerboua",
+      "lat": 35.248549,
+      "lng": 7.130424
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace177",
+      "@type": "Place",
+      "label": "Ruglata",
+      "modern": "El Ogla",
+      "lat": 35.186644,
+      "lng": 7.449827
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace181",
+      "@type": "Place",
+      "label": "Ad Mercurium",
+      "modern": "Cheria",
+      "lat": 35.271439,
+      "lng": 7.758409,
+      "symbol": "B30"
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace179",
+      "@type": "Place",
+      "label": "Ad Aquas Casaris",
+      "modern": "Hammamet",
+      "lat": 35.449338,
+      "lng": 7.960068,
+      "symbol": "C2"
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace180",
+      "@type": "Place",
+      "label": "Theueste",
+      "modern": "Tebessa",
+      "lat": 35.404349,
+      "lng": 8.123133,
+      "symbol": "Aa1"
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace200",
+      "@type": "Place",
+      "label": "Ad Basilicam Diadumene",
+      "modern": "Biskra",
+      "lat": 34.848219,
+      "lng": 5.727404
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace201",
+      "@type": "Place",
+      "label": "Symmachi",
+      "modern": "Oumache",
+      "lat": 34.696659,
+      "lng": 5.687718
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace202",
+      "@type": "Place",
+      "label": "Ad Duo Flumine",
+      "modern": "Foum",
+      "lat": 34.831410,
+      "lng": 5.916248
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace203",
+      "@type": "Place",
+      "label": "Ad Calceum Herculis",
+      "modern": "El Haouch",
+      "lat": 34.566069,
+      "lng": 6.049671
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace204",
+      "@type": "Place",
+      "label": "Ad Aquas Herculis",
+      "lat": 34.690613,
+      "lng": 6.242160,
+      "symbol": "C2"
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace207",
+      "@type": "Place",
+      "label": "Mesar Filia",
+      "modern": "Meziraa",
+      "lat": 34.716714,
+      "lng": 6.290272
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace208",
+      "@type": "Place",
+      "label": "Ad Piscinam",
+      "modern": "Djemina",
+      "lat": 34.952297,
+      "lng": 6.407091
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace209",
+      "@type": "Place",
+      "label": "Gemellas",
+      "modern": "Channaoura",
+      "lat": 35.160899,
+      "lng": 6.341170
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace210",
+      "@type": "Place",
+      "label": "Thabudeos",
+      "classic": "Thoubouna",
+      "modern": "Bouhmama",
+      "lat": 35.293806,
+      "lng": 6.733064
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace211",
+      "@type": "Place",
+      "label": "Badias",
+      "Classic": "P(e/ai)pia",
+      "modern": "Babar",
+      "lat": 35.164801,
+      "lng": 7.106800
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace212",
+      "@type": "Place",
+      "label": "Ad Medias",
+      "modern": "El Mezerra",
+      "lat": 35.063032,
+      "lng": 7.574017
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace213",
+      "@type": "Place",
+      "label": "Ad Maiores",
+      "modern": "Magen Al-Qawasmiyah",
+      "lat": 35.053313,
+      "lng": 8.133723
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace214",
+      "@type": "Place",
+      "label": "Ubaha Castellu.",
+      "modern": "El Ma Labiodh",
+      "lat": 35.205408,
+      "lng": 8.171158
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace216",
+      "@type": "Place",
+      "label": "Ad Palmam",
+      "modern": "Firyanah",
+      "lat": 34.935686,
+      "lng": 8.571863
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace229",
+      "@type": "Place",
+      "label": "Alonianū",
+      "modern": "Dar L'ouni",
+      "lat": 34.838708,
+      "lng": 8.343972
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace215",
+      "@type": "Place",
+      "label": "Theleote colonia",
+      "modern": "Thelepte",
+      "lat": 34.971996,
+      "lng": 8.599797,
+      "symbol": "Aa9"
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace217",
+      "@type": "Place",
+      "label": "Vico Gemellas",
+      "modern": "Ksir Sidi Aich",
+      "lat": 34.733363,
+      "lng": 8.786005
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace218",
+      "@type": "Place",
+      "label": "Capsa",
+      "classic": "An(u/oi)gath",
+      "modern": "Gafsa",
+      "lat": 34.416284,
+      "lng": 8.72042,
+      "symbol": "Ac1"
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace220",
+      "@type": "Place",
+      "label": "Presidi Diolele",
+      "modern": "Ed Doghra",
+      "lat": 34.472555,
+      "lng": 8.520551
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace221",
+      "@type": "Place",
+      "label": "Ad Pretorium",
+      "classic": "(C/B)araros",
+      "modern": "Umm Al Arais",
+      "lat": 34.490314,
+      "lng": 8.259546
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace223",
+      "@type": "Place",
+      "label": "Cerva",
+      "modern": "Ain El Karma",
+      "lat": 34.389109,
+      "lng": 7.957986
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace230",
+      "@type": "Place",
+      "label": "Ad Turres",
+      "classic": "Thasart(h)e",
+      "modern": "Tozeur",
+      "lat": 33.914083,
+      "lng": 8.142034
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace231",
+      "@type": "Place",
+      "label": "Speculum",
+      "modern": "Bechri",
+      "lat": 33.785901,
+      "lng": 8.771217
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace232",
+      "@type": "Place",
+      "label": "Thiges",
+      "modern": "Ebness",
+      "lat": 33.676290,
+      "lng": 8.877686
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace233",
+      "@type": "Place",
+      "label": "Thusurus",
+      "modern": "El Frouar",
+      "lat": 33.463177,
+      "lng": 9.025376
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace234",
+      "@type": "Place",
+      "label": "Aggar Selnepte",
+      "classic": "Afasluperia",
+      "modern": "Ghilane",
+      "lat": 33.001045,
+      "lng": 9.616230
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace235",
+      "@type": "Place",
+      "label": "Agarsel",
+      "modern": "Ben Ghazial",
+      "lat": 33.250452,
+      "lng": 10.434089
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace236",
+      "@type": "Place",
+      "label": "Puteo",
+      "modern": "Beharya",
+      "lat": 33.315075,
+      "lng": 10.227376
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace238",
+      "@type": "Place",
+      "label": "Tin(h/z)unedo",
+      "modern": "Tounine",
+      "lat": 33.511263,
+      "lng": 10.145131
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace237",
+      "@type": "Place",
+      "label": "Mahatanhur",
+      "modern": "Matmata(t-Al-Qadimal)",
+      "lat": 33.544048,
+      "lng": 9.967850 
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace240",
+      "@type": "Place",
+      "label": "Timezegeri Turris",
+      "modern": "Zagrarine el Khalia",
+      "lat": 33.576309,
+      "lng": 9.945715 
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace225",
+      "@type": "Place",
+      "label": "Silesua",
+      "modern": "Site Antique de Jebel Zeraoua",
+      "lat": 33.606861,
+      "lng": 9.824897
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace226",
+      "@type": "Place",
+      "label": "Ad Aquas",
+      "modern": "Al-Hammah",
+      "lat": 33.884458,
+      "lng": 9.781790,
+      "symbol": "C18"
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace227",
+      "@type": "Place",
+      "label": "Avibus",
+      "modern": "Oudref",
+      "lat": 33.984211,
+      "lng": 9.958572
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace274",
+      "@type": "Place",
+      "label": "Asaflupeia / Afaslupeia",
+      "classic": "Aggar Selnepte",
+      "modern": "Cite Elbber",
+      "lat": 32.912989,
+      "lng": 10.434384
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace275",
+      "@type": "Place",
+      "label": "Augarmi",
+      "modern": "Ksar Daghara",
+      "lat": 32.835042,
+      "lng": 10.469717
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace277",
+      "@type": "Place",
+      "label": "Putea",
+      "modern": "Bir Morra",
+      "lat": 32.821640,
+      "lng": 11.100732
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace278",
+      "@type": "Place",
+      "label": "Laminie",
+      "modern": "Remada",
+      "lat": 32.316787,
+      "lng": 10.388789
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace279",
+      "@type": "Place",
+      "label": "Veri",
+      "modern": "Shakshuk",
+      "lat": 32.026383,
+      "lng": 11.944574
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace273",
+      "@type": "Place",
+      "label": "Martae",
+      "modern": "Al Matamir / Metameur",
+      "lat": 33.371177,
+      "lng": 10.432748
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace219",
+      "@type": "Place",
+      "label": "Ueresvos",
+      "classic": "Bouthouris",
+      "modern": "Al-Rudayyif",
+      "lat": 34.387490,
+      "lng": 8.156037
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace224",
+      "@type": "Place",
+      "label": "Thasarte",
+      "classic": "Ad Turres",
+      "modern": "Tozeur",
+      "lat": 33.914083,
+      "lng": 8.142034
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    {
+      "@id": "https://omnesviae.org/#TPPlace1",
+      "@type": "Place",
+      "label": "Rusibricari Matidis",
+      "modern": "Sahel Bouberak",
+      "lat": 36.902604,
+      "lng": 3.843804
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace3",
+      "@type": "Place",
+      "label": "Cissi Municipio ",
+      "classic": "Cissa",
+      "modern": "Issenadjene",
+      "lat":  36.885068,
+      "lng": 4.226996
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace7",
+      "@type": "Place",
+      "label": "Rusucurrv. Colonia",
+      "classic": "Rousouccorai / Rousoccorou",
+      "modern": "Akerrou",
+      "lat":  36.887771,
+      "lng": 4.405719
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace9",
+      "@type": "Place",
+      "label": "Iommio Municipio",
+      "classic": "Jomn(i/y)on",
+      "modern": "Ijermenane",
+      "lat":  36.882928,
+      "lng": 4.547767
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace10",
+      "@type": "Place",
+      "label": "Rusippisir Municipio",
+      "classic": "Rousoubeses / Rousoubirsis",
+      "modern": "Djebla(a)",
+      "lat":  36.810750,
+      "lng": 4.738297
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace11",
+      "@type": "Place",
+      "label": "Rusazu Municipium",
+      "classic": "Rousazous",
+      "modern": "Ayt Usalah",
+      "lat":  36.806575,
+      "lng": 4.787634
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace14",
+      "@type": "Place",
+      "label": "Saldas Colonia",
+      "classic": "Saldai Colonia",
+      "modern": "Tala Hiba",
+      "lat":  36.777305,
+      "lng": 4.865396,
+      "symbol": "B13"
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace22",
+      "@type": "Place",
+      "label": "Muztubio Horreta",
+      "modern": "Boutahar",
+      "lat":  36.641486,
+      "lng": 5.193855
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace24",
+      "@type": "Place",
+      "label": "Choba"
+      "classic": "Chobat(h)",
+      "modern": "Chorfa/Cheurfa",
+      "lat": 36.442812,
+      "lng": 5.469450
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace26",
+      "@type": "Place",
+      "label": "Igilgili",
+      "classic": "Igilgil(e)(i)",
+      "modern": "Jijel",
+      "lat": 36.822957,
+      "lng": 5.771778,
+      "symbol": "Ac1"
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace28",
+      "@type": "Place",
+      "label": "Paccianis Matihs",
+      "modern": "Belghimouz",
+      "lat":  36.816262,
+      "lng": 6.1323
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace29",
+      "@type": "Place",
+      "label": "Chullu",
+      "modern": "Collo",
+      "lat":  37.004715,
+      "lng": 6.564147
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace30",
+      "@type": "Place",
+      "label": "Rsicade.Colonia",
+      "classic": "Rousicada Colonia",
+      "modern": "Skikda",
+      "lat":  36.861565,
+      "lng": 6.909399,
+      "symbol": "Aa6"
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace31",
+      "@type": "Place",
+      "label": "Paratianis",
+      "modern": "Paratianis la cite Enterree",
+      "lat":  36.916954,
+      "lng": 7.156912
+    },
+    {
+      "@id": "https://omnesviae.org/#OVPlace",
+      "@type": "Place",
+      "label": "Culucitani",
+      "modern": "Cherka",
+      "lat": 36.953993,
+      "lng": 7.257469
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace33",
+      "@type": "Place",
+      "label": "Zaca",
+      "modern": "Zgaa",
+      "lat": 37.048730,
+      "lng": 7.339167
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace34",
+      "@type": "Place",
+      "label": "Muzarur",
+      "modern": "Fedzh-Madaiur",
+      "lat":  36.849929,
+      "lng": 7.506978
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace35",
+      "@type": "Place",
+      "label": "Tacatua",
+      "modern": "Tacha",
+      "lat":  36.847699,
+      "lng": 7.425748
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace36",
+      "@type": "Place",
+      "label": "Subluev",
+      "modern": "Sellami",
+      "lat":  36.764723°,
+      "lng": 7.401777
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace37",
+      "@type": "Place",
+      "label": "Hippone Regio",
+      "modern": "Annaba",
+      "lat":  36.898082,
+      "lng": 7.754971,
+      "symbol": "Aa23"
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace46",
+      "@type": "Place",
+      "label": "Ubus river",
+      "modern": "Oued Seybouse",
+      "lat":  36.825116,
+      "lng": 7.756289
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace47",
+      "@type": "Place",
+      "label": "Armoniacum river",
+      "modern": "Oued Bou Namoussa",
+      "lat":  36.832392,
+      "lng": 7.961351
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace48_a",
+      "@type": "Place",
+      "label": "🏚",
+      "modern": "Er Rirhia",
+      "lat":  36.858516,
+      "lng": 8.235670,
+      "symbol": "B30"
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace49",
+      "@type": "Place",
+      "label": "Tuniha",
+      "modern": "(Meshta/Foret De) Tonga",
+      "lat":  36.882925,
+      "lng": 8.490663
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace50",
+      "@type": "Place",
+      "label": "Cabraca",
+      "classic": "Thabraca Colonia",
+      "modern": "Tabarka",
+      "lat":  36.949897,
+      "lng": 8.757805
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace52",
+      "@type": "Place",
+      "label": "Ipponte Diarito",
+      "classic": "Hippon Diarrytos",
+      "modern": "Bizerte",
+      "lat":  37.267866,
+      "lng": 9.871139,
+      "symbol": "Ac1"
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace53",
+      "@type": "Place",
+      "label": "Tunisa",
+      "classic": "Thounoustha",
+      "modern": "Tinjah",
+      "lat":  37.152429,
+      "lng": 9.779772
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace54",
+      "@type": "Place",
+      "label": "Memblone",
+      "modern": "",
+      "lat":  37.090355,
+      "lng": 9.950504
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace55",
+      "@type": "Place",
+      "label": "Utica",
+      "classic": Ituca,
+      "modern": "Utica Archaeological Park",
+      "lat": 37.052046,
+      "lng": 10.057602,
+      "symbol": "Ab6"
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace56",
+      "@type": "Place",
+      "label": "Gallum Gallinatium",
+      "modern": "(La Sabela du) Kammoun",
+      "lat":  36.941203,
+      "lng": 10.089995
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace60",
+      "@type": "Place",
+      "label": "Chartagine",
+      "classic": "Karthago / Charchedon",
+      "modern": "Carthage",
+      "lat":  36.844700,
+      "lng": 10.325369,
+      "symbol": "Ab1"
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+      "@id": "https://omnesviae.org/#TPPlace241",
+      "@type": "Place",
+      "label": "Thuni",
+      "classic": "Thinissa",
+      "modern": "Tunis",
+      "lat":  36.799435,
+      "lng": 10.189373
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace144",
+      "@type": "Place",
+      "label": "Maxula",
+      "classic": "Maxoula",
+      "modern": "Al Makhzan",
+      "lat":  36.859630,
+      "lng": 10.736353,
+      "symbol": "Aa1"
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace242",
+      "@type": "Place",
+      "label": "Ad Aquas",
+      "modern": "Ad Damus",
+      "lat":  36.768577,
+      "lng": 10.729587,
+      "symbol": "C22"
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace243",
+      "@type": "Place",
+      "label": "Ad Mercurium",
+      "modern": "Couried El Mgaiez",
+      "lat": 36.934109,
+      "lng": 10.867258
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace244",
+      "@type": "Place",
+      "label": "Vinavicus",
+      "modern": "Beni Khira",
+      "lat": 36.998292,
+      "lng": 10.927376
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace245",
+      "@type": "Place",
+      "label": "Siagu",
+      "classic": "Siagoul",
+      "modern": "Sidi Madhkour",
+      "lat": 36.995071,
+      "lng": 11.033557
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace246",
+      "@type": "Place",
+      "label": "Pudput",
+      "modern": "ElFoth",
+      "lat": 37.023697,
+      "lng": 10.989151
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace248",
+      "@type": "Place",
+      "label": "Neapoli",
+      "classic": "Neapolis",
+      "modern": "Bouhbib",
+      "lat": 37.026576,
+      "lng": 11.012551
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace250",
+      "@type": "Place",
+      "label": "Misua",
+      "classic": "(N/M)isoua",
+      "modern": "Bourj Essalhi",
+      "lat": 37.031135,
+      "lng": 10.915729
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace249",
+      "@type": "Place",
+      "label": "Clypeis",
+      "classic": "Clypea / Aspis",
+      "modern": "Ras Ed Drek",
+      "lat": 37.070981,
+      "lng": 11.040381,
+      "symbol": "Aa1"
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace247",
+      "@type": "Place",
+      "label": "Lamniana",
+      "classic": "Almaina",
+      "modern": "Dj Al Hammam",
+      "lat": 37.032802,
+      "lng": 10.973055
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace251",
+      "@type": "Place",
+      "label": "Cubin",
+      "modern": "Abene",
+      "lat": 36.986306,
+      "lng": 10.982827
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace252",
+      "@type": "Place",
+      "label": "Orbita",
+      "modern": "Kerkouane",
+      "lat": 36.946161,
+      "lng": 11.099386
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace254",
+      "@type": "Place",
+      "label": "Horrea",
+      "classic": "Kour(a/o)bis"
+      "modern": "Hawaria",
+      "lat": 37.035751,
+      "lng": 11.055381,
+      "symbol": "C12"
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace150",
+      "@type": "Place",
+      "label": "Hadrito",
+      "classic": "Adroumetos Colonia",
+      "modern": "Ezzahra",
+      "lat": 36.895161,
+      "lng": 11.088341,
+      "symbol": "Aa29"
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace256",
+      "@type": "Place",
+      "label": "Lepteminus",
+      "classic": "Leptis micra",
+      "modern": "Lebha",
+      "lat": 36.713782,
+      "lng": 10.941652,
+      "symbol": "Aa31"
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace261",
+      "@type": "Place",
+      "label": "Tapsum",
+      "classic": "Thapsos",
+      "modern": "Ksar Saad",
+      "lat": 36.647669,
+      "lng": 10.909922
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace259",
+      "@type": "Place",
+      "label": "Sullech",
+      "modern": "Tazerka",
+      "lat": 36.540509,
+      "lng": 10.841131
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace263",
+      "@type": "Place",
+      "label": "aHolla",
+      "classic": "Achola",
+      "modern": "Ben Khiar",
+      "lat": 36.459262,
+      "lng": 10.782192
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace264",
+      "@type": "Place",
+      "label": "Ruspe",
+      "classic": "Rouspe / Rouspai",
+      "modern": "Bir Bou Rekba",
+      "lat": 36.429743,
+      "lng": 10.586464
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace262",
+      "@type": "Place",
+      "label": "Vsillam Municipium",
+      "classic": "Rousilla",
+      "modern": "Salloun",
+      "lat": 36.280773,
+      "lng": 10.479027
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace265",
+      "@type": "Place",
+      "label": "Taparura",
+      "classic": "Taphroura",
+      "modern": "Sidi Ameur",
+      "lat": 35.736082,
+      "lng": 10.702873,
+      "symbol": "Aa30"
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace267",
+      "@type": "Place",
+      "label": "Macomades Minores",
+      "classic": "Macomada",
+      "modern": "Mahdia",
+      "lat": 35.500345,
+      "lng": 11.056173
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace268",
+      "@type": "Place",
+      "label": "Oleastrum",
+      "classic": "Eooa",
+      "modern": "La Laouata",
+      "lat": 35.049531,
+      "lng": 11.002652
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace269",
+      "@type": "Place",
+      "label": "Presidio Siluani",
+      "modern": "Souhani",
+      "lat": 34.310607,
+      "lng": 10.016689
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace270",
+      "@type": "Place",
+      "label": "Lacene",
+      "modern": "Zakhoumet els-Ouesfan",
+      "lat": 34.208646,
+      "lng": 9.983071
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace271",
+      "@type": "Place",
+      "label": "Ad Palmam",
+      "modern": "Akarit",
+      "lat": 34.109461,
+      "lng": 9.975808
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace228",
+      "@type": "Place",
+      "label": "Tacape Col.",
+      "classic": "Tacape",
+      "modern": "Gabes",
+      "lat": 33.888642,
+      "lng": 10.093712,
+      "symbol": "Aa28"
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace272",
+      "@type": "Place",
+      "label": "Fulgurita",
+      "modern": "Boughrara",
+      "lat": 33.538874,
+      "lng": 10.674127
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace3016",
+      "@type": "Place",
+      "label": "Girba",
+      "modern": "Groua",
+      "lat": 33.807565,
+      "lng": 10.792797
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace3017",
+      "@type": "Place",
+      "label": "Tipasa",
+      "modern": "Djerba Ajim",
+      "lat": 33.731083,
+      "lng": 10.760948
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace3017_a",
+      "@type": "Place",
+      "label": "Haribus",
+      "modern": "El Khawi",
+      "lat": 33.734044,
+      "lng": 10.840331
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace3017_b",
+      "@type": "Place",
+      "label": "Uchium",
+      "modern": "Oumt Souk",
+      "lat": 33.874411,
+      "lng": 10.860167
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace280",
+      "@type": "Place",
+      "label": "Templ. Ueneris",
+      "modern": "Temlel",
+      "lat": 33.797883,
+      "lng": 11.019290,
+      "symbol": "B12"
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace281",
+      "@type": "Place",
+      "label": "Gigri",
+      "classic": "Gi(ch)this",
+      "modern": "Gribis",
+      "lat": 33.550466,
+      "lng": 10.988837
+    },
+    {
+      "@id": "https://omnesviae.org/#TPPlace282",
+      "@type": "Place",
+      "label": "Ziza Municipium",
+      "modern": "Jedaria",
+      "lat": 33.297646,
+      "lng": 11.244362
+    }
+
+
+
+  ]
+}
