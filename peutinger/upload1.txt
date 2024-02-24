@@ -19,6 +19,51 @@
   } ,
   "@graph": [
 
+
+
+/* MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+
+
+      "modern": "",
+
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM*/
+
+ 
+
+
     {
       "@id": "https://omnesviae.org/#OVPlace550",
       "@type": "Place",
@@ -342,7 +387,7 @@
       "lng": 9.726617
     },
     {
-      "@id": "https://omnesviae.org/#"TPPlace134"",
+      "@id": "https://omnesviae.org/#TPPlace134",
       "@type": "Place",
       "label": "Vallis",
       "modern": "Jabal Azeiz",
@@ -408,8 +453,7 @@
       "symbol": "B17"
     },
     {
-      "@id": "https://omnesviae.org/#TPPlace139
-pertv",
+      "@id": "https://omnesviae.org/#TPPlace139",
       "@type": "Place",
       "label": "Ad Pertussa",
       "modern": "Cite El Mechtel",
@@ -496,7 +540,7 @@ pertv",
       "lng": 5.994185
     },
     {
-      "@id": "https://omnesviae.org/#OVPlace",
+      "@id": "https://omnesviae.org/#TPPlace3518",
       "@type": "Place",
       "label": "Buduxi",
       "modern": "Berteaux",
@@ -504,7 +548,7 @@ pertv",
       "lng": 6.468012
     },
     {
-      "@id": "https://omnesviae.org/#OVPlace",
+      "@id": "https://omnesviae.org/#TPPlace3519",
       "@type": "Place",
       "label": "Sigus",
       "modern": "Sigus",
@@ -512,7 +556,7 @@ pertv",
       "lng": 6.775313
     },
     {
-      "@id": "https://omnesviae.org/#OVPlace",
+      "@id": "https://omnesviae.org/#TPPlace3521",
       "@type": "Place",
       "label": "Tenebreste",
       "modern": "Timarsitine",
@@ -520,7 +564,7 @@ pertv",
       "lng": 7.086468
     },
     {
-      "@id": "https://omnesviae.org/#OVPlace",
+      "@id": "https://omnesviae.org/#TPPlace160",
       "@type": "Place",
       "label": "Ad Centenariu.",
       "modern": "Oued Zenati",
@@ -528,7 +572,7 @@ pertv",
       "lng": 7.165221
     },
     {
-      "@id": "https://omnesviae.org/#OVPlace",
+      "@id": "https://omnesviae.org/#TPPlace3523",
       "@type": "Place",
       "label": "Ad Rubras",
       "modern": "Medjez Amar",
@@ -536,7 +580,7 @@ pertv",
       "lng": 7.313036
     },
     {
-      "@id": "https://omnesviae.org/#OVPlace",
+      "@id": "https://omnesviae.org/#TPPlace16",
       "@type": "Place",
       "label": "Tigisi",
       "modern": "Bordzh-El'-Khadzh-Takhar",
@@ -544,7 +588,7 @@ pertv",
       "lng": 7.073901
     },
     {
-      "@id": "https://omnesviae.org/#OVPlace",
+      "@id": "https://omnesviae.org/#TPPlace108",
       "@type": "Place",
       "label": "Castellum Sabatianum",
       "modern": "Meshta-Besbesa",
@@ -552,15 +596,7 @@ pertv",
       "lng": 7.345625
     },
     {
-      "@id": "https://omnesviae.org/#OVPlace",
-      "@type": "Place",
-      "label": "Castellum Sabatianum",
-      "modern": "Guellat Bou Sbaa",
-      "lat": 36.546613,
-      "lng": 7.470996
-    },
-    {
-      "@id": "https://omnesviae.org/#OVPlace",
+      "@id": "https://omnesviae.org/#TPPlace109",
       "@type": "Place",
       "label": "Thibili",
       "modern": "Ain Touila",
@@ -568,7 +604,7 @@ pertv",
       "lng": 7.874172
     },
     {
-      "@id": "https://omnesviae.org/#OVPlace",
+      "@id": "https://omnesviae.org/#TPPlace110",
       "@type": "Place",
       "label": "Capraria",
       "modern": "Kebouda",
@@ -584,7 +620,7 @@ pertv",
 
 
     {
-      "@id": "https://omnesviae.org/#OVPlace",
+      "@id": "https://omnesviae.org/#TPPlace3525",
       "@type": "Place",
       "label": "Ad Lapidem Baium",
       "modern": "Laabidi",
@@ -592,7 +628,7 @@ pertv",
       "lng": 7.593671
     },
     {
-      "@id": "https://omnesviae.org/#OVPlace",
+      "@id": "https://omnesviae.org/#TPPlace3524TPPlace3526",
       "@type": "Place",
       "label": "Gasaupola",
       "modern": "Ga Guelma",
@@ -600,7 +636,7 @@ pertv",
       "lng": 7.422059
     },
     {
-      "@id": "https://omnesviae.org/#OVPlace",
+      "@id": "https://omnesviae.org/#TPPlace3526",
       "@type": "Place",
       "label": "Fonte Potamiano",
       "modern": "Roman bath (Roman ruins)",
@@ -608,7 +644,7 @@ pertv",
       "lng": 7.534745
     },
     {
-      "@id": "https://omnesviae.org/#OVPlace",
+      "@id": "https://omnesviae.org/#TPPlace3527",
       "@type": "Place",
       "label": "Magri",
       "classic": "Mireon",
@@ -617,7 +653,7 @@ pertv",
       "lng": 7.639490
     },
     {
-      "@id": "https://omnesviae.org/#OVPlace",
+      "@id": "https://omnesviae.org/#TPPlace3528",
       "@type": "Place",
       "label": "Rustici",
       "modern": "Meshtat El Madjene",
@@ -625,7 +661,7 @@ pertv",
       "lng": 7.657968
     },
     {
-      "@id": "https://omnesviae.org/#OVPlace",
+      "@id": "https://omnesviae.org/#TPPlace3529",
       "@type": "Place",
       "label": "Ad Pisinas",
       "modern": "Bordiel El Hassane",
@@ -633,7 +669,7 @@ pertv",
       "lng": 7.683618
     },
     {
-      "@id": "https://omnesviae.org/#OVPlace",
+      "@id": "https://omnesviae.org/#TPPlace3530",
       "@type": "Place",
       "label": "Velesi",
       "modern": "Cite Moussa Lahouasnia",
@@ -641,7 +677,7 @@ pertv",
       "lng": 7.821726
     },
     {
-      "@id": "https://omnesviae.org/#OVPlace",
+      "@id": "https://omnesviae.org/#TPPlace3531",
       "@type": "Place",
       "label": "(V/M)atari",
       "classic": "Madaura",
@@ -650,7 +686,7 @@ pertv",
       "lng": 7.902164
     },
     {
-      "@id": "https://omnesviae.org/#OVPlace",
+      "@id": "https://omnesviae.org/#TPPlace3532",
       "@type": "Place",
       "label": "Vico Valeriani ",
       "classic": "Lares",
@@ -659,7 +695,7 @@ pertv",
       "lng": 7.948580
     },
     {
-      "@id": "https://omnesviae.org/#OVPlace",
+      "@id": "https://omnesviae.org/#TPPlace3533",
       "@type": "Place",
       "label": "Arualla",
       "modern": "Ouillen",
@@ -667,7 +703,7 @@ pertv",
       "lng": 8.066111
     },
     {
-      "@id": "https://omnesviae.org/#OVPlace",
+      "@id": "https://omnesviae.org/#TPPlace3534",
       "@type": "Place",
       "label": "Sibus",
       "modern": "Meshta-El'-Asaba",
@@ -675,7 +711,7 @@ pertv",
       "lng": 8.188191
     },
     {
-      "@id": "https://omnesviae.org/#OVPlace",
+      "@id": "https://omnesviae.org/#TPPlace3535",
       "@type": "Place",
       "label": "Flacciana",
       "modern": "Sidi Salakh",
@@ -689,7 +725,7 @@ pertv",
 
 
     {
-      "@id": "https://omnesviae.org/#OVPlace",
+      "@id": "https://omnesviae.org/#TPPlace3537",
       "@type": "Place",
       "label": "Vasampus",
       "classic": "Azama",
@@ -698,7 +734,7 @@ pertv",
       "lng": 8.340818
     },
     {
-      "@id": "https://omnesviae.org/#OVPlace",
+      "@id": "https://omnesviae.org/#TPPlace3536",
       "@type": "Place",
       "label": "Fl(a/u)via Marci",
       "modern": "Mellègue/Mallāq river",
@@ -706,7 +742,7 @@ pertv",
       "lng": 8.136634
     },
     {
-      "@id": "https://omnesviae.org/#OVPlace",
+      "@id": "https://omnesviae.org/#TPPlace3538",
       "@type": "Place",
       "label": "Mova",
       "modern": "Amor-Moara",
@@ -723,7 +759,7 @@ pertv",
 
 
     {
-      "@id": "https://omnesviae.org/#OVPlace",
+      "@id": "https://omnesviae.org/#TPPlace140",
       "@type": "Place",
       "label": "Risea",
       "modern": "Sidi Rahal",
@@ -731,15 +767,7 @@ pertv",
       "lng": 9.388020
     },
     {
-      "@id": "https://omnesviae.org/#OVPlace",
-      "@type": "Place",
-      "label": "[Name missing]",
-      "modern": "Sidi Aouidette/Oueidat",
-      "lat": 36.222648,
-      "lng": 9.753149
-    },
-    {
-      "@id": "https://omnesviae.org/#OVPlace",
+      "@id": "https://omnesviae.org/#TPPlace141",
       "@type": "Place",
       "label": "Auitta",
       "modern": "Henchir Bent el-Bey",
@@ -747,7 +775,7 @@ pertv",
       "lng": 9.856808
     },
     {
-      "@id": "https://omnesviae.org/#OVPlace",
+      "@id": "https://omnesviae.org/#TPPlace137",
       "@type": "Place",
       "label": "Thuburbomaius",
       "classic": "Thoubourbo",
@@ -756,7 +784,7 @@ pertv",
       "lng": 9.906877
     },
     {
-      "@id": "https://omnesviae.org/#OVPlace",
+      "@id": "https://omnesviae.org/#TPPlace142",
       "@type": "Place",
       "label": "Onellana",
       "modern": "Moghrane",
@@ -764,7 +792,7 @@ pertv",
       "lng": 10.087463
     },
     {
-      "@id": "https://omnesviae.org/#OVPlace",
+      "@id": "https://omnesviae.org/#TPPlace143",
       "@type": "Place",
       "label": "Uthica",
       "classic": "Outhina",
@@ -797,7 +825,7 @@ pertv",
       "symbol": "Aa6"
     },
     {
-      "@id": "https://omnesviae.org/#OVPlace",
+      "@id": "https://omnesviae.org/#TPPlace183",
       "@type": "Place",
       "label": "Mutia",
       "modern": "Mahjouba",
@@ -805,23 +833,23 @@ pertv",
       "lng": 8.499568
     },
     {
-      "@id": "https://omnesviae.org/#OVPlace",
+      "@id": "https://omnesviae.org/#TPPlace186",
       "@type": "Place",
-      "label": "Larabue",
+      "label": "Larabus",
       "modern": "Equi Lorbeuss",
       "lat": 36.097265,
       "lng": 8.941148
     },
     {
-      "@id": "https://omnesviae.org/#OVPlace",
+      "@id": "https://omnesviae.org/#TPPlace185",
       "@type": "Place",
-      "label": "Orba",
+      "label": "Obba",
       "modern": "Swari Abida",
       "lat": 35.978241,
       "lng": 8.754140
     },
     {
-      "@id": "https://omnesviae.org/#OVPlace",
+      "@id": "https://omnesviae.org/#TPPlace184",
       "@type": "Place",
       "label": "Alturburos",
       "modern": "Alturburos site",
@@ -829,7 +857,7 @@ pertv",
       "lng": 8.783177
     },
     {
-      "@id": "https://omnesviae.org/#OVPlace",
+      "@id": "https://omnesviae.org/#TPPlace187",
       "@type": "Place",
       "label": "Altessera",
       "modern": "Maktar",
@@ -837,7 +865,7 @@ pertv",
       "lng": 9.197346
     },
     {
-      "@id": "https://omnesviae.org/#OVPlace",
+      "@id": "https://omnesviae.org/#TPPlace188",
       "@type": "Place",
       "label": "Assures",
       "modern": "El Ksour",
@@ -845,7 +873,7 @@ pertv",
       "lng": 9.346573
     },
     {
-      "@id": "https://omnesviae.org/#OVPlace",
+      "@id": "https://omnesviae.org/#TPPlace189",
       "@type": "Place",
       "label": "Zamareigia",
       "classic": "Zamamizon / Zama Meizon",
@@ -854,7 +882,7 @@ pertv",
       "lng": 9.511961
     },
     {
-      "@id": "https://omnesviae.org/#OVPlace",
+      "@id": "https://omnesviae.org/#TPPlace190",
       "@type": "Place",
       "label": "Seggo",
       "classic": "Zigira",
@@ -863,7 +891,7 @@ pertv",
       "lng": 9.826123
     },
     {
-      "@id": "https://omnesviae.org/#OVPlace",
+      "@id": "https://omnesviae.org/#TPPlace191",
       "@type": "Place",
       "label": "Auula",
       "modern": "Kairouan",
@@ -871,7 +899,7 @@ pertv",
       "lng": 10.097144
     },
     {
-      "@id": "https://omnesviae.org/#OVPlace",
+      "@id": "https://omnesviae.org/#TPPlace192",
       "@type": "Place",
       "label": "Autipsidam",
       "modern": "Chrit Alsaaidit (ألسعأيدية))",
@@ -879,7 +907,7 @@ pertv",
       "lng": 10.070691
     },
     {
-      "@id": "https://omnesviae.org/#OVPlace",
+      "@id": "https://omnesviae.org/#TPPlace193",
       "@type": "Place",
       "label": "Uhappa",
       "classic": "Hydata Therma",
@@ -888,7 +916,7 @@ pertv",
       "lng": 10.010284
     },
     {
-      "@id": "https://omnesviae.org/#OVPlace",
+      "@id": "https://omnesviae.org/#TPPlace194",
       "@type": "Place",
       "label": "Manange",
       "modern": "Jebel Mennchar",
@@ -896,7 +924,7 @@ pertv",
       "lng": 10.483602
     },
     {
-      "@id": "https://omnesviae.org/#OVPlace",
+      "@id": "https://omnesviae.org/#TPPlace195",
       "@type": "Place",
       "label": "Aggaar",
       "classic": "Agar / Aud[j]eira",
@@ -905,7 +933,7 @@ pertv",
       "lng": 10.550898
     },
     {
-      "@id": "https://omnesviae.org/#OVPlace",
+      "@id": "https://omnesviae.org/#TPPlace196",
       "@type": "Place",
       "label": "Aquas Regias",
       "modern": "Ain Kmicha",
@@ -913,7 +941,7 @@ pertv",
       "lng": 10.662233
     },
     {
-      "@id": "https://omnesviae.org/#OVPlace",
+      "@id": "https://omnesviae.org/#TPPlace197",
       "@type": "Place",
       "label": "Terento",
       "modern": "Chorfine",
@@ -921,7 +949,7 @@ pertv",
       "lng": 10.702213
     },
     {
-      "@id": "https://omnesviae.org/#OVPlace",
+      "@id": "https://omnesviae.org/#TPPlace198",
       "@type": "Place",
       "label": "Aeliae",
       "classic": "Leai",
@@ -930,7 +958,7 @@ pertv",
       "lng": 10.827389
     },
     {
-      "@id": "https://omnesviae.org/#OVPlace",
+      "@id": "https://omnesviae.org/#TPPlace16",
       "@type": "Place",
       "label": "Tigisi",
       "classic": "Tigis",
@@ -939,32 +967,33 @@ pertv",
       "lng": 4.281991
     },
     {
-      "@id": "https://omnesviae.org/#OVPlace",
+      "@id": "https://omnesviae.org/#TPPlace18",
       "@type": "Place",
       "label": "Syda Municipium",
-      "modern": "Idjeur",
-      "lat": 36.667663,
-      "lng": 4.512882
+      "modern": "Ait Saada",
+      "lat": 36.529169,
+      "lng": 4.280738
     },
     {
       "@id": "https://omnesviae.org/#OVPlace",
       "@type": "Place",
-      "label": "Buhas",
+      "label": "Buza",
       "classic": "Bida/Beda/Boeda",
-      "modern": "Kebouche",
-      "lat": 36.696097,
-      "lng": 4.62788
+      "modern": "Bouz(e)guen(e)",
+      "lat": 36.617819,
+      "lng": 4.481454
     },
     {
-      "@id": "https://omnesviae.org/#OVPlace",
+      "@id": "https://omnesviae.org/#TPPlace90",
       "@type": "Place",
       "label": "Chulcul Colonia",
       "modern": "El Kseur",
       "lat":  36.679849,
-      "lng": 4.858850
+      "lng": 4.858850,
+    "symbol": "Ac1"
     },
     {
-      "@id": "https://omnesviae.org/#OVPlace",
+      "@id": "https://omnesviae.org/#TPPlace94",
       "@type": "Place",
       "label": "Mopti Municipium",
       "modern": "Beni Mouhli",
@@ -972,7 +1001,7 @@ pertv",
       "lng": 4.911269
     },
     {
-      "@id": "https://omnesviae.org/#OVPlace",
+      "@id": "https://omnesviae.org/#TPPlace314",
       "@type": "Place",
       "label": "Ad Ficum",
       "modern": "Fitchou",
@@ -980,7 +1009,7 @@ pertv",
       "lng": 5.215410
     },
     {
-      "@id": "https://omnesviae.org/#OVPlace",
+      "@id": "https://omnesviae.org/#TPPlace96",
       "@type": "Place",
       "label": "Ad Basilica",
       "modern": "Tizi N'Bechar",
@@ -988,15 +1017,15 @@ pertv",
       "lng": 5.348186
     },
     {
-      "@id": "https://omnesviae.org/#OVPlace",
+      "@id": "https://omnesviae.org/#TPPlace38",
       "@type": "Place",
       "label": "Hedibus",
-      "modern": "Bissy",
+      "modern": "Azzaba",
       "lat":  36.767456,
       "lng": 7.019604
     },
     {
-      "@id": "https://omnesviae.org/#OVPlace",
+      "@id": "https://omnesviae.org/#TPPlace40",
       "@type": "Place",
       "label": "Ad Plumbaria",
       "modern": "Hashassia",
@@ -1004,7 +1033,7 @@ pertv",
       "lng": 7.500162
     },
     {
-      "@id": "https://omnesviae.org/#OVPlace",
+      "@id": "https://omnesviae.org/#TPPlace62",
       "@type": "Place",
       "label": "Odiana",
       "modern": "Meshta-Rmel'-Dokhan",
@@ -1031,7 +1060,7 @@ pertv",
       "symbol": "Aa1"
     },
     {
-      "@id": "https://omnesviae.org/#OVPlace",
+      "@id": "https://omnesviae.org/#TPPlace66",
       "@type": "Place",
       "label": "Bulla Regia",
       "modern": "Bulla Regia",
@@ -1039,7 +1068,7 @@ pertv",
       "lng": 8.754310
     },
     {
-      "@id": "https://omnesviae.org/#OVPlace",
+      "@id": "https://omnesviae.org/#TPPlace67",
       "@type": "Place",
       "label": "Ad Silma",
       "modern": "Bou Salem",
@@ -1047,7 +1076,7 @@ pertv",
       "lng": 8.968477
     },
     {
-      "@id": "https://omnesviae.org/#OVPlace",
+      "@id": "https://omnesviae.org/#TPPlace69",
       "@type": "Place",
       "label": "Armasela river",
       "modern": "Majerda River ",
@@ -1055,15 +1084,15 @@ pertv",
       "lng": 9.197255
     },
     {
-      "@id": "https://omnesviae.org/#OVPlace",
+      "@id": "https://omnesviae.org/#TPPlace71",
       "@type": "Place",
-      "label": "Houis Aquilianis",
+      "label": "Novis Aquilianis",
       "modern": "Hanshir Bin Khalladiyah",
       "lat": 36.575306,
       "lng": 9.245712
     },
     {
-      "@id": "https://omnesviae.org/#OVPlace",
+      "@id": "https://omnesviae.org/#TPPlace72",
       "@type": "Place",
       "label": "Picus",
       "modern": "Thibar(is)",
@@ -1071,7 +1100,7 @@ pertv",
       "lng": 9.082826
     },
     {
-      "@id": "https://omnesviae.org/#OVPlace",
+      "@id": "https://omnesviae.org/#TPPlace73",
       "@type": "Place",
       "label": "Vico Augusti",
       "modern": "Uchi Maius",
@@ -1079,7 +1108,7 @@ pertv",
       "lng": 9.084021
     },
     {
-      "@id": "https://omnesviae.org/#OVPlace",
+      "@id": "https://omnesviae.org/#TPPlace74",
       "@type": "Place",
       "label": "Teglara",
       "classic": "Tighica",
@@ -1088,7 +1117,7 @@ pertv",
       "lng": 9.218392
     },
     {
-      "@id": "https://omnesviae.org/#OVPlace",
+      "@id": "https://omnesviae.org/#TPPlace75",
       "@type": "Place",
       "label": "Elephantaria",
       "modern": "Sloughia",
@@ -1096,16 +1125,16 @@ pertv",
       "lng": 9.511861
     },
     {
-      "@id": "https://omnesviae.org/#OVPlace",
+      "@id": "https://omnesviae.org/#TPPlace76",
       "@type": "Place",
-      "label": "Coucar",
+      "label": "Clucar",
       "classic": "Coulcoua Colonia",
       "modern": "Cincari",
       "lat":  36.711258,
       "lng": 9.542856
     },
     {
-      "@id": "https://omnesviae.org/#OVPlace",
+      "@id": "https://omnesviae.org/#TPPlace77",
       "@type": "Place",
       "label": "Thuburbominus",
       "classic": "Thoubournica Colonia",
@@ -1114,7 +1143,7 @@ pertv",
       "lng": 9.839873
     },
     {
-      "@id": "https://omnesviae.org/#OVPlace",
+      "@id": "https://omnesviae.org/#TPPlace79",
       "@type": "Place",
       "label": "Cicifa",
       "classic": "Cipipa",
@@ -1123,7 +1152,7 @@ pertv",
       "lng": 10.040430
     },
     {
-      "@id": "https://omnesviae.org/#OVPlace",
+      "@id": "https://omnesviae.org/#TPPlace145",
       "@type": "Place",
       "label": "Bibae",
       "classic": "Bend(e/i)na",
@@ -1132,7 +1161,7 @@ pertv",
       "lng": 10.380097
     },
     {
-      "@id": "https://omnesviae.org/#OVPlace",
+      "@id": "https://omnesviae.org/#TPPlace146",
       "@type": "Place",
       "label": "Mediocera",
       "classic": "Medio(c)cara",
@@ -1141,7 +1170,7 @@ pertv",
       "lng": 10.533834
     },
     {
-      "@id": "https://omnesviae.org/#OVPlace",
+      "@id": "https://omnesviae.org/#TPPlace147",
       "@type": "Place",
       "label": "Aggerful",
       "classic": "Agar / Aggaar / Aggerful",
@@ -1150,9 +1179,9 @@ pertv",
       "lng": 10.780360
     },
     {
-      "@id": "https://omnesviae.org/#OVPlace",
+      "@id": "https://omnesviae.org/#TPPlace148",
       "@type": "Place",
-      "label": "Ulisippire",
+      "label": "Ulisippira",
       "classic": "Oulizibira",
       "modern": "El Kbeil",
       "lat":  36.862028,
@@ -1169,7 +1198,7 @@ pertv",
       "symbol": "Aa27"
     },
     {
-      "@id": "https://omnesviae.org/#OVPlace",
+      "@id": "https://omnesviae.org/#TPPlace257",
       "@type": "Place",
       "label": "Aviduvicus",
       "classic": "Aouidos",
@@ -1178,7 +1207,7 @@ pertv",
       "lng": 10.859602
     },
     {
-      "@id": "https://omnesviae.org/#OVPlace",
+      "@id": "https://omnesviae.org/#TPPlace258",
       "@type": "Place",
       "label": "Sassurauicus",
       "classic": "Sarsura / Sasoura",
@@ -1197,9 +1226,9 @@ pertv",
       "symbol": "Aa30"
     },
     {
-      "@id": "https://omnesviae.org/#OVPlace",
+      "@id": "https://omnesviae.org/#TPPlace260",
       "@type": "Place",
-      "label": "Batarus M.V.H.",
+      "label": "Batarus M.V.N. [Municipium]",
       "classic": "Oubata",
       "modern": "Boujrida",
       "lat":  36.605152,
@@ -1238,7 +1267,7 @@ pertv",
 
 
     {
-      "@id": "https://omnesviae.org/#OVPlace",
+      "@id": "https://omnesviae.org/#OVPlace549",
       "@type": "Place",
       "label": "Ballene praesidio",
       "modern": "Tiaret",
@@ -1271,7 +1300,7 @@ pertv",
       "lng": 3.154734
     },
     {
-      "@id": "https://omnesviae.org/#OVPlace",
+      "@id": "https://omnesviae.org/#TPPlace154",
       "@type": "Place",
       "label": "Adoculum Marinum",
       "modern": "Chellalat El Aharoura",
@@ -1279,7 +1308,7 @@ pertv",
       "lng": 3.415077
     },
     {
-      "@id": "https://omnesviae.org/#OVPlace",
+      "@id": "https://omnesviae.org/#TPPlace93",
       "@type": "Place",
       "label": "Sitifi Col.",
       "modern": "El Kern Essefia",
@@ -1287,7 +1316,7 @@ pertv",
       "lng": 3.888635
     },
     {
-      "@id": "https://omnesviae.org/#OVPlace",
+      "@id": "https://omnesviae.org/#TPPlace89",
       "@type": "Place",
       "label": "Monte",
       "modern": "Ighil Nait Mhend",
@@ -1295,7 +1324,7 @@ pertv",
       "lng": 4.14008
     },
     {
-      "@id": "https://omnesviae.org/#OVPlace",
+      "@id": "https://omnesviae.org/#TPPlace323",
       "@type": "Place",
       "label": "Ad Capsu. Mliam",
       "modern": "Ouled Mouleh",
@@ -1311,7 +1340,7 @@ pertv",
       "lng": 4.177566
     },
     {
-      "@id": "https://omnesviae.org/#OVPlace",
+      "@id": "https://omnesviae.org/#TPPlace159",
       "@type": "Place",
       "label": "Swaddurusi Psidium",
       "modern": "Beni Souid",
@@ -1319,7 +1348,7 @@ pertv",
       "lng": 4.442271
     },
     {
-      "@id": "https://omnesviae.org/#OVPlace",
+      "@id": "https://omnesviae.org/#TPPlace160",
       "@type": "Place",
       "label": "Ad Centenarium",
       "modern": "Mechta Ouled Mehaia",
@@ -1352,7 +1381,7 @@ pertv",
     "symbol": "B30"
     },
     {
-      "@id": "https://omnesviae.org/#OVPlace",
+      "@id": "https://omnesviae.org/#TPPlace164",
       "@type": "Place",
       "label": "Lampsila",
       "modern": "Ouled Sellem",
@@ -1368,7 +1397,7 @@ pertv",
       "lng": 5.085998
     },
     {
-      "@id": "https://omnesviae.org/#OVPlace",
+      "@id": "https://omnesviae.org/#TPPlace171",
       "@type": "Place",
       "label": "Thamugadi",
       "modern": "Mechta Tanhout",
@@ -1384,7 +1413,7 @@ pertv",
       "lng": 5.343287
     },
     {
-      "@id": "https://omnesviae.org/#OVPlace",
+      "@id": "https://omnesviae.org/#TPPlace172",
       "@type": "Place",
       "label": "Popleto",
       "modern": "Rahbat",
@@ -1392,7 +1421,7 @@ pertv",
       "lng": 5.643196
     },
     {
-      "@id": "https://omnesviae.org/#OVPlace",
+      "@id": "https://omnesviae.org/#TPPlace173",
       "@type": "Place",
       "label": "Liviana",
       "modern": "(Ain/Chabet) Tinibaouine",
@@ -1400,7 +1429,7 @@ pertv",
       "lng": 5.724475
     },
     {
-      "@id": "https://omnesviae.org/#OVPlace",
+      "@id": "https://omnesviae.org/#TPPlace165",
       "@type": "Place",
       "label": "Adlali",
       "modern": "Mechta Rhlalouch",
@@ -1408,7 +1437,7 @@ pertv",
       "lng": 5.977627 
     },
     {
-      "@id": "https://omnesviae.org/#OVPlace",
+      "@id": "https://omnesviae.org/#TPPlace166",
       "@type": "Place",
       "label": "Vico Aureli",
       "modern": "Douar Bouraoula",
@@ -1416,7 +1445,7 @@ pertv",
       "lng": 5.967742
     },
     {
-      "@id": "https://omnesviae.org/#OVPlace",
+      "@id": "https://omnesviae.org/#TPPlace174",
       "@type": "Place",
       "label": "Zyrnas Maseli",
       "modern": "Mechta Tadjine",
@@ -1424,7 +1453,7 @@ pertv",
       "lng": 6.240704
     },
     {
-      "@id": "https://omnesviae.org/#OVPlace",
+      "@id": "https://omnesviae.org/#TPPlace175",
       "@type": "Place",
       "label": "Ad Cahalis",
       "modern": "Khenchela",
@@ -1432,15 +1461,15 @@ pertv",
       "lng": 7.145636
     },
     {
-      "@id": "https://omnesviae.org/#OVPlace",
+      "@id": "https://omnesviae.org/#TPPlace176",
       "@type": "Place",
-      "label": "Ad Germani",production others
+      "label": "Ad Germani", 
       "modern": "Ain Djerboua",
       "lat": 35.248549,
       "lng": 7.130424
     },
     {
-      "@id": "https://omnesviae.org/#OVPlace",
+      "@id": "https://omnesviae.org/#TPPlace177",
       "@type": "Place",
       "label": "Ruglata",
       "modern": "El Ogla",
@@ -1539,7 +1568,7 @@ pertv",
       "lng": 6.341170
     },
     {
-      "@id": "https://omnesviae.org/#OVPlace",
+      "@id": "https://omnesviae.org/#TPPlace210",
       "@type": "Place",
       "label": "Thabudeos",
       "classic": "Thoubouna",
@@ -1557,7 +1586,7 @@ pertv",
       "lng": 7.106800
     },
     {
-      "@id": "https://omnesviae.org/#OVPlace",
+      "@id": "https://omnesviae.org/#TPPlace212",
       "@type": "Place",
       "label": "Ad Medias",
       "modern": "El Mezerra",
@@ -1581,7 +1610,7 @@ pertv",
       "lng": 8.171158
     },
     {
-      "@id": "https://omnesviae.org/#OVPlace",
+      "@id": "https://omnesviae.org/#TPPlace216",
       "@type": "Place",
       "label": "Ad Palmam",
       "modern": "Firyanah",
@@ -1589,7 +1618,7 @@ pertv",
       "lng": 8.571863
     },
     {
-      "@id": "https://omnesviae.org/#OVPlace",
+      "@id": "https://omnesviae.org/#TPPlace229",
       "@type": "Place",
       "label": "Alonianū",
       "modern": "Dar L'ouni",
@@ -1606,7 +1635,7 @@ pertv",
       "symbol": "Aa9"
     },
     {
-      "@id": "https://omnesviae.org/#OVPlace",
+      "@id": "https://omnesviae.org/#TPPlace217",
       "@type": "Place",
       "label": "Vico Gemellas",
       "modern": "Ksir Sidi Aich",
@@ -1617,14 +1646,14 @@ pertv",
       "@id": "https://omnesviae.org/#TPPlace218",
       "@type": "Place",
       "label": "Capsa",
-      "classic": An(u/oi)gath",
+      "classic": "An(u/oi)gath",
       "modern": "Gafsa",
       "lat": 34.416284,
       "lng": 8.72042,
       "symbol": "Ac1"
     },
     {
-      "@id": "https://omnesviae.org/#OVPlace",
+      "@id": "https://omnesviae.org/#TPPlace220",
       "@type": "Place",
       "label": "Presidi Diolele",
       "modern": "Ed Doghra",
@@ -1632,7 +1661,7 @@ pertv",
       "lng": 8.520551
     },
     {
-      "@id": "https://omnesviae.org/#OVPlace",
+      "@id": "https://omnesviae.org/#TPPlace221",
       "@type": "Place",
       "label": "Ad Pretorium",
       "classic": "(C/B)araros",
@@ -1685,21 +1714,21 @@ pertv",
       "@id": "https://omnesviae.org/#TPPlace234",
       "@type": "Place",
       "label": "Aggar Selnepte",
-      "classic": Afasluperia",
+      "classic": "Afasluperia",
       "modern": "Ghilane",
       "lat": 33.001045,
       "lng": 9.616230
     },
     {
-      "@id": "https://omnesviae.org/#OVPlace",
+      "@id": "https://omnesviae.org/#TPPlace235",
       "@type": "Place",
-      "label": "Aggarsel",
+      "label": "Agarsel",
       "modern": "Ben Ghazial",
       "lat": 33.250452,
       "lng": 10.434089
     },
     {
-      "@id": "https://omnesviae.org/#OVPlace",
+      "@id": "https://omnesviae.org/#TPPlace236",
       "@type": "Place",
       "label": "Puteo",
       "modern": "Beharya",
@@ -1707,15 +1736,15 @@ pertv",
       "lng": 10.227376
     },
     {
-      "@id": "https://omnesviae.org/#OVPlace",
+      "@id": "https://omnesviae.org/#TPPlace238",
       "@type": "Place",
-      "label": "Tinhunedo",
+      "label": "Tin(h/z)unedo",
       "modern": "Tounine",
       "lat": 33.511263,
       "lng": 10.145131
     },
     {
-      "@id": "https://omnesviae.org/#OVPlace",
+      "@id": "https://omnesviae.org/#TPPlace237",
       "@type": "Place",
       "label": "Mahatanhur",
       "modern": "Matmata(t-Al-Qadimal)",
@@ -1723,9 +1752,9 @@ pertv",
       "lng": 9.967850 
     },
     {
-      "@id": "https://omnesviae.org/#OVPlace",
+      "@id": "https://omnesviae.org/#TPPlace240",
       "@type": "Place",
-      "label": "Timehegeri Turris",
+      "label": "Timezegeri Turris",
       "modern": "Zagrarine el Khalia",
       "lat": 33.576309,
       "lng": 9.945715 
@@ -1756,7 +1785,7 @@ pertv",
       "lng": 9.958572
     },
     {
-      "@id": "https://omnesviae.org/#OVPlace",
+      "@id": "https://omnesviae.org/#TPPlace274",
       "@type": "Place",
       "label": "Asaflupeia / Afaslupeia",
       "classic": "Aggar Selnepte",
@@ -1765,7 +1794,7 @@ pertv",
       "lng": 10.434384
     },
     {
-      "@id": "https://omnesviae.org/#OVPlace",
+      "@id": "https://omnesviae.org/#TPPlace275",
       "@type": "Place",
       "label": "Augarmi",
       "modern": "Ksar Daghara",
@@ -1773,7 +1802,7 @@ pertv",
       "lng": 10.469717
     },
     {
-      "@id": "https://omnesviae.org/#OVPlace",
+      "@id": "https://omnesviae.org/#TPPlace277",
       "@type": "Place",
       "label": "Putea",
       "modern": "Bir Morra",
@@ -1781,15 +1810,15 @@ pertv",
       "lng": 11.100732
     },
     {
-      "@id": "https://omnesviae.org/#OVPlace",
+      "@id": "https://omnesviae.org/#TPPlace278",
       "@type": "Place",
-      "label": "Laminis",
+      "label": "Laminie",
       "modern": "Remada",
       "lat": 32.316787,
       "lng": 10.388789
     },
     {
-      "@id": "https://omnesviae.org/#OVPlace",
+      "@id": "https://omnesviae.org/#TPPlace279",
       "@type": "Place",
       "label": "Veri",
       "modern": "Shakshuk",
@@ -1805,7 +1834,7 @@ pertv",
       "lng": 10.432748
     },
     {
-      "@id": "https://omnesviae.org/#OVPlace",
+      "@id": "https://omnesviae.org/#TPPlace219",
       "@type": "Place",
       "label": "Ueresvos",
       "classic": "Bouthouris",
@@ -1814,9 +1843,9 @@ pertv",
       "lng": 8.156037
     },
     {
-      "@id": "https://omnesviae.org/#OVPlace",
+      "@id": "https://omnesviae.org/#TPPlace224",
       "@type": "Place",
-      "label": "Thasart(h)e",
+      "label": "Thasarte",
       "classic": "Ad Turres",
       "modern": "Tozeur",
       "lat": 33.914083,
@@ -1827,285 +1856,6 @@ pertv",
 
 
 
-
-
-
-
-
-
-
-    {
-      "@id": "https://omnesviae.org/#OVPlace",
-      "@type": "Place",
-      "label": "
-      "modern": "
-      "lat": 
-      "lng": 
-    },
-    {
-      "@id": "https://omnesviae.org/#OVPlace",
-      "@type": "Place",
-      "label": "
-      "modern": "
-      "lat": 
-      "lng": 
-    },
-    {
-      "@id": "https://omnesviae.org/#OVPlace",
-      "@type": "Place",
-      "label": "
-      "modern": "
-      "lat": 
-      "lng": 
-    },
-    {
-      "@id": "https://omnesviae.org/#OVPlace",
-      "@type": "Place",
-      "label": "
-      "modern": "
-      "lat": 
-      "lng": 
-    },
-    {
-      "@id": "https://omnesviae.org/#OVPlace",
-      "@type": "Place",
-      "label": "
-      "modern": "
-      "lat": 
-      "lng": 
-    },
-    {
-      "@id": "https://omnesviae.org/#OVPlace",
-      "@type": "Place",
-      "label": "
-      "modern": "
-      "lat": 
-      "lng": 
-    },
-    {
-      "@id": "https://omnesviae.org/#OVPlace",
-      "@type": "Place",
-      "label": "
-      "modern": "
-      "lat": 
-      "lng": 
-    },
-    {
-      "@id": "https://omnesviae.org/#OVPlace",
-      "@type": "Place",
-      "label": "
-      "modern": "
-      "lat": 
-      "lng": 
-    },
-    {
-      "@id": "https://omnesviae.org/#OVPlace",
-      "@type": "Place",
-      "label": "
-      "modern": "
-      "lat": 
-      "lng": 
-    },
-    {
-      "@id": "https://omnesviae.org/#OVPlace",
-      "@type": "Place",
-      "label": "
-      "modern": "
-      "lat": 
-      "lng": 
-    },
-    {
-      "@id": "https://omnesviae.org/#OVPlace",
-      "@type": "Place",
-      "label": "
-      "modern": "
-      "lat": 
-      "lng": 
-    },
-    {
-      "@id": "https://omnesviae.org/#OVPlace",
-      "@type": "Place",
-      "label": "
-      "modern": "
-      "lat": 
-      "lng": 
-    },
-    {
-      "@id": "https://omnesviae.org/#OVPlace",
-      "@type": "Place",
-      "label": "
-      "modern": "
-      "lat": 
-      "lng": 
-    },
-    {
-      "@id": "https://omnesviae.org/#OVPlace",
-      "@type": "Place",
-      "label": "
-      "modern": "
-      "lat": 
-      "lng": 
-    },
-    {
-      "@id": "https://omnesviae.org/#OVPlace",
-      "@type": "Place",
-      "label": "
-      "modern": "
-      "lat": 
-      "lng": 
-    },
-    {
-      "@id": "https://omnesviae.org/#OVPlace",
-      "@type": "Place",
-      "label": "
-      "modern": "
-      "lat": 
-      "lng": 
-    },
-    {
-      "@id": "https://omnesviae.org/#OVPlace",
-      "@type": "Place",
-      "label": "
-      "modern": "
-      "lat": 
-      "lng": 
-    },
-    {
-      "@id": "https://omnesviae.org/#OVPlace",
-      "@type": "Place",
-      "label": "
-      "modern": "
-      "lat": 
-      "lng": 
-    },
-    {
-      "@id": "https://omnesviae.org/#OVPlace",
-      "@type": "Place",
-      "label": "
-      "modern": "
-      "lat": 
-      "lng": 
-    },
-    {
-      "@id": "https://omnesviae.org/#OVPlace",
-      "@type": "Place",
-      "label": "
-      "modern": "
-      "lat": 
-      "lng": 
-    },
-    {
-      "@id": "https://omnesviae.org/#OVPlace",
-      "@type": "Place",
-      "label": "
-      "modern": "
-      "lat": 
-      "lng": 
-    },
-    {
-      "@id": "https://omnesviae.org/#OVPlace",
-      "@type": "Place",
-      "label": "
-      "modern": "
-      "lat": 
-      "lng": 
-    },
-    {
-      "@id": "https://omnesviae.org/#OVPlace",
-      "@type": "Place",
-      "label": "
-      "modern": "
-      "lat": 
-      "lng": 
-    },
-    {
-      "@id": "https://omnesviae.org/#OVPlace",
-      "@type": "Place",
-      "label": "
-      "modern": "
-      "lat": 
-      "lng": 
-    },
-    {
-      "@id": "https://omnesviae.org/#OVPlace",
-      "@type": "Place",
-      "label": "
-      "modern": "
-      "lat": 
-      "lng": 
-    },
-    {
-      "@id": "https://omnesviae.org/#OVPlace",
-      "@type": "Place",
-      "label": "
-      "modern": "
-      "lat": 
-      "lng": 
-    },
-    {
-      "@id": "https://omnesviae.org/#OVPlace",
-      "@type": "Place",
-      "label": "
-      "modern": "
-      "lat": 
-      "lng": 
-    },
-    {
-      "@id": "https://omnesviae.org/#OVPlace",
-      "@type": "Place",
-      "label": "
-      "modern": "
-      "lat": 
-      "lng": 
-    },
-    {
-      "@id": "https://omnesviae.org/#OVPlace",
-      "@type": "Place",
-      "label": "
-      "modern": "
-      "lat": 
-      "lng": 
-    },
-    {
-      "@id": "https://omnesviae.org/#OVPlace",
-      "@type": "Place",
-      "label": "
-      "modern": "
-      "lat": 
-      "lng": 
-    },
-    {
-      "@id": "https://omnesviae.org/#OVPlace",
-      "@type": "Place",
-      "label": "
-      "modern": "
-      "lat": 
-      "lng": 
-    },
-    {
-      "@id": "https://omnesviae.org/#OVPlace",
-      "@type": "Place",
-      "label": "
-      "modern": "
-      "lat": 
-      "lng": 
-    },
-    {
-      "@id": "https://omnesviae.org/#OVPlace",
-      "@type": "Place",
-      "label": "
-      "modern": "
-      "lat": 
-      "lng": 
-    },
-    {
-      "@id": "https://omnesviae.org/#OVPlace",
-      "@type": "Place",
-      "label": "
-      "modern": "
-      "lat": 
-      "lng": 
-    },
 
 
 
@@ -2138,7 +1888,7 @@ pertv",
       "lng": 3.843804
     },
     {
-      "@id": "https://omnesviae.org/#OVPlace",
+      "@id": "https://omnesviae.org/#TPPlace3",
       "@type": "Place",
       "label": "Cissi Municipio ",
       "classic": "Cissa",
@@ -2147,7 +1897,7 @@ pertv",
       "lng": 4.226996
     },
     {
-      "@id": "https://omnesviae.org/#OVPlace",
+      "@id": "https://omnesviae.org/#TPPlace7",
       "@type": "Place",
       "label": "Rusucurrv. Colonia",
       "classic": "Rousouccorai / Rousoccorou",
@@ -2156,7 +1906,7 @@ pertv",
       "lng": 4.405719
     },
     {
-      "@id": "https://omnesviae.org/#OVPlace",
+      "@id": "https://omnesviae.org/#TPPlace9",
       "@type": "Place",
       "label": "Iommio Municipio",
       "classic": "Jomn(i/y)on",
@@ -2165,7 +1915,7 @@ pertv",
       "lng": 4.547767
     },
     {
-      "@id": "https://omnesviae.org/#OVPlace",
+      "@id": "https://omnesviae.org/#TPPlace10",
       "@type": "Place",
       "label": "Rusippisir Municipio",
       "classic": "Rousoubeses / Rousoubirsis",
@@ -2174,7 +1924,7 @@ pertv",
       "lng": 4.738297
     },
     {
-      "@id": "https://omnesviae.org/#OVPlace",
+      "@id": "https://omnesviae.org/#TPPlace11",
       "@type": "Place",
       "label": "Rusazu Municipium",
       "classic": "Rousazous",
@@ -2193,7 +1943,7 @@ pertv",
       "symbol": "B13"
     },
     {
-      "@id": "https://omnesviae.org/#OVPlace",
+      "@id": "https://omnesviae.org/#TPPlace22",
       "@type": "Place",
       "label": "Muztubio Horreta",
       "modern": "Boutahar",
@@ -2201,7 +1951,7 @@ pertv",
       "lng": 5.193855
     },
     {
-      "@id": "https://omnesviae.org/#OVPlace",
+      "@id": "https://omnesviae.org/#TPPlace24",
       "@type": "Place",
       "label": "Choba"
       "classic": "Chobat(h)",
@@ -2220,7 +1970,7 @@ pertv",
       "symbol": "Ac1"
     },
     {
-      "@id": "https://omnesviae.org/#OVPlace",
+      "@id": "https://omnesviae.org/#TPPlace28",
       "@type": "Place",
       "label": "Paccianis Matihs",
       "modern": "Belghimouz",
@@ -2228,7 +1978,7 @@ pertv",
       "lng": 6.1323
     },
     {
-      "@id": "https://omnesviae.org/#OVPlace",
+      "@id": "https://omnesviae.org/#TPPlace29",
       "@type": "Place",
       "label": "Chullu",
       "modern": "Collo",
@@ -2246,7 +1996,7 @@ pertv",
       "symbol": "Aa6"
     },
     {
-      "@id": "https://omnesviae.org/#OVPlace",
+      "@id": "https://omnesviae.org/#TPPlace31",
       "@type": "Place",
       "label": "Paratianis",
       "modern": "Paratianis la cite Enterree",
@@ -2262,7 +2012,7 @@ pertv",
       "lng": 7.257469
     },
     {
-      "@id": "https://omnesviae.org/#OVPlace",
+      "@id": "https://omnesviae.org/#TPPlace33",
       "@type": "Place",
       "label": "Zaca",
       "modern": "Zgaa",
@@ -2270,15 +2020,15 @@ pertv",
       "lng": 7.339167
     },
     {
-      "@id": "https://omnesviae.org/#OVPlace",
+      "@id": "https://omnesviae.org/#TPPlace34",
       "@type": "Place",
-      "label": "Muharur",
+      "label": "Muzarur",
       "modern": "Fedzh-Madaiur",
       "lat":  36.849929,
       "lng": 7.506978
     },
     {
-      "@id": "https://omnesviae.org/#OVPlace",
+      "@id": "https://omnesviae.org/#TPPlace35",
       "@type": "Place",
       "label": "Tacatua",
       "modern": "Tacha",
@@ -2286,7 +2036,7 @@ pertv",
       "lng": 7.425748
     },
     {
-      "@id": "https://omnesviae.org/#OVPlace",
+      "@id": "https://omnesviae.org/#TPPlace36",
       "@type": "Place",
       "label": "Subluev",
       "modern": "Sellami",
@@ -2303,7 +2053,7 @@ pertv",
       "symbol": "Aa23"
     },
     {
-      "@id": "https://omnesviae.org/#OVPlace",
+      "@id": "https://omnesviae.org/#TPPlace46",
       "@type": "Place",
       "label": "Ubus river",
       "modern": "Oued Seybouse",
@@ -2311,7 +2061,7 @@ pertv",
       "lng": 7.756289
     },
     {
-      "@id": "https://omnesviae.org/#OVPlace",
+      "@id": "https://omnesviae.org/#TPPlace47",
       "@type": "Place",
       "label": "Armoniacum river",
       "modern": "Oued Bou Namoussa",
@@ -2336,7 +2086,7 @@ pertv",
       "lng": 8.490663
     },
     {
-      "@id": "https://omnesviae.org/#OVPlace",
+      "@id": "https://omnesviae.org/#TPPlace50",
       "@type": "Place",
       "label": "Cabraca",
       "classic": "Thabraca Colonia",
@@ -2355,7 +2105,7 @@ pertv",
       "symbol": "Ac1"
     },
     {
-      "@id": "https://omnesviae.org/#OVPlace",
+      "@id": "https://omnesviae.org/#TPPlace53",
       "@type": "Place",
       "label": "Tunisa",
       "classic": "Thounoustha",
@@ -2364,7 +2114,7 @@ pertv",
       "lng": 9.779772
     },
     {
-      "@id": "https://omnesviae.org/#OVPlace",
+      "@id": "https://omnesviae.org/#TPPlace54",
       "@type": "Place",
       "label": "Memblone",
       "modern": "",
@@ -2382,7 +2132,7 @@ pertv",
       "symbol": "Ab6"
     },
     {
-      "@id": "https://omnesviae.org/#OVPlace",
+      "@id": "https://omnesviae.org/#TPPlace56",
       "@type": "Place",
       "label": "Gallum Gallinatium",
       "modern": "(La Sabela du) Kammoun",
@@ -2412,7 +2162,7 @@ pertv",
 
 
     {
-      "@id": "https://omnesviae.org/#OVPlace",
+      "@id": "https://omnesviae.org/#TPPlace241",
       "@type": "Place",
       "label": "Thuni",
       "classic": "Thinissa",
@@ -2440,7 +2190,7 @@ pertv",
       "symbol": "C22"
     },
     {
-      "@id": "https://omnesviae.org/#OVPlace",
+      "@id": "https://omnesviae.org/#TPPlace243",
       "@type": "Place",
       "label": "Ad Mercurium",
       "modern": "Couried El Mgaiez",
@@ -2448,7 +2198,7 @@ pertv",
       "lng": 10.867258
     },
     {
-      "@id": "https://omnesviae.org/#OVPlace",
+      "@id": "https://omnesviae.org/#TPPlace244",
       "@type": "Place",
       "label": "Vinavicus",
       "modern": "Beni Khira",
@@ -2456,16 +2206,7 @@ pertv",
       "lng": 10.927376
     },
     {
-      "@id": "https://omnesviae.org/#OVPlace",
-      "@type": "Place",
-      "label": "Cothon",
-      "classic": "Kerkouane",
-      "modern": "ElKedoua",
-      "lat": 37.005469,
-      "lng": 11.019011
-    },
-    {
-      "@id": "https://omnesviae.org/#OVPlace",
+      "@id": "https://omnesviae.org/#TPPlace245",
       "@type": "Place",
       "label": "Siagu",
       "classic": "Siagoul",
@@ -2474,7 +2215,7 @@ pertv",
       "lng": 11.033557
     },
     {
-      "@id": "https://omnesviae.org/#OVPlace",
+      "@id": "https://omnesviae.org/#TPPlace246",
       "@type": "Place",
       "label": "Pudput",
       "modern": "ElFoth",
@@ -2482,7 +2223,7 @@ pertv",
       "lng": 10.989151
     },
     {
-      "@id": "https://omnesviae.org/#OVPlace",
+      "@id": "https://omnesviae.org/#TPPlace248",
       "@type": "Place",
       "label": "Neapoli",
       "classic": "Neapolis",
@@ -2491,7 +2232,7 @@ pertv",
       "lng": 11.012551
     },
     {
-      "@id": "https://omnesviae.org/#OVPlace",
+      "@id": "https://omnesviae.org/#TPPlace250",
       "@type": "Place",
       "label": "Misua",
       "classic": "(N/M)isoua",
@@ -2510,7 +2251,7 @@ pertv",
       "symbol": "Aa1"
     },
     {
-      "@id": "https://omnesviae.org/#OVPlace",
+      "@id": "https://omnesviae.org/#TPPlace247",
       "@type": "Place",
       "label": "Lamniana",
       "classic": "Almaina",
@@ -2519,7 +2260,7 @@ pertv",
       "lng": 10.973055
     },
     {
-      "@id": "https://omnesviae.org/#OVPlace",
+      "@id": "https://omnesviae.org/#TPPlace251",
       "@type": "Place",
       "label": "Cubin",
       "modern": "Abene",
@@ -2527,7 +2268,7 @@ pertv",
       "lng": 10.982827
     },
     {
-      "@id": "https://omnesviae.org/#OVPlace",
+      "@id": "https://omnesviae.org/#TPPlace252",
       "@type": "Place",
       "label": "Orbita",
       "modern": "Kerkouane",
@@ -2565,7 +2306,7 @@ pertv",
       "symbol": "Aa31"
     },
     {
-      "@id": "https://omnesviae.org/#OVPlace",
+      "@id": "https://omnesviae.org/#TPPlace261",
       "@type": "Place",
       "label": "Tapsum",
       "classic": "Thapsos",
@@ -2574,7 +2315,7 @@ pertv",
       "lng": 10.909922
     },
     {
-      "@id": "https://omnesviae.org/#OVPlace",
+      "@id": "https://omnesviae.org/#TPPlace259",
       "@type": "Place",
       "label": "Sullech",
       "modern": "Tazerka",
@@ -2582,7 +2323,7 @@ pertv",
       "lng": 10.841131
     },
     {
-      "@id": "https://omnesviae.org/#OVPlace",
+      "@id": "https://omnesviae.org/#TPPlace263",
       "@type": "Place",
       "label": "aHolla",
       "classic": "Achola",
@@ -2591,7 +2332,7 @@ pertv",
       "lng": 10.782192
     },
     {
-      "@id": "https://omnesviae.org/#OVPlace",
+      "@id": "https://omnesviae.org/#TPPlace264",
       "@type": "Place",
       "label": "Ruspe",
       "classic": "Rouspe / Rouspai",
@@ -2600,7 +2341,7 @@ pertv",
       "lng": 10.586464
     },
     {
-      "@id": "https://omnesviae.org/#OVPlace",
+      "@id": "https://omnesviae.org/#TPPlace262",
       "@type": "Place",
       "label": "Vsillam Municipium",
       "classic": "Rousilla",
@@ -2609,7 +2350,7 @@ pertv",
       "lng": 10.479027
     },
     {
-      "@id": "https://omnesviae.org/#OVPlace",
+      "@id": "https://omnesviae.org/#TPPlace265",
       "@type": "Place",
       "label": "Taparura",
       "classic": "Taphroura",
@@ -2619,7 +2360,7 @@ pertv",
       "symbol": "Aa30"
     },
     {
-      "@id": "https://omnesviae.org/#OVPlace",
+      "@id": "https://omnesviae.org/#TPPlace267",
       "@type": "Place",
       "label": "Macomades Minores",
       "classic": "Macomada",
@@ -2628,7 +2369,7 @@ pertv",
       "lng": 11.056173
     },
     {
-      "@id": "https://omnesviae.org/#OVPlace",
+      "@id": "https://omnesviae.org/#TPPlace268",
       "@type": "Place",
       "label": "Oleastrum",
       "classic": "Eooa",
@@ -2637,7 +2378,7 @@ pertv",
       "lng": 11.002652
     },
     {
-      "@id": "https://omnesviae.org/#OVPlace",
+      "@id": "https://omnesviae.org/#TPPlace269",
       "@type": "Place",
       "label": "Presidio Siluani",
       "modern": "Souhani",
@@ -2645,7 +2386,7 @@ pertv",
       "lng": 10.016689
     },
     {
-      "@id": "https://omnesviae.org/#OVPlace",
+      "@id": "https://omnesviae.org/#TPPlace270",
       "@type": "Place",
       "label": "Lacene",
       "modern": "Zakhoumet els-Ouesfan",
@@ -2653,7 +2394,7 @@ pertv",
       "lng": 9.983071
     },
     {
-      "@id": "https://omnesviae.org/#OVPlace",
+      "@id": "https://omnesviae.org/#TPPlace271",
       "@type": "Place",
       "label": "Ad Palmam",
       "modern": "Akarit",
@@ -2671,7 +2412,7 @@ pertv",
       "symbol": "Aa28"
     },
     {
-      "@id": "https://omnesviae.org/#OVPlace",
+      "@id": "https://omnesviae.org/#TPPlace272",
       "@type": "Place",
       "label": "Fulgurita",
       "modern": "Boughrara",
@@ -2679,7 +2420,7 @@ pertv",
       "lng": 10.674127
     },
     {
-      "@id": "https://omnesviae.org/#OVPlace",
+      "@id": "https://omnesviae.org/#TPPlace3016",
       "@type": "Place",
       "label": "Girba",
       "modern": "Groua",
@@ -2687,7 +2428,7 @@ pertv",
       "lng": 10.792797
     },
     {
-      "@id": "https://omnesviae.org/#OVPlace",
+      "@id": "https://omnesviae.org/#TPPlace3017",
       "@type": "Place",
       "label": "Tipasa",
       "modern": "Djerba Ajim",
@@ -2695,7 +2436,7 @@ pertv",
       "lng": 10.760948
     },
     {
-      "@id": "https://omnesviae.org/#OVPlace",
+      "@id": "https://omnesviae.org/#TPPlace3017_a",
       "@type": "Place",
       "label": "Haribus",
       "modern": "El Khawi",
@@ -2703,7 +2444,7 @@ pertv",
       "lng": 10.840331
     },
     {
-      "@id": "https://omnesviae.org/#OVPlace",
+      "@id": "https://omnesviae.org/#TPPlace3017_b",
       "@type": "Place",
       "label": "Uchium",
       "modern": "Oumt Souk",
@@ -2720,7 +2461,7 @@ pertv",
       "symbol": "B12"
     },
     {
-      "@id": "https://omnesviae.org/#OVPlace",
+      "@id": "https://omnesviae.org/#TPPlace281",
       "@type": "Place",
       "label": "Gigri",
       "classic": "Gi(ch)this",
@@ -2729,15 +2470,13 @@ pertv",
       "lng": 10.988837
     },
     {
-      "@id": "https://omnesviae.org/#OVPlace",
+      "@id": "https://omnesviae.org/#TPPlace282",
       "@type": "Place",
-      "label": "Ziha Municipium",
+      "label": "Ziza Municipium",
       "modern": "Jedaria",
       "lat": 33.297646,
       "lng": 11.244362
     },
-
-
 
 
 
@@ -2828,7 +2567,7 @@ pertv",
     {
       "@id": "https://omnesviae.org/#OVPlace",
       "@type": "Place",
-      "label": "🏘","
+      "label": "🏘",
       "modern": "Kasarat",
       "lat": 32.432797,
       "lng": 12.919345
@@ -2870,7 +2609,7 @@ pertv",
     {
       "@id": "https://omnesviae.org/#OVPlace",
       "@type": "Place",
-      "label": "Turris ad Algam.","
+      "label": "Turris ad Algam.",
       "modern": "Al-Manara (المنارة) )",
       "lat": 32.895095,
       "lng": 13.383318
@@ -2902,7 +2641,7 @@ pertv",
     {
       "@id": "https://omnesviae.org/#TPPlace300",
       "@type": "Place",
-      "label": "Leptimagna Col.","
+      "label": "Leptimagna Col.",
       "classic": "Neapolis / Leptis megale",
       "modern": "Leptis Magna",
       "lat": 32.638719,
@@ -2944,7 +2683,7 @@ pertv",
     {
       "@id": "https://omnesviae.org/#OVPlace",
       "@type": "Place",
-      "label": "Tubactis Mun.","
+      "label": "Tubactis Mun.",
       "modern": "Thawbat (ثعبة ثعبأ)",
       "lat": 31.945670,
       "lng": 15.185155
@@ -2985,7 +2724,7 @@ pertv",
       "@id": "https://omnesviae.org/#OVPlace",
       "@type": "Place",
       "label": "Mufula",
-      "modern": "Nofallya / An Nawfaliyah
+      "modern": "Nofallya / An Nawfaliyah",
       "lat": 30.769763,
       "lng": 17.838359
     },
@@ -3000,7 +2739,7 @@ pertv",
     {
       "@id": "https://omnesviae.org/#OVPlace",
       "@type": "Place",
-      "label": "Fl. Be.","
+      "label": "Fl. Be.",
       "modern": "Wadi Matratin",
       "lat": 30.616844,
       "lng": 18.349566
@@ -3024,9 +2763,9 @@ pertv",
     {
       "@id": "https://omnesviae.org/#OVPlace",
       "@type": "Place",
-      "label": "Putea Nig(u).","
+      "label": "Putea Nig(u).",
       "modern": "[Saline Depressions]",
-      "lat": 30.250 714,
+      "lat": 30.250714,
       "lng": 18.969902
     },
     {
@@ -3075,7 +2814,7 @@ pertv",
       "@type": "Place",
       "label": "Augri",
       "classic": "Hracleous Purgos",
-      "modern": "Carcura
+      "modern": "Carcura",
       "lat": 31.427274,
       "lng": 20.028203
     },
@@ -4568,247 +4307,6 @@ pertv",
       "lat": 33.506989,
       "lng": 36.226594
     },
-    {
-      "@id": "https://omnesviae.org/#OVPlace",
-      "@type": "Place",
-      "label": "
-      "modern": "
-      "lat": 
-      "lng": 
-    },
-    {
-      "@id": "https://omnesviae.org/#OVPlace",
-      "@type": "Place",
-      "label": "
-      "modern": "
-      "lat": 
-      "lng": 
-    },
-    {
-      "@id": "https://omnesviae.org/#OVPlace",
-      "@type": "Place",
-      "label": "
-      "modern": "
-      "lat": 
-      "lng": 
-    },
-    {
-      "@id": "https://omnesviae.org/#OVPlace",
-      "@type": "Place",
-      "label": "
-      "modern": "
-      "lat": 
-      "lng": 
-    },
-    {
-      "@id": "https://omnesviae.org/#OVPlace",
-      "@type": "Place",
-      "label": "
-      "modern": "
-      "lat": 
-      "lng": 
-    },
-    {
-      "@id": "https://omnesviae.org/#OVPlace",
-      "@type": "Place",
-      "label": "
-      "modern": "
-      "lat": 
-      "lng": 
-    },
-    {
-      "@id": "https://omnesviae.org/#OVPlace",
-      "@type": "Place",
-      "label": "
-      "modern": "
-      "lat": 
-      "lng": 
-    },
-    {
-      "@id": "https://omnesviae.org/#OVPlace",
-      "@type": "Place",
-      "label": "
-      "modern": "
-      "lat": 
-      "lng": 
-    },
-    {
-      "@id": "https://omnesviae.org/#OVPlace",
-      "@type": "Place",
-      "label": "
-      "modern": "
-      "lat": 
-      "lng": 
-    },
-    {
-      "@id": "https://omnesviae.org/#OVPlace",
-      "@type": "Place",
-      "label": "
-      "modern": "
-      "lat": 
-      "lng": 
-    },
-    {
-      "@id": "https://omnesviae.org/#OVPlace",
-      "@type": "Place",
-      "label": "
-      "modern": "
-      "lat": 
-      "lng": 
-    },
-    {
-      "@id": "https://omnesviae.org/#OVPlace",
-      "@type": "Place",
-      "label": "
-      "modern": "
-      "lat": 
-      "lng": 
-    },
-    {
-      "@id": "https://omnesviae.org/#OVPlace",
-      "@type": "Place",
-      "label": "
-      "modern": "
-      "lat": 
-      "lng": 
-    },
-    {
-      "@id": "https://omnesviae.org/#OVPlace",
-      "@type": "Place",
-      "label": "
-      "modern": "
-      "lat": 
-      "lng": 
-    },
-    {
-      "@id": "https://omnesviae.org/#OVPlace",
-      "@type": "Place",
-      "label": "
-      "modern": "
-      "lat": 
-      "lng": 
-    },
-    {
-      "@id": "https://omnesviae.org/#OVPlace",
-      "@type": "Place",
-      "label": "
-      "modern": "
-      "lat": 
-      "lng": 
-    },
-    {
-      "@id": "https://omnesviae.org/#OVPlace",
-      "@type": "Place",
-      "label": "
-      "modern": "
-      "lat": 
-      "lng": 
-    },
-    {
-      "@id": "https://omnesviae.org/#OVPlace",
-      "@type": "Place",
-      "label": "
-      "modern": "
-      "lat": 
-      "lng": 
-    },
-    {
-      "@id": "https://omnesviae.org/#OVPlace",
-      "@type": "Place",
-      "label": "
-      "modern": "
-      "lat": 
-      "lng": 
-    },
-    {
-      "@id": "https://omnesviae.org/#OVPlace",
-      "@type": "Place",
-      "label": "
-      "modern": "
-      "lat": 
-      "lng": 
-    },
-    {
-      "@id": "https://omnesviae.org/#OVPlace",
-      "@type": "Place",
-      "label": "
-      "modern": "
-      "lat": 
-      "lng": 
-    },
-    {
-      "@id": "https://omnesviae.org/#OVPlace",
-      "@type": "Place",
-      "label": "
-      "modern": "
-      "lat": 
-      "lng": 
-    },
-    {
-      "@id": "https://omnesviae.org/#OVPlace",
-      "@type": "Place",
-      "label": "
-      "modern": "
-      "lat": 
-      "lng": 
-    },
-    {
-      "@id": "https://omnesviae.org/#OVPlace",
-      "@type": "Place",
-      "label": "
-      "modern": "
-      "lat": 
-      "lng": 
-    },
-    {
-      "@id": "https://omnesviae.org/#OVPlace",
-      "@type": "Place",
-      "label": "
-      "modern": "
-      "lat": 
-      "lng": 
-    },
-    {
-      "@id": "https://omnesviae.org/#OVPlace",
-      "@type": "Place",
-      "label": "
-      "modern": "
-      "lat": 
-      "lng": 
-    },
-    {
-      "@id": "https://omnesviae.org/#OVPlace",
-      "@type": "Place",
-      "label": "
-      "modern": "
-      "lat": 
-      "lng": 
-    },
-    {
-      "@id": "https://omnesviae.org/#OVPlace",
-      "@type": "Place",
-      "label": "
-      "modern": "
-      "lat": 
-      "lng": 
-    },
-    {
-      "@id": "https://omnesviae.org/#OVPlace",
-      "@type": "Place",
-      "label": "
-      "modern": "
-      "lat": 
-      "lng": 
-    },
-    {
-      "@id": "https://omnesviae.org/#OVPlace",
-      "@type": "Place",
-      "label": "
-      "modern": "
-      "lat": 
-      "lng": 
-    }
-
 
 
 
