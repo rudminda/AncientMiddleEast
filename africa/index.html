@@ -607,7 +607,7 @@ MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
             <span helloWorld="me" goodbyeworld="you4"></span>
         </li>
     </ul-->   
-    <hr id="footerDivider">
+
 
     <br>
     <!--Videos-->
@@ -616,22 +616,20 @@ MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
         <h3><u>Video:</u></h3> 
     </div>
     <style>
-        table#videosholder tr, 
-        table#videosholder tr td {width: 100%; height; auto;}
+        #videosholder {width: 100%; height; auto;  width:80%; height: auto; 
+                       margin-left: auto; margin-right: auto; 
+                       position: relative; display: flex; flex-direction: column; 
+                       padding: 20px; background-color: gray; overflow: auto; resize: both; }
     </style>
 
       
-    <table id="videosholder" style="width:80%; height: auto; margin-left: auto; margin-right: auto; position: relative; display: block; padding: 20px; background-color: gray; overflow: auto; resize: both; ">
-    <tr><td>
-        <iframe width="100%" height="auto" style="object-fit: contain; min-width: 280px; min-height: 157px;" src="https://www.youtube.com/embed/yf2xp-HhHlQ?si=6Qm4IA1GRA39qsAC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen itemscope itemtype="https://schema.org/VideoObject"></iframe>
-    </td></tr>
-    <tr><td>
-        <iframe width="100%" height="auto" style="object-fit: contain; min-width: 280px; min-height: 157px;" src="https://www.youtube.com/embed/a4uJlzazWEk?si=eEIZ42hqVOFxjMo9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen itemscope itemtype="https://schema.org/VideoObject"></iframe>
-    </td></tr>
-    <tr><td>
-        <iframe width="100%" height="auto" style="object-fit: contain; min-width: 280px; min-height: 157px;" src="https://www.youtube.com/embed/FEvfuwhovv4?si=ojQoR7t2HOQg-PSp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen itemscope itemtype="https://schema.org/VideoObject"></iframe>
-    </td></tr>
-    </table> 
+    <div id="videosholder">
+        <iframe width="auto" height="auto" style="object-fit: contain; min-width: 280px; min-height: 157px;" src="https://www.youtube.com/embed/yf2xp-HhHlQ?si=6Qm4IA1GRA39qsAC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen itemscope itemtype="https://schema.org/VideoObject"></iframe>
+        <iframe width="auto" height="auto" style="object-fit: contain; min-width: 280px; min-height: 157px;" src="https://www.youtube.com/embed/a4uJlzazWEk?si=eEIZ42hqVOFxjMo9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen itemscope itemtype="https://schema.org/VideoObject"></iframe>
+        <iframe width="auto" height="auto" style="object-fit: contain; min-width: 280px; min-height: 157px;" src="https://www.youtube.com/embed/FEvfuwhovv4?si=ojQoR7t2HOQg-PSp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen itemscope itemtype="https://schema.org/VideoObject"></iframe>
+    </div> 
+
+    <hr id="footerDivider">
   
     <div id="endMatter" class="container"
                                       itemscope itemtype="https://schema.org/WPFooter">
