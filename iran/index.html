@@ -1,0 +1,453 @@
+
+
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="../images/tab_icon%204x.png">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <title>Aria(na), Persia</title>
+    
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "ItemPage",
+            "name": "Ptolemy's Iran",
+            "creator": "David Rudmin",
+            "contributor": {
+              "@type": "Person",
+              "name": "Claudius Ptolemaeus",
+              "alternateName": "Claudius Ptolemy"
+            },
+            "description": "Iran (ancient Persia) from Ptolemy's Geographica (150 A.D.).",
+            "author": {
+              "@type":"Organization",
+              "name":"AncientMiddleEast.com"
+            },
+            "dateCreated": "2025-03-17",
+            "about":"Iran",
+            "contentLocation": [{
+              "@type": "Country",
+              "name": "Iran"
+            },{
+              "@type": "Country",
+              "name": "Turkmenistan"
+            },{
+              "@type": "Country",
+              "name": "Afghanistan"
+            }],
+                      /* "hasMap": {
+                          "@type": "Map",
+                          "url":  "https://ancientmiddleeast.com/holyland/images/Exodus.jpg"
+                      },*/
+            "license": "https://creativecommons.org/licenses/by/4.0/",
+            "version": "1.0",
+            "relatedLink": "https://en.wikipedia.org/wiki/Geography_(Ptolemy)"
+        }
+    </script>
+    
+    <style>
+
+/*         
+
+
+<!--MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+
+     MMMMMMMMMM    MMMMMMMMMMMMMM   MMMM    MMMM   MMMM            MMMMMMMMMMMMM
+    MMMMMMMMMMMM   MMMMMMMMMMMMM     MMMM  MMMM    MMMM            MMMMMMMMMMMMM
+    MMMM                MMMM          MMMMMMMM     MMMM            MMMM         
+    MMMMMMMM            MMMM           MMMMMM      MMMM            MMMMMMMMM    
+      MMMMMMMMM         MMMM            MMMM       MMMM            MMMMMMMMM    
+           MMMMM        MMMM            MMMM       MMMM            MMMM         
+    MMMM    MMMM        MMMM            MMMM       MMMM            MMMM         
+    MMMMMMMMMMMM        MMMM            MMMM       MMMMMMMMMMMMM   MMMMMMMMMMMMM
+     MMMMMMMMMM         MMMM            MMMM       MMMMMMMMMMMMM   MMMMMMMMMMMMM
+
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM-->
+        */
+        body {
+            margin: 0; padding: 0;
+            min-width: fit-content;
+            background-color: #e6f2ff; 
+            background-image: linear-gradient(to right, #ff794d, #e6f2ff);
+            
+            background-repeat: repeat-y;
+            background-size: 100%;
+        }
+        
+        #banner {
+            width: 100%; height: 167px; background-image: url('../images/ge.jpg'); 
+            background-color: transparent; 
+            background-position: center; 
+            background-repeat: repeat-x;
+            background-size: 100% 167px;
+        }
+        #bannerImg { 
+            position: relative; display:  block; z-index: 20;
+            width: auto; min-width: 267px; max-height: 167px;
+            
+        }
+ 
+        .topLogo {
+            position: absolute; top: 5px;
+            width:31px; height: auto; margin: 5px 25px;
+
+        }
+        .topLogo:hover {
+            width:37px; height: auto; margin: 2px 22px;
+        }
+        .bottomLogo {
+            position: relative; 
+            width:31px; height: auto; margin: 15px 30px 0px 0px;
+
+        }
+        .bottomLogo:hover {
+            width:37px; height: auto; margin: 12px 27px -3px -3px;
+        }        
+
+        #Subtext {
+            position: relative; display: none; z-index: 10;
+            bottom: 26.7px; left:  0px;
+            
+            width: 100%; height: 34px; line-height: 20px; 
+            overflow-x: auto; white-space: normal;
+            padding-right: 3%; margin: 0px;
+            border-width: 6.7px 0px; border-style: double; border-color: #b30059; border-radius: 0px;
+            text-align: right;
+            
+            font-family: Arial; font-size: 20px; color: #ff80bf; 
+             
+        }
+        #Subtext2 {
+            position: relative; display: block; z-index: 10;
+            left:  0px;
+            
+            width: 100%; min-height: 34px; line-height: 20px; 
+            overflow-x: hidden; white-space: normal;
+            margin: 0px;
+            border-width: 10px 0px; border-style: double; border-color: #b30059; border-radius: 0px;
+            text-align: center;
+            
+            font-family: Arial; font-size: 20px; color: #cc0066; 
+             
+        }        
+
+        .flexboxer-right {
+            position: relative; display: flex; 
+            flex-direction: row-reverse; justify-content: center; flex-wrap: wrap;
+            text-align: center; 
+        }
+        .flexboxer-left {
+            position: relative; display: flex; 
+            flex-direction: row; justify-content: center; flex-wrap: wrap;
+            text-align: center; 
+        }
+
+        .titles {position: relative; display: block;
+            width: 50%;
+            margin: 0px;
+            text-align: center;
+        }
+
+
+                .archiveTitle {
+                    position: relative; display: block; float: left;
+                    font-size: 23.35px;
+                    text-shadow: 3.3px 3.3px 3.3px white;
+                }
+        
+                .archive {position: relative; display: block;
+                    width: 267px; height: 267px; 
+                    padding: 0; margin: 10.7px ;
+                    border: 10px outset black; border-radius: 20px;  }
+
+                .archiveTextDIV {
+                    position: absolute; display: block;
+                    font-family: Calibri; 
+                    width: 100%; text-align: center; 
+                    border-width: 0px; border-radius: 0px;
+                    font-weight:  bold; color:  white;
+                }
+
+
+        table#editions{ position: relative; display: block; margin: 5% 5% 5% 80px; width: 300px; max-width: 90%;
+            font-size: 21px; text-align: center; 
+            border: 1px solid black; box-shadow: 30px 30px 5px purple, -30px -30px 5px purple, -30px 30px 5px purple, 30px -30px 5px purple;}
+        table#editions tr th {font-size: 21px; border: 1px solid black; background-color: #ccc;}
+        table#editions tr td {font-size: 21px; border: 1px solid black !important; background-color: transparent;}
+
+
+        #footerDivider {
+            position: relative; display: block; z-index: 10;
+                        
+            width: 100%; height: 34px; line-height: 20px; 
+            padding-right: 10%; margin: 26.7px 0px;
+            border-width: 6.7px 0px; border-style: double; border-color: #b30059; border-radius: 0   px;
+            text-align: right;
+            
+            font-family: Arial; font-size: 20px; color: #ff80bf; 
+             
+        }
+
+
+        hr {background-color: #fff;}
+
+                    .fix1 {margin: 0px; font-size: 25px;}
+
+ 
+
+        table#sources       {position: relative; display: block; margin: 50px 0px; max-width: 95%;  
+            font-size: 21px; border: 0px solid black; text-align: center; min-width: 267px;}
+        table#sources tr    {height: 41px; width: 100%; resize: both;}
+        table#sources tr th {font-size: 21px; border: 1px solid black; background-color: #ccc; overflow-y: auto; white-space: nowrap; }
+        table#sources tr td {font-size: 21px; border: 1px solid black; background-color: transparent; overflow-x: visible; overflow-y: auto; line-height:  26px; white-space: normal; }
+        
+
+        table#sources tr td:nth-of-type(1) {resize: both; width: 150px; min-width: 100px; height:  auto; overflow-x: visible; white-space: normal; overflow-y: auto;  background-color: green; background-image: linear-gradient(.375turn, green, green, green, green, green, green, green, green, yellow, red); cursor: help;}
+        table#sources tr td:nth-of-type(2) {max-width: 150px;   }
+        table#sources tr td:nth-of-type(3) {max-width: 150px;}
+        table#sources tr td:nth-of-type(4) {max-width: 150px;}
+
+            table#sources tr:not(:first-of-type):hover td:nth-of-type(4) {background-color: yellow; }
+
+                table#sources tr td img {position: relative; overflow-x: visible; overflow-y: auto; white-space: nowrap; width:100%; height:auto; }
+
+ 
+
+/*
+<!--MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+
+     MMMMMMMMMM    MMMMMMMMMMMMMM   MMMM    MMMM   MMMM            MMMMMMMMMMMMM
+    MMMMMMMMMMMM   MMMMMMMMMMMMM     MMMM  MMMM    MMMM            MMMMMMMMMMMMM
+    MMMM                MMMM          MMMMMMMM     MMMM            MMMM         
+    MMMMMMMM            MMMM           MMMMMM      MMMM            MMMMMMMMM    
+      MMMMMMMMM         MMMM            MMMM       MMMM            MMMMMMMMM    
+           MMMMM        MMMM            MMMM       MMMM            MMMM         
+    MMMM    MMMM        MMMM            MMMM       MMMM            MMMM         
+    MMMMMMMMMMMM        MMMM            MMMM       MMMMMMMMMMMMM   MMMMMMMMMMMMM
+     MMMMMMMMMM         MMMM            MMMM       MMMMMMMMMMMMM   MMMMMMMMMMMMM
+
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM-->
+*/
+    </style>
+
+
+</head>
+<body             itemscope     itemtype="https://schema.org/ItemPage">
+
+    <div id="banner"
+                                            itemscope   itemtype="https://schema.org/WPHeader">
+        <!-- Github Button -->
+        <a href="https://github.com/rudminda/AncientMiddleEast/tree/main/iran" title="Repository code for this page." target="_blank"><img class="topLogo" src="../images/GitHub-Mark-32px.png" style="right: 100px;" /></a>
+        
+        <!-- Facebook Button -->
+        <a href="https://www.facebook.com/Ancient-Middle-East-106869578659329" title="Like, on Facebook!"><img class="topLogo" src="../images/fb.png" style="right: 50px;" /></a>
+        <!--img id="worldImg" src="../images/ge.jpg" style="position: absolute; height: 250px; width: 1671px; min-width: 100%; margin-left: 50%; left: -835px;  z-index: -30;"-->
+        <img id="bannerImg" style="cursor: pointer;" onclick="window.open('../index.html','_self')" src="../images/Banner1%20TRANSP.png" />
+        <div id="Subtext" class="d-lg-block d-md-none"><i>Google Earth .KMZ plots of </i>&nbsp;<span style="font-size:16.7px;">📍</span><i>ancient places.</i></div>
+    </div>
+
+    <!--Optional small device separator-->
+    <div id="Subtext2" class="d-md-block d-lg-none" style=""><i>Google Earth .KMZ plots of </i>&nbsp;<span style="font-size:16.7px;">📍</span><i>ancient places.</i></div>
+
+  
+    <nav  aria-label="breadcrumb" style="margin: 30px 50px;">
+      <ol class="breadcrumb"                            itemscope itemtype="https://schema.org/BreadcrumbList">
+        <li class="breadcrumb-item"                     itemprop="itemListElement"  itemscope itemtype="https://schema.org/ListItem">
+            <a href="../index.html"                                                    itemprop="item">
+                    <span                                                           itemprop="name">Home</span>
+              </a>
+              <meta                                                                 itemprop="position" content="1" />
+        </li>
+        <li class="breadcrumb-item active" aria-current="page"  
+                                                        itemprop="itemListElement"  itemscope itemtype="https://schema.org/ListItem">
+                    <span                                                           itemprop="name">Ptolemy's Iran</span>
+              <a href="index.html"                                                   itemprop="item">
+              </a>
+              <meta                                                                 itemprop="position" content="2" />
+        </li>
+      </ol>      
+    </nav>
+
+    
+    <div class="flexboxer-right" style="max-width: 80%; "> 
+        
+
+        <!--Titles-->
+        <div class="titles" style="margin: 0px;"> 
+            <h1 style="font-size:70px; margin: 0px 0px 10px 0px;">Ptolemy's <br>Iran</h1>
+            
+                
+
+
+            <h5>Iran, <br> from 
+                <a href="https://en.wikipedia.org/wiki/Geography_(Ptolemy)"
+                    itemprop="relatedLink">Ptolemy's Geographica (150 A.D.)</a>.
+
+
+            </h5>
+        </div>       
+
+        <!--Side Image-->
+
+        <div id="aria" class="archive col-12 col-md-4" onclick="window.open('./western%20iran%201-0.kmz','_self')"
+            title="Ancient Iran" style="background-color: red;">
+            <img src="./images/archiveImg.jpg" class="archiveImg" style="width: 100%; height: auto; border: 0px" 
+                 itemprop="thumbnailUrl" />
+        </div>
+        
+        
+    </div>
+
+    <br>
+    <!--Downloads-->
+
+    <div class="titles col-12"  itemscope itemtype="https://schema.org/mainContentOfPage"> 
+        <h3><u>Downloads:</u></h3> 
+    </div>
+ <div class="flexboxer-right" style="max-width: 80%; ">     
+    <table id="editions" class="col-4 col-md-10">
+        <tr>
+            <th style="border-width: 1px; padding: 5px;">Edition</th>
+            <th style="border-width: 1px; padding: 5px;">Date</th>
+            <th style="border-width: 1px; padding: 5px;">Link</th>
+        </tr>
+        <tr>
+            <td style="border-width: 1px; padding: 5px;">1.0</td>
+            <td style="border-width: 1px; padding: 5px;">
+                  <time         itemprop="dateCreated"  datetime="2022-04-06">Mar. 17, 2025</time></td>
+            <td style="border-width: 1px; padding: 5px;"><a href="./iran%201-0.kmz">Click here</a></td>
+        </tr>
+
+    </table>
+</div>
+  
+    <br>
+
+    <!--Sources table-->
+    <div class="titles col-8"> 
+        <h3><u>Sources used:</u> <i style="font-size:15px; ">(From most to least important:)</i></h3> 
+    </div>
+     
+    <table id="sources" class="col-12">
+        <tr>
+            <th style="border-width: 1px; padding: 5px;"></th>
+            <th style="border-width: 1px; padding: 5px;">Name etc.</th>
+            <th style="border-width: 1px; padding: 5px;">Edition</th>
+            <th style="border-width: 1px; padding: 5px;">Link</th>
+            
+        </tr>
+        <tr       itemprop="citation"                       itemscope itemtype="https://schema.org/CreativeWork">
+            <td style="border-width: 1px; padding: 5px;">
+                  <img   src="./images/index.jpg" class="mapThumb" title="Drag lower-right corner.">
+                  <link href="./images/index.jpg"           itemprop="thumbnailUrl"/>
+            </td>
+            <td style="border-width: 1px; padding: 5px;"    itemprop="name">[Index] Ptolemy's <i>Geographica</i><br>150 A.D. <br>(pub. 1845)</td>
+            <td style="border-width: 1px; padding: 5px;"    itemprop="version">Greek; ed. Karl Friedrich August Nobbe; pub. Caroli Tauchnitii.</td>
+            <td style="border-width: 1px; padding: 5px;">
+                  <a href="https://www.google.com/books/edition/Claudii_Ptolemaei_Geographia/vHMCAAAAQAAJ?hl=en" 
+                                                            itemprop="url">Click here</a>; <br>click download link; <br>page 140-166
+            </td>
+        </tr>        
+        <tr       itemprop="citation"                       itemscope itemtype="https://schema.org/CreativeWork">
+            <td style="border-width: 1px; padding: 5px;">
+                  <img   src="./images/rumsey_1922.jpg">
+                  <link href="./images/rumsey_1922.jpg"     itemprop="thumbnailUrl"/>
+            </td>
+            <td style="border-width: 1px; padding: 5px;"    itemprop="name">[Map] Rumsey Historical Maps <br>1922 & 1861 A.D. </td>
+            <td style="border-width: 1px; padding: 5px;"    itemprop="version">French; Carte topographique de l'Egypte</td>
+            <td style="border-width: 1px; padding: 5px;">Activate GoogleEarth's Layers > Gallery > Rumsey maps, or 
+                  <a href="https://rumsey.geogarage.com/maps/g2113060.html" 
+                                                            itemprop="url">Click here (1922)</a> and <a href="https://rumsey.geogarage.com/maps/0373033_035.html" 
+                                                            itemprop="url">here (1861)</a>.
+            </td>
+        </tr>
+        <tr       itemprop="citation"                       itemscope itemtype="https://schema.org/CreativeWork">
+            <td style="border-width: 1px; padding: 5px;">
+                  <img   src="./images/b&w.jpg" class="mapThumb" title="Drag lower-right corner.">
+                  <link href="./images/b&w.jpg"             itemprop="thumbnailUrl"/>
+            </td>
+            <td style="border-width: 1px; padding: 5px;"    itemprop="name">[Map] Ptolemy's <i>Geographica</i><br>150 A.D. <br>(pub. 1991)</td>
+            <td style="border-width: 1px; padding: 5px;"    itemprop="version">Latin; trans. & ed. Edward Luther Stevenson. Pub. Dover, New York</td>
+            <td style="border-width: 1px; padding: 5px;">
+                  <a href="https://dokumen.pub/the-geography-9810631049-9789810631048.html" 
+                                                            itemprop="url">Click here</a>;<br>download it; pp. 254-255.
+            </td>
+        </tr>
+        <tr       itemprop="citation"                       itemscope itemtype="https://schema.org/CreativeWork">
+            <td style="border-width: 1px; padding: 5px;">
+                  <img   src="./images/color.jpg">
+                  <link href="./images/color.jpg"           itemprop="thumbnailUrl"/>
+            </td>
+            <td style="border-width: 1px; padding: 5px;"    itemprop="name">[Map] Ptolemy's <i>Geographica</i><br>150 A.D. <br>(pub. 1467)</td>
+            <td style="border-width: 1px; padding: 5px;"    itemprop="version">Latin; trans. Jacobus Angelus; ed. Nicolaus Germanus.</td>
+            <td style="border-width: 1px; padding: 5px;">
+                  <a href="https://commons.wikimedia.org/wiki/File:Ptolemy_Cosmographia_1467_-_Persian_Middle_East.jpg" 
+                                                            itemprop="url">Click here</a>
+            </td>
+        </tr>
+
+    </table>
+  
+
+    <!--ul>
+        <li class="fix1">
+            <span helloWorld="me" goodbyeworld="you1"></span>
+            <span helloWorld="me" goodbyeworld="you2"></span>
+            <span helloWorld="me" goodbyeworld="you3"></span>
+            <span helloWorld="me" goodbyeworld="you4"></span>
+        </li>
+    </ul-->   
+    <hr id="footerDivider">
+
+
+
+
+    <div id="endMatter" class="container"
+                                      itemscope itemtype="https://schema.org/WPFooter">
+
+            <script>
+                function alertCitation() {
+                    var newestEdition = $('#editions tr').eq(1).find("td:eq(0)").text();                    
+                    alert("Basic form: \n Author. Title. Edition. Place of production: Producer, Date of copyright or production.\n------------------------------\n  David Rudmin. Ptolemy's Iran. Edition "+newestEdition+". Online: AncientMiddleEast.com, 2022.");
+                }
+            </script>
+            
+            <div id="links" class="row" style="width: auto; border:0px; margin: 0px 40px;">
+                <ul class="fix1 col-12 col-xl-4 col-md-6 col-sm-12"><a href="./../index.html"><li>Home</li></a></ul>
+                <ul class="fix1 col-12 col-xl-4 col-md-6 col-sm-12"><a href="./../about.html"><li>About</li></a></ul>
+                <ul class="fix1 col-12 col-xl-4 col-md-6 col-sm-12"><a href="./../maps.html"><li>Maps 
+                        <span style="font-size:16px; display: inline; position: relative;">(JPEGs &amp; PDFs)</span>
+                    </li></a></ul>
+                <ul class="fix1 col-12 col-xl-4 col-md-6 col-sm-12"><a href="./../instructions.html"><li>Instructions</li></a></ul>
+                <ul class="fix1 col-12 col-xl-4 col-md-6 col-sm-12"><a href="./../coverage.html"><li>Coverage Diagram</li></a></ul>
+                <ul class="fix1 col-12 col-xl-4 col-md-6 col-sm-12"><a href="./index.html#links" onclick="alertCitation()"><li>Citation</li></a></ul>
+                <ul class="fix1 col-12 col-xl-4 col-md-6 col-sm-12"><li>Videos</li></ul>
+                <ul class="fix1 col-12 col-xl-4 col-md-6 col-sm-12">
+                       <a href="https://www.paypal.com/donate/?hosted_button_id=68DL3L2JCWD8J"><li>Donate</li></a></ul>
+                <ul class="fix1 col-12 col-xl-4 col-md-6 col-sm-12">
+                    <a href="https://www.facebook.com/Ancient-Middle-East-106869578659329" title="Like, on Facebook!">
+                        <img class="bottomLogo" src="../images/fb.png"  /></a>
+                </ul>
+            </div>
+    </div>
+    <br>
+    <hr style="width: 10%; margin: 0px auto; background-color: black; height: 5px;">
+    <br>
+    <div style="width: 100%; margin: 0px auto; text-align: center;" id="copyrightArea" 
+            style="position: relative; ">
+            <a href="https://creativecommons.org/licenses/by/4.0/"
+                  itemprop="license"  style="position: relative; display: inline-block; float:  center; width: 100px; height: auto;" >
+                  <img src="../images/cc-by.png"  style="width: 100%; height: auto;"/>
+            </a>
+            <div style="position: relative; display: inline-block; float:  center; margin-left: 40px;">No Copyright, 2022.<br>Citations of David Rudmin are appreciated.</div>
+    </div>
+    <br><br>
+</body>
+</html>
