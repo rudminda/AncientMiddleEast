@@ -1,0 +1,492 @@
+
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="../images/tab_icon%204x.png">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Ancient Middle East</title>
+
+    
+<script type="application/ld+json">
+    {
+      "@context": {
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfa": "http://www.w3.org/ns/rdfa#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "schema": "https://schema.org/",
+        "xsd": "http://www.w3.org/2001/XMLSchema#"
+      },
+      "rdfa:usesVocabulary": {
+        "@id": "schema:"
+      },
+      "@type": "schema:Atlas",
+      "schema:name": "AncientMiddleEast.com",
+      "schema:alternateName": "Ancient Middle East",
+      "schema:disambiguatingDescription": "1st ed.",
+      "schema:datePublished": "2023",
+      "schema:publisher": "AncientMiddleEast.com"
+    }
+</script>
+    
+<script>
+    
+document.addEventListener('keydown', function(event) {
+    if (event.shiftKey && event.key === 'ArrowRight') {
+        goForwardOrBack('forward');
+    } else if (event.shiftKey && event.key === 'ArrowLeft') {
+        goForwardOrBack('back');
+    }
+});
+
+
+</script>
+
+    
+    <style>
+
+/*   
+<!--MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+
+     MMMMMMMMMM    MMMMMMMMMMMMMM   MMMM    MMMM   MMMM            MMMMMMMMMMMMM
+    MMMMMMMMMMMM   MMMMMMMMMMMMM     MMMM  MMMM    MMMM            MMMMMMMMMMMMM
+    MMMM                MMMM          MMMMMMMM     MMMM            MMMM         
+    MMMMMMMM            MMMM           MMMMMM      MMMM            MMMMMMMMM    
+      MMMMMMMMM         MMMM            MMMM       MMMM            MMMMMMMMM    
+           MMMMM        MMMM            MMMM       MMMM            MMMM         
+    MMMM    MMMM        MMMM            MMMM       MMMM            MMMM         
+    MMMMMMMMMMMM        MMMM            MMMM       MMMMMMMMMMMMM   MMMMMMMMMMMMM
+     MMMMMMMMMM         MMMM            MMMM       MMMMMMMMMMMMM   MMMMMMMMMMMMM
+
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM-->
+        */
+        body {
+            margin: 0; padding: 0;
+            min-width: fit-content;
+            background-color: rgb(85, 136, 136); 
+            /*background-image: linear-gradient(to right, #ff794d, #e6f2ff);*/
+            
+            background-repeat: repeat-y;
+            background-size: 100%;
+        }
+        
+        #banner {
+            width: 100%; height: 167px; background-image: url('../images/ge.jpg'); 
+            background-color: transparent; 
+            background-position: center; 
+            background-repeat: repeat-x;
+            background-size: 100% 167px;
+        }
+        #bannerImg { 
+            position: relative; display:  block; z-index: 20;
+            width: auto; min-width: 267px; max-height: 167px;
+            
+        }
+ 
+        .topLogo {
+            position: absolute; top: 5px;
+            width:31px; height: auto; margin: 5px 25px;
+
+        }
+        .topLogo:hover {
+            width:37px; height: auto; margin: 2px 22px;
+        }
+        .bottomLogo {
+            position: relative; 
+            width:31px; height: auto; margin: 15px 30px 0px 0px;
+
+        }
+        .bottomLogo:hover {
+            width:37px; height: auto; margin: 12px 27px -3px -3px;
+        }        
+
+
+        #Subtext {
+            position: relative; display: none; z-index: 10;
+            bottom: 26.7px; left:  0px;
+            
+            width: 100%; height: 34px; line-height: 20px; 
+            overflow: hidden; white-space: normal;
+            padding-right: 3%; margin: 0px;
+            border-width: 6.7px 0px; border-style: double; border-color: #b30059; border-radius: 0px;
+            text-align: right;
+            
+            font-family: Arial; font-size: 20px; color: #ff80bf; 
+             
+        }
+        #Subtext2 {
+            position: relative; display: block; z-index: 10;
+            left:  0px;
+            
+            width: 100%; min-height: 34px;  min-height: 34px; line-height: 20px; 
+            overflow-x: hidden; white-space: normal;
+            margin: 0px;
+            border-width: 10px 0px; border-style: double; border-color: #b30059; border-radius: 0px;
+            text-align: center;
+            
+            font-family: Arial; font-size: 20px; color: #cc0066; 
+             
+        }        
+
+        .titles {position: relative; display: block;
+            margin: 0px auto; padding: 15px auto;
+            width: 100%;
+            
+            text-align: center;
+        }
+
+        .vineleaf {display: inline-block; position: relative;
+                   font-size: 30px; font-family: Arial; 
+                      -webkit-text-stroke: 1px black;
+                      -webkit-text-fill-color: #FFD700;
+                      text-shadow: 2px 2px brown;
+                    padding: auto 15px; }
+        .infoBlock {
+            width: 90%; margin: 0px 5%;
+            font-size: 15px;
+        }
+      
+        #pageDescription {width: 70%; margin-top: 15px;
+          font-size: 12px; font-family: Times; line-height: 12px;
+        } 
+
+        .MapContainer { 
+                
+            background-color: #AAAA77; margin: 0; width: 100vw; 
+            width: 2834px; height: 1812px;
+                display: block;
+              flex-direction: row;
+              overflow: visible; 
+
+        }
+
+        #infoBlock2 {
+                    position: relative; display: block; width: 500px; left: 20px; top: -30px ;
+                background-color: rgb(153,102,153); margin-left: 0px; margin-right: auto; overflow: visible; margin-top: 0; margin-bottom: 0;
+        }
+        #infoBlock3 { position: relative;  width: 500px; text-align: left;
+                margin-left: 0; margin-right: auto; margin-top: 0; white-space: nowrap;
+        }
+
+        #areasMap {
+            position: static; display: inline; z-index: 10; cursor: pointer;
+            overflow: clip;                        
+            width: 2601px; height: 1518px; 
+            margin: 0px 5%;
+            padding: 10px;
+            border-width: 0px;  
+        }
+
+      
+
+        .MapTitle {   }
+        .caption {position: relative; display: inline; z-index: 10;
+                                        
+            width: 90%; height: auto;  
+            margin: 0px 0px auto 0px;
+            padding: 0px; text-align: left; padding-left: 15px;
+            border-width: 0px;  }
+         
+
+        #footerDivider {
+            position: relative; display: block; z-index: 10;
+                        
+            width: 100%; height: 34px; line-height: 20px; 
+            padding-right: 10%; margin: 26.7px 0px;
+            border-width: 6.7px 0px; border-style: double; border-color: #b30059; border-radius: 0   px;
+            text-align: right;
+            
+            font-family: Arial; font-size: 20px; color: #ff80bf; 
+             
+        }
+
+
+        hr {background-color: #fff;}
+
+
+
+        .archive /*xl; see other breakppoints below*/ { cursor: pointer;
+                    position: relative; display: block; float: left;
+                    width: 267px; height: 267px; padding: 0; 
+                    border-width: 10px; border-radius: 20px; border-style: outset; border-color: black; 
+                    margin: 10.7px;
+                 }
+            
+                .archiveTitle {
+                    position: relative; float: left;
+                    font-size: 23.35px;
+                    text-shadow: 3.3px 3.3px 3.3px white;
+                }
+        
+
+        .archive:hover {  
+                    position: relative; display: block; float: left;
+                    margin: 10.7px; padding: 0;
+                    border: 10px outset #ffc; border-radius: 20px;}
+
+                .archiveImg {width: 100%; height: auto;
+                    border: 0px 
+                }
+                .archiveImg:hover {
+                    width: 110%; height: auto;
+                    margin: -5%;
+                    overflow: hidden;
+                    border-radius: 20px;
+                    border: 10px outset #ffc; 
+                }
+
+                .archiveTextDIV {
+                    position: absolute; display: block;
+                    font-family: Calibri; 
+                    width: 100%; text-align: center; 
+                    border-width: 0px; border-radius: 0px;
+                    font-weight:  bold; color:  white;
+                }
+
+
+                    .fix1 {margin: 0px; font-size: 25px;}
+
+
+                #ForwardOrBack {
+                    position: relative; display: block; 
+                    margin: 10px; padding: 5px; width: 300px;  
+                    border: border-radius: 20px;}
+
+                .directionButton {
+                    position: relative; display: inline-block; cursor: pointer; 
+                    margin: 10px;  background-color: 
+                    rgb(153,103,153); color: White; font-size: 15px;
+                    padding: 3px 5px;
+                    border: 4px purple outset;  border-radius: 20px;
+                }
+                .directionButton:hover {
+                    position: relative; display: inline-block; cursor: pointer;
+                    margin: 5px 6px; 
+                    background-color: rgb(153,103,153); color: White; font-size: 17px;
+                    padding: 4px 6px;
+                    border: 5px purple outset;  border-radius: 25px; transform: scale(1.1);
+                }
+ 
+            li.breadcrumb-item::before {color: white  !important;}
+            li.breadcrumb-item.active::before {color: white  !important;}
+
+/*
+<!--MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
+
+     MMMMMMMMMM    MMMMMMMMMMMMMM   MMMM    MMMM   MMMM            MMMMMMMMMMMMM
+    MMMMMMMMMMMM   MMMMMMMMMMMMM     MMMM  MMMM    MMMM            MMMMMMMMMMMMM
+    MMMM                MMMM          MMMMMMMM     MMMM            MMMM         
+    MMMMMMMM            MMMM           MMMMMM      MMMM            MMMMMMMMM    
+      MMMMMMMMM         MMMM            MMMM       MMMM            MMMMMMMMM    
+           MMMMM        MMMM            MMMM       MMMM            MMMM         
+    MMMM    MMMM        MMMM            MMMM       MMMM            MMMM         
+    MMMMMMMMMMMM        MMMM            MMMM       MMMMMMMMMMMMM   MMMMMMMMMMMMM
+     MMMMMMMMMM         MMMM            MMMM       MMMMMMMMMMMMM   MMMMMMMMMMMMM
+
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM-->
+*/
+    </style>
+
+
+</head>
+<body itemscope itemtype="https://schema.org/Atlas">
+
+    <div id="banner"
+                                            itemscope   itemtype="https://schema.org/WPHeader">
+        <a href="https://www.facebook.com/Ancient-Middle-East-106869578659329" title="Like, on Facebook!"><img class="topLogo" src="../images/fb.png" style="right: 50px;" /></a>
+        <!--img id="worldImg" src="images/ge.jpg" style="position: absolute; height: 250px; width: 1671px; min-width: 100%; margin-left: 50%; left: -835px;  z-index: -30;"-->
+        <img id="bannerImg" style="cursor: pointer;" onclick="window.open('../index.html','_self')" src="../images/Banner1%20TRANSP.png" />
+        <div id="Subtext" class="d-lg-block d-md-none"><i>Google Earth .KMZ plots of </i>&nbsp;<span style="font-size:16.7px;">📍</span><i>ancient places.</i></div>
+    </div>
+
+    <!--Optional small device separator-->
+    <div id="Subtext2" class="d-md-block d-lg-none" style=""><i>Google Earth .KMZ plots of </i>&nbsp;<span style="font-size:16.7px;">📍</span><i>ancient places.</i></div>
+
+    <nav  aria-label="breadcrumb" style="margin: 20px 30px 20px 30px;" >
+      <ol class="breadcrumb"                            itemscope itemtype="https://schema.org/BreadcrumbList">
+        <li class="breadcrumb-item"                     itemprop="itemListElement"  itemscope itemtype="https://schema.org/ListItem">
+            <a href="../index.html"                                                 itemprop="item">
+                    <span style="color: #00b;"                                     itemprop="name">Home</span>
+              </a>
+              <meta                                                                 itemprop="position" content="1" />
+        </li>
+        <li class="breadcrumb-item"                     itemprop="itemListElement"  itemscope itemtype="https://schema.org/ListItem">
+            <a href="tab_pe00.html"                                                 itemprop="item">
+                    <span style="color: #00b;"                                     itemprop="name">Peutinger Map</span>
+              </a>
+              <meta                                                                 itemprop="position" content="1" />
+        </li>
+        <li class="breadcrumb-item active" aria-current="page"  
+                                                        itemprop="itemListElement"  itemscope itemtype="https://schema.org/ListItem">
+              <a href="#"                                                   itemprop="item">
+                    <span style="color: #ccc; cursor: auto;"                                     itemprop="name">Pars VI</span>
+              </a>
+              <meta                                                                 itemprop="position" content="2" />
+        </li>
+      </ol>
+    </nav> 
+
+    
+    <br>
+
+
+
+    <div id="MapContainer" class="MapContainer"     itemscope itemtype="https://schema.org/Map">
+        
+        <div id="infoBlock2">
+            <h1 class="titles" class="MapTitle"       itemprop="name">
+                <span class="vineleaf">&#128606;</span>
+                    Tabula Peutingeriana <span itemprop="name" style="display: none;">Peutinger Map</span>
+                <span class="vineleaf">&#128607;</span>
+            </h1>
+        
+        </div>
+                   
+        <div id="infoBlock3" >
+            <div class="caption"      itemprop="dateCreated">ca. 250 A.D.</div>
+            <div class="caption"      itemprop="abstract" style="display: inline;">
+                &nbsp; &nbsp; <span itemprop="alternativeHeadline" style="display: inline;">Pars VI (Segmentorum V, VI)</span> 
+                &nbsp; &nbsp; <span class="caption"      itemprop="author"> Conradi Milleri</span> 
+                &nbsp; &nbsp; <span class="caption"      itemprop="datePublished">editio 1887/88</span> 
+                &nbsp; &nbsp; &nbsp; &nbsp; <span itemprop="about">Germania, Noricum, Liburnia, Italia, Etruria, Africa, Numidia</span> 
+                <span class="caption"      itemprop="isPartOf" style="display:none;">Peutinger map</span>
+            </div>
+
+            <br><br>
+            <div style="display: flex;">
+                <div  style="margin-left: 50px; display: block;">
+                    <a href="tab_pe00.html"  style="color: rgb(0,0,136);">Prospectus</a>&nbsp;&nbsp;<a href="tab_pe01.html#MapContainer"  style="color: rgb(0,0,136);">Pars I</a>&nbsp;&nbsp;<a href="tab_pe02.html#MapContainer"  style="color: rgb(0,0,136);">Pars II</a>&nbsp;&nbsp;<a href="tab_pe03.html#MapContainer"  style="color: rgb(0,0,136);">Pars III</a>&nbsp;&nbsp;<a href="tab_pe04.html#MapContainer"  style="color: rgb(0,0,136);">Pars IV</a><br>
+                    <a href="tab_pe05.html#MapContainer"  style="color: rgb(0,0,136);">Pars V</a>&nbsp;&nbsp;<a href="tab_pe06.html#MapContainer"  style="color: rgb(0,0,136);">Pars VI</a>&nbsp;&nbsp;<a href="tab_pe07.html#MapContainer"  style="color: rgb(0,0,136);">Pars VII</a>&nbsp;&nbsp;<a href="tab_pe08.html#MapContainer"  style="color: rgb(0,0,136);">Pars VIII</a>&nbsp;&nbsp;<a href="tab_pe09.html#MapContainer"  style="color: rgb(0,0,136);">Pars IX</a><br>
+                    <a href="tab_pe10.html#MapContainer"  style="color: rgb(0,0,136);">Pars X</a>&nbsp;&nbsp;<a href="tab_pe11.html#MapContainer"  style="color: rgb(0,0,136);">Pars XI</a>&nbsp;&nbsp;<a href="tab_pe12.html#MapContainer"  style="color: rgb(0,0,136);">Pars XII</a>&nbsp;&nbsp;<a href="tab_pe13.html#MapContainer"  style="color: rgb(0,0,136);">Pars XIII</a>&nbsp;&nbsp;<a href="tab_pe14.html#MapContainer"  style="color: rgb(0,0,136);">Pars XIV</a><br>
+                </div>
+                <div id="ForwardOrBack">
+                    <div class="directionButton" onclick="goForwardOrBack('back')"> ⬅ Back</div>
+                    <div class="directionButton" onclick="goForwardOrBack('forward')">Forward ➡️</div>
+                </div>
+                <div style="border: 2px solid #333; padding: 13px; font-size: 15px; position: relative; display: block; text-align: center; color: #333; border-radius: 20px; height: 75px;">To jump to the next map,<br> Press  SHIFT + ⬅ / ➡️.</div>
+
+            </div>
+            
+        </div>
+        <br>
+        <img id="areasMap"    itemprop="image" src="./tab_pe06.jpg" alt="Peutinger map, Part 6 of 14"  width="1734" height="1012" /><br>
+                
+    </div>
+    
+        
+
+
+    
+
+
+    <!--ul>
+        <li class="fix1">
+            <span helloWorld="me" goodbyeworld="you1"></span>
+            <span helloWorld="me" goodbyeworld="you2"></span>
+            <span helloWorld="me" goodbyeworld="you3"></span>
+            <span helloWorld="me" goodbyeworld="you4"></span>
+        </li>
+    </ul-->   
+
+    <br><br>
+
+    <hr id="footerDivider">
+
+
+
+
+
+
+    
+            <script>
+                function alertCitation() {
+                    var NewestEdition = '';
+                    alert('Basic form: \n Author. Title. Edition. Place of production: Producer, Date of copyright or production.\n------------------------------\nKonrad Miller (Conradi Milleri). Peutinger Map.  Die Weltkarte des Castorius genannt die Peutingersche Tafel (The World Map of Castorius, Called the Peutinger Table).  AncientMiddleEast.com/peut/. Tafel. O. Maier: Ravensburg, Germany, 1887/1888.')
+                }
+
+                function goForwardOrBack (direction) {
+
+                    const url = window.location.href;
+
+                    // Get everything after the final slash
+                    const filename = url.substring(url.lastIndexOf("/") + 1);
+
+                    // Extract the number after "tab_pe" and before ".html"
+                    const match = filename.match(/tab_pe(\d+)\.html/);
+
+                    if (match) { console.log('matched!');
+                        let nextNumber; 
+                        if (direction == 'forward') {
+                            nextNumber = String(Number(match[1]) + 1)
+                                .padStart(match[1].length, "0"); console.log('nextNumber: '+nextNumber);
+                        } else if (direction == 'back') {
+                            nextNumber = String(Number(match[1]) - 1)
+                                .padStart(match[1].length, "0"); console.log('nextNumber: '+nextNumber);
+                        }
+
+                        if (nextNumber <= 14 && nextNumber >= 0) {
+                            // Replace the current number with the incremented number
+                            const newUrl = url.replace(
+                                /tab_pe\d+\.html/,
+                                `tab_pe${nextNumber}.html`
+                            );
+                                 console.log('newUrl: '+newUrl);
+                            // Navigate to the new URL
+                            window.location.href = newUrl;
+                        } else {
+                            console.log('No more pages.')
+                        }
+                    } else {
+                        console.error("URL does not match the expected format.");
+                    }
+                }
+
+
+                function goBack () {
+                    
+                }
+            </script>
+
+
+    <div id="endMatter" class="container" style="margin: 0px 100px 0px 40px;"
+                                      itemscope itemtype="https://schema.org/WPFooter">
+            <div id="links" class="row" style="  width: auto; border:0px;  color:white;">
+                <ul class="fix1 col-12 col-xl-4 col-md-6 col-sm-12"><a href="../index.html"><li style="color:black;">Home</li></a></ul>
+                <ul class="fix1 col-12 col-xl-4 col-md-6 col-sm-12"><a href="../about.html"><li style="color:black;">About</li></a></ul>
+                <ul class="fix1 col-12 col-xl-4 col-md-6 col-sm-12"><a href="../maps.html"><li style="color:black;">Maps
+                          <span style="font-size:16px; display: inline; position: relative;">(JPEGs &amp; PDFs)</span></li></a></ul>
+                <ul class="fix1 col-12 col-xl-4 col-md-6 col-sm-12"><a href="../instructions.html"><li style="color:black;">Instructions</li></a></ul>
+                <ul class="fix1 col-12 col-xl-4 col-md-6 col-sm-12"><a href="../coverage.html"><li style="color:black;">Coverage Diagram</li></a></ul>
+                <ul class="fix1 col-12 col-xl-4 col-md-6 col-sm-12"><li><span  style="color:#ccc;">Peutinger Map</span>
+                      </li></ul>
+                <ul class="fix1 col-12 col-xl-4 col-md-6 col-sm-12"><a onclick="alertCitation()" style="cursor: pointer;"><li style="color:black;">Citation</li></a></ul>
+                <ul class="fix1 col-12 col-xl-4 col-md-6 col-sm-12"><a onclick="alertCitation()" style="cursor: pointer;"><li style="color:black;">Citation</li></a></ul>
+                <ul class="fix1 col-12 col-xl-4 col-md-6 col-sm-12"><li style="color:black;">Videos</li></ul>
+                <ul class="fix1 col-12 col-xl-4 col-md-6 col-sm-12">
+                       <a href="https://www.paypal.com/donate/?hosted_button_id=68DL3L2JCWD8J"><li style="color:black;">Donate</li></a></ul>
+                <ul class="fix1 col-12 col-xl-4 col-md-6 col-sm-12">
+                    <a href="https://www.facebook.com/Ancient-Middle-East-106869578659329" title="Like, on Facebook!">
+                        <img class="bottomLogo" src="../images/fb.png"  /></a>
+                </ul>
+            </div>
+    </div>
+    <br>
+    <hr style="width: 10%; margin: 0px auto 0px 20px; background-color: black; height: 5px;">
+    <br>
+    <div style="width: 100%; margin: 0px auto 0px 20px; " id="copyrightArea" 
+            style="position: relative; display: block; float: left;">
+            <a href="https://creativecommons.org/licenses/by/4.0/"
+                  itemprop="license"  style="position: relative; display: inline-block; float:  center; width: 100px; height: auto;" >
+                  <img src="../images/cc-by.png"  style="width: 100%; height: auto;"/>
+            </a>
+            <div style="position: relative; display: inline-block; float:  center; margin-left: 40px;">No Copyright, 2026.<br>Citations of David Rudmin are appreciated.</div>
+    </div>
+    <br><br>
+        
+</body>
+</html>
